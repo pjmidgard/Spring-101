@@ -241,6 +241,7 @@ class compression:
                                         block3=File_info[block:block+3]
                                         block2=File_info[block:block+8]
                                         if block1=="0": #X07
+                                             blox=blox+"0"
                                              block0=block0+block2
                                              block=block+8
                                         if block1=="1": #1
@@ -256,7 +257,7 @@ class compression:
                                              elif block3!="111" and block1=="0":  #1 0             
                                                
                                                 block=block+1
-                                                blox=blox+"1"
+                                               
                                                 block0=block0+"0"
                                                 block=block+1
                                                 block0=block0+block2
