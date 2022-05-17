@@ -303,7 +303,7 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     #print(lenfS)
                                     
-                                    if lenfS<=lenf6:
+                                    if lenfS>=lenf6:
                                         Deep3=lenfS
                                     
                                     
@@ -564,4 +564,3 @@ d=compression()
 
 xw1=d.cryptograpy_compression4()
 print(xw1)
-=
