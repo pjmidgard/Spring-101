@@ -564,3 +564,4 @@ d=compression()
 
 xw1=d.cryptograpy_compression4()
 print(xw1)
+=
