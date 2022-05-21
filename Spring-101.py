@@ -240,9 +240,7 @@ class compression:
                                     Number_N=""
                                     INIT=Equal_info_between_of_the_cirlce_of_the_file
                                     block=0
-                                    block1=0
                                     Number_N4=""
-                                    Block_1013_binary=""
 
                                     while block<lenf6:
                                             Number_N1=INIT[block:block+1]
@@ -261,7 +259,6 @@ class compression:
                                             
                                                     Number_N=Number_N1+","+Number_N2+","+Number_N3+","
                                                     
-                                                    Number_N222=Number_N1+")"+Number_N2+")"+Number_N3+")"
                                                     Block_102_binary="0"+","+"0"+","+"0"+","
                                                     Block_122_binary="0"+","+"0"+","+"1"+","
                                                     Block_123_binary="0"+","+"1"+","+"0"+","
@@ -280,14 +277,13 @@ class compression:
                                                     Block_103=Block_101+0
                                                     Block_105_binary=str(Block_103)
 
-                                                    Number_N111=Number_N1+","+Number_N2+","+Number_N3+","
+                                                    Number_N=Number_N1+","+Number_N2+","+Number_N3+","
 
 
                                                     Block_101_1_1_binary="1"+","+"1"+","+"0"+","
                                                     Block_101_2_1_binary="1"+","+"1"+","+"1"+","
                                                     
-                                                   
-                                                    
+                                                    block=block+3
                                                     
                                             else:
                                                     Block_103=Block_101+0
@@ -375,11 +371,15 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N111=Number_N1+Number_N2
-                                                    Block_1013_binary=Block_106_binary+Block_106_binary1+"," 
-                                                    Block_101_2_1_binary=Block_106_binary+Block_106_binary1
-                                                    Number_N222=Number_N1+")"+Number_N2+")"+Number_N3+")"
+                                                    Number_N=Number_N1+Number_N2+Number_N3+Number_N14+Number_N15+Number_N16
 
+                                                    
+                                                    Block_101_2_1_binary=Block_106_binary+","+Block_106_binary1+","+Block_106_binary1+","
+
+
+                                                                                                        
+                                                    block=block+6
+                                                    #print(Block_102_binary)
 
                                             if Number_N==Block_102_binary:
 
@@ -388,14 +388,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+","
-                                                    if Block_101==1:
-                                                        block=block+3
-                                                    else:
-                                                        block=block+6
-                                                        
-                                                    
-                                                          
+                                                    Number_N4=Number_N4+Block_106_binary+","        
                                                     
                                             
                                             elif Number_N==Block_122_binary:
@@ -406,10 +399,6 @@ class compression:
                                                     Block_106_binary=Block_105_binary
                                             
                                                     Number_N4=Number_N4+Block_106_binary+","
-                                                    if Block_101==1:
-                                                        block=block+3
-                                                    else:
-                                                        block=block+6
                                         
                                                     #print(Block_106_binary)
                                             elif Number_N==Block_123_binary:
@@ -420,10 +409,6 @@ class compression:
                                                     Block_106_binary=Block_105_binary
                                             
                                                     Number_N4=Number_N4+Block_106_binary+","
-                                                    if Block_101==1:
-                                                        block=block+3
-                                                    else:
-                                                        block=block+6
 
 
                                             elif Number_N==Block_101_1_binary:
@@ -434,10 +419,6 @@ class compression:
                                                     Block_106_binary=Block_105_binary
                                             
                                                     Number_N4=Number_N4+Block_106_binary+","
-                                                    if Block_101==1:
-                                                        block=block+3
-                                                    else:
-                                                        block=block+6
 
                                             elif Number_N==Block_101_2_binary:
 
@@ -448,10 +429,6 @@ class compression:
                                             
                                                     Number_N4=Number_N4+Block_106_binary+","
                                                     
-                                                    if Block_101==1:
-                                                        block=block+3
-                                                    else:
-                                                        block=block+6
                                             elif Number_N==Block_101_3_binary:
 
                                                     Block_103=Block_101+6
@@ -459,12 +436,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+","
-                                                    if Block_101==1:
-                                                        block=block+3
-                                                    else:
-                                                        block=block+6
-                                                             
+                                                    Number_N4=Number_N4+Block_106_binary+","         
 
 
                                             elif Number_N==Block_101_1_1_binary:
@@ -474,13 +446,9 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary
-                                                    if Block_101==1:
-                                                        block=block+3
-                                                    else:
-                                                        block=block+6
+                                                    Number_N4=Number_N4+Block_106_binary+","
 
-                                            elif Number_N111==Block_101_2_1_binary:
+                                            elif Number_N==Block_101_2_1_binary:
 
                                                     Block_103=Block_101+8
                                                     Block_105_binary=str(Block_103)
@@ -488,26 +456,14 @@ class compression:
                                                     Block_106_binary=Block_105_binary
                                             
                                                     Number_N4=Number_N4+Block_106_binary+","
-                                                    block=block+3
-                                                    
-                                            elif Number_N111==Block_1013_binary and Block_101!=1:
 
-                                                    Block_103=Block_101+9
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+','
-                                                    block=block+3
                                             
                                             else:
-                                                    Number_N4=Number_N4+Number_N222
-                                                    block=block+6
-                                                    
+                                                    Number_N4=Number_N4+Number_N
                                                   
                                             
 
-                                    Block_101=Block_101+9
+                                    Block_101=Block_101+8
                                     #print(Block_101)
 
                                     
@@ -517,7 +473,6 @@ class compression:
                                     if compress_or_not_compress==1:
                                     	
                                     	    Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                    	    #print(Number_N4)
                                    
                                     
      
@@ -558,10 +513,7 @@ class compression:
 
                                             while block<lenf6:
                                                     Number_N1=INIT[block:block+1]
-                                                    if Number_N1==")":
-                                                          
-                                                        Number_N4=Number_N4+"1"
-                                                    elif Number_N1==",":
+                                                    if Number_N1==",":
                                                             Number_N4=Number_N4+"0"
 
                                                     else:
@@ -589,31 +541,9 @@ class compression:
                                     if   lenfS<=Deep3 or compress_or_not_compress1==3:
                                             lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)                                           
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17
-                                    
-                                    if   lenfS<=Deep3 or compress_or_not_compress1==3:
-                                         
-                                         Equal_info_between_of_the_cirlce_of_the_file_17="1"+Equal_info_between_of_the_cirlce_of_the_file_17
-                                         lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)	
-                                    if   lenfS<=Deep3 or compress_or_not_compress1==3:
 
-                                            	add_bits=""                                            	
-                                            	
-                                            	count_bits=8-lenf%8
-                                            	z=0
-                                            	if count_bits!=0:
-                                            	        if count_bits!=8:
-                                            	            while z<count_bits:
-                                            	            	add_bits="0"+add_bits
-                                            	            	z=z+1
-                                            	 
                                     if   lenfS<=Deep3 or compress_or_not_compress1==3:
-                                          
-                                          Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17                                      
-                                    if   lenfS<=Deep3 or compress_or_not_compress1==3:
-
-                                           
                                                 
-                                               
                                     		L=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     		n = int(Equal_info_between_of_the_cirlce_of_the_file_17, 2)
                                     		width_bits=len(Equal_info_between_of_the_cirlce_of_the_file_17)
