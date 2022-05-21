@@ -355,7 +355,7 @@ class compression:
 
                                                     Number_N=Number_N1+Number_N2+Number_N3+Number_N14+Number_N15+Number_N16
 
-
+                                                    
                                                     Block_101_1_2_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
                                                     Block_101_2_3_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
                                                     Block_101_3_4_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
@@ -469,7 +469,7 @@ class compression:
                                             
                                                     Number_N4=Number_N4+Block_106_binary+","
 
-
+                                            
                                             elif Number_N==Block_101_1_2_binary:
 
                                                     Block_103=Block_101+10
@@ -554,7 +554,7 @@ class compression:
                                                     Block_106_binary=Block_105_binary
                                             
                                                     Number_N4=Number_N4+Block_106_binary+","
-                                                
+                                            
                                             else:
                                                     Number_N4=Number_N4+Number_N
                                                   
@@ -583,7 +583,7 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     #print(lenfS)
 
-                                    if Block_101==((2**8)*18)+1:
+                                    if Block_101==19:
                                             Deep3=lenfS
 
                                     if compress_or_not_compress==2 and Circle_times2==0:
