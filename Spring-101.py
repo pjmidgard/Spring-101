@@ -242,6 +242,7 @@ class compression:
                                     block=0
                                     block1=0
                                     Number_N4=""
+                                    Block_1013_binary=""
 
                                     while block<lenf6:
                                             Number_N1=INIT[block:block+1]
@@ -375,22 +376,10 @@ class compression:
                                                     Block_106_binary=Block_105_binary
                                             
                                                     Number_N111=Number_N1+Number_N2
-
-                                                    
+                                                    Block_1013_binary=Block_106_binary+Block_106_binary1+","   
                                                     Block_101_2_1_binary=Block_106_binary+Block_106_binary1+")"
                                                     Number_N222=Number_N1+")"+Number_N2+")"+Number_N3+")"
-                                                    #print(Block_101_2_1_binary)
-                                                    #print(Block_103)
-                                               
-                                                    
-                                                    
 
-
-                                                                                                        
-                                                    
-                                                   
-                                                   
-                                                    #print(Block_102_binary)
 
                                             if Number_N==Block_102_binary:
 
@@ -501,7 +490,15 @@ class compression:
                                                     Number_N4=Number_N4+Block_106_binary
                                                     block=block+3
                                                     
+                                            elif Number_N111==Block_1013_binary and Block_101!=1:
 
+                                                    Block_103=Block_101+9
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary
+                                                    block=block+3
                                             
                                             else:
                                                     Number_N4=Number_N4+Number_N222
@@ -510,7 +507,7 @@ class compression:
                                                   
                                             
 
-                                    Block_101=Block_101+8
+                                    Block_101=Block_101+9
                                     #print(Block_101)
 
                                     
