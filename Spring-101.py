@@ -376,8 +376,8 @@ class compression:
                                                     Block_106_binary=Block_105_binary
                                             
                                                     Number_N111=Number_N1+Number_N2
-                                                    Block_1013_binary=Block_106_binary+Block_106_binary1+","   
-                                                    Block_101_2_1_binary=Block_106_binary+Block_106_binary1+")"
+                                                    Block_1013_binary=Block_106_binary+Block_106_binary1+"," 
+                                                    Block_101_2_1_binary=Block_106_binary+Block_106_binary1
                                                     Number_N222=Number_N1+")"+Number_N2+")"+Number_N3+")"
 
 
