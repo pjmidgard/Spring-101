@@ -23,7 +23,9 @@ class compression:
                         raise SystemExit
                 if namez=="c" or namez=="e":        
                     if namez=="c":
-                       
+
+                        Deep3=-1
+                        Block_101=1
 
                         i=1
 
@@ -225,96 +227,364 @@ class compression:
                                     if   Circle_times2==0 and SpinS==0:
                                     	Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
                                     	SpinS=1
-                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+
                                     if Circle_times2>=(2**48)-3:
                                             compress_or_not_compress=2
-                                            
-                                    Number_of_the_file = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
-                                    File_info=Equal_info_between_of_the_cirlce_of_the_file
-                                    
-                                    block=0
-                                    blox=""
-                                    block0=""
-                                    
-                                    while block<=lenf6:
-                                        block1=File_info[block:block+1]
-                                        block3=File_info[block:block+3]
-                                        block2=File_info[block:block+8]
-                                        if block1=="0": #X07
-                                             blox=blox+"0"
-                                             block0=block0+block2
-                                             block=block+8
-                                        if block1=="1": #1
-                                             
-                                             if block3=="111": #1 111
-                                                 block0=block0+block1
-                                                 block=block+1
-                                                 block0=block0+"0"
-                                                 blox=blox+"1"
-                                                 block=block+3
-                                                 block0=block0+block2
-                                                 block=block+8
-                                             elif block3!="111" and block1=="0":  #1 0             
-                                               
-                                                block=block+1
-                                               
-                                                block0=block0+"0"
-                                                block=block+1
-                                                block0=block0+block2
-                                                block=block+8
-                                             elif block3!="111" and block1=="1": #1 1
-                                                block0=block0+block1
-                                                block=block+1  
-                                                blox=blox+"1"
-                                                block=block+1
-                                                block0=block0+block2
-                                                block=block+8
-                                                    
-                                                
-                                             
-                                    
-                                    if Number_of_the_file<0:
-                                                        compress_or_not_compress=2
-                                    
-                                  
-                                    if compress_or_not_compress==1:        	    
-                                        blox_info=len(blox)
-                                    if compress_or_not_compress==1:
-                                    	                          
-                                            Equal_info_between_of_the_cirlce_of_the_file_23=bin(blox_info)[2:]
-                                            hr=48
-                                            
-                                        	
-                                            lenf=len(Equal_info_between_of_the_cirlce_of_the_file_23)
-                                            if lenf>48:
-                                            	compress_or_not_compress=2
 
-                                            if compress_or_not_compress==1:
+
+                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+                                            
+                                    
+                                    INIT=""
+                                    Number_N=""
+                                    INIT=Equal_info_between_of_the_cirlce_of_the_file
+                                    block=0
+                                    Number_N4=""
+
+                                    while block<lenf6:
+                                            Number_N1=INIT[block:block+1]
+                                            Number_N2=INIT[block+1:block+2]
+                                            Number_N3=INIT[block+2:block+3]
+                                            Number_N14=INIT[block+3:block+4]
+                                            Number_N15=INIT[block+4:block+5]
+                                            Number_N16=INIT[block+5:block+6]
+                                            Block_101_binary=bin(Block_101)[2:]
+
+                                            if Block_101==1:
+                                                    Block_103=Block_101+0
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N=Number_N1+","+Number_N2+","+Number_N3+","
                                                     
-                                                    add_bits4=""
-                                                    count_bits=hr-lenf%hr
-                                                    z=0
-                                                    if count_bits!=0:
-                                                        if count_bits!=hr:
-                                                                while z<count_bits:
-                                                                        add_bits4="0"+add_bits4
-                                                                        z=z+1
+                                                    Block_102_binary=Block_106_binary+","+"0"+","+"0"+","
+                                                    Block_122_binary=Block_106_binary+","+"0"+","+"1"+","
+                                                    Block_123_binary=Block_106_binary+","+"1"+","+"0"+","
+
+                                                    Block_103=Block_101+0
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+","+Number_N2+","+Number_N3+","
+
+
+                                                    Block_101_1_binary=Block_106_binary+","+"1"+","+Block_106_binary+","
+                                                    Block_101_2_binary=Block_106_binary+","+"1"+","+Block_101_binary+","
+                                                    Block_101_3_binary=Block_106_binary+","+"1"+","+Block_101_binary+","
+
+
+                                                    Block_103=Block_101+0
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+","+Number_N2+","+Number_N3+","
+
+
+                                                    Block_101_1_1_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_2_1_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_1_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+
+
+                                                    Block_103=Block_101+0
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+","+Number_N2+","+Number_N3+","
+
+
+                                                    Block_101_1_2_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_2_3_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_4_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+
+
+                                                    Block_103=Block_101+0
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+","+Number_N2+","+Number_N3+","
+
+
+                                                    Block_101_1_5_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_2_6_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_7_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+
+                                                    Block_103=Block_101+0
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+","+Number_N2+","+Number_N3+","
+
+
+                                                    Block_101_3_8_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_9_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_10_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    block=block+3
+                                                    
+                                            else:
+                                                    Block_103=Block_101+0
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N=Number_N1+Number_N2+Number_N3+Number_N14+Number_N15+Number_N16
+                                                    
+                                                    Block_102_binary=Block_106_binary+","+"0"+","+"0"+","
+                                                    Block_122_binary=Block_106_binary+","+"0"+","+"1"+","
+                                                    Block_123_binary=Block_106_binary+","+"1"+","+"0"+","
+
+                                                    Block_103=Block_101+1
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+Number_N2+Number_N3+Number_N14+Number_N15+Number_N16
+
+
+                                                    Block_101_1_binary=Block_106_binary+","+"1"+","+Block_106_binary+","
+                                                    Block_101_2_binary=Block_106_binary+","+"1"+","+Block_101_binary+","
+                                                    Block_101_3_binary=Block_106_binary+","+"1"+","+Block_101_binary+","
+
+
+                                                    Block_103=Block_101+2
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+Number_N2+Number_N3+Number_N14+Number_N15+Number_N16
+
+
+                                                    Block_101_1_1_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_2_1_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_1_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+
+
+                                                    Block_103=Block_101+3
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+Number_N2+Number_N3+Number_N14+Number_N15+Number_N16
+
+
+                                                    Block_101_1_2_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_2_3_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_4_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+
+
+                                                    Block_103=Block_101+4
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+Number_N2+Number_N3+Number_N14+Number_N15+Number_N16
+
+
+                                                    Block_101_1_5_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_2_6_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_7_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+
+                                                    Block_103=Block_101+5
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Number_N=Number_N1+Number_N2+Number_N3+Number_N14+Number_N15+Number_N16
+
+
+                                                    Block_101_3_8_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_9_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    Block_101_3_10_binary=Block_106_binary+","+Block_106_binary+","+"0"+","
+                                                    
+                                                    block=block+6
+                                                    #print(Block_102_binary)
+
+                                            if Number_N==Block_102_binary:
+
+                                                    Block_103=Block_101+1
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","        
+                                                    
+                                            
+                                            elif Number_N==Block_122_binary:
+
+                                                    Block_103=Block_101+2
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+                                        
+                                                    #print(Block_106_binary)
+                                            elif Number_N==Block_123_binary:
+
+                                                    Block_103=Block_101+3
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+
+                                            elif Number_N==Block_101_1_binary:
+
+                                                    Block_103=Block_101+4
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+                                            elif Number_N==Block_101_2_binary:
+
+                                                    Block_103=Block_101+5
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+                                                    
+                                            elif Number_N==Block_101_3_binary:
+
+                                                    Block_103=Block_101+6
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","         
+
+
+                                            elif Number_N==Block_101_1_1_binary:
+
+                                                    Block_103=Block_101+7
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+                                            elif Number_N==Block_101_2_1_binary:
+
+                                                    Block_103=Block_101+8
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+                                            elif Number_N==Block_101_3_1_binary:
+
+                                                    Block_103=Block_101+9
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+
+                                            elif Number_N==Block_101_1_2_binary:
+
+                                                    Block_103=Block_101+10
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+                                            elif Number_N==Block_101_2_3_binary:
+
+                                                    Block_103=Block_101+11
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+                                            elif Number_N==Block_101_3_4_binary:
+
+                                                    Block_103=Block_101+12
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+
+                                            elif Number_N==Block_101_1_5_binary:
+
+                                                    Block_103=Block_101+13
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+                                            elif Number_N==Block_101_2_6_binary:
+
+                                                    Block_103=Block_101+14
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+                                            elif Number_N==Block_101_3_7_binary:
+
+                                                    Block_103=Block_101+15
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+
+                                            elif Number_N==Block_101_3_8_binary:
+
+                                                    Block_103=Block_101+16
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+
+
+                                            elif Number_N==Block_101_3_9_binary:
+
+                                                    Block_103=Block_101+17
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+
+                                            elif Number_N==Block_101_3_10_binary:
+
+                                                    Block_103=Block_101+18
+                                                    Block_105_binary=str(Block_103)
+
+                                                    Block_106_binary=Block_105_binary
+                                            
+                                                    Number_N4=Number_N4+Block_106_binary+","
+                                                
+                                            else:
+                                                    Number_N4=Number_N4+Number_N
+                                                  
+                                            
+
+                                    Block_101=Block_101+18
+                                    #print(Block_101)
+
+                                    
+                                    
+                                   
+                                  
+                                    if compress_or_not_compress==1:
+                                    	
+                                    	    Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                   
+                                    
      
                                     if compress_or_not_compress==1:
                                            
-                                            Equal_info_between_of_the_cirlce_of_the_file_17="1"+add_bits4+Equal_info_between_of_the_cirlce_of_the_file_23+blox+block0
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            sda18=Equal_info_between_of_the_cirlce_of_the_file
                                             #print(len(Equal_info_between_of_the_cirlce_of_the_file_17))
                               
                                     
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     #print(lenfS)
-                                    
-                                    if lenfS>=lenf6:
-                                        Deep3=lenfS
-                                    
-                                    
-                                    
-                                    
+
+                                    if Block_101==((2**8)*18)+1:
+                                            Deep3=lenfS
 
                                     if compress_or_not_compress==2 and Circle_times2==0:
                                                     Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
@@ -329,7 +599,7 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
                                    
                                     
-                                    if  Circle_times2==1:
+                                    if   lenfS<=Deep3 or compress_or_not_compress==2:
                                         Circle_times3=Circle_times2
                                         
                                         if compress_or_not_compress==2:
@@ -337,45 +607,20 @@ class compression:
 
 
                                     
-                                                
+                                            		
 
+                                    
+                                    
 
-                                    if Circle_times2==1:
-
-                                                lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                add_bits=""
-                                                count_bits=8-lenf%8
-                                                if count_bits==8:
-                                                	count_bits=0
-                                                count_bits2=count_bits
-                                                z=0
-                                                if count_bits!=0:
-                                                        if count_bits!=8:
-                                                                while z<count_bits:
-                                                                        add_bits="0"+add_bits
-                                                                        z=z+1
-
-   
-
-                                    if   Circle_times2==1:
+                                    if   lenfS<=Deep3 or compress_or_not_compress==2:
                                             lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)                                           
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17
 
-                                    if   Circle_times2==1:
+                                    if   lenfS<=Deep3 or compress_or_not_compress==2:
                                                 
-                                    		L=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                    		n = int(Equal_info_between_of_the_cirlce_of_the_file_17, 2)
-                                    		width_bits=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                    		width_bits=(width_bits//8)*2
-                                    		width_bits=str(width_bits)
-                                    		width_bits="%0"+width_bits+"x"
-                                    		width_bits3=binascii.unhexlify(width_bits % n)
-                                    		width_bits2=len(width_bits3)
-                                    		add_bitszzza=""
-                                    		add_bitszs=""
-                                    		Equal_info_between_of_the_cirlce_of_the_file_2=Times_6
+                                    		width_bits3=Equal_info_between_of_the_cirlce_of_the_file_17
                                     		
-                                    		with open(nameas, "wb") as f2:
+                                    		with open(nameas, "w") as f2:
                                     			f2.write(width_bits3)
                                     	
                                     		x2 = time()
