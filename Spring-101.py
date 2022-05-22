@@ -384,11 +384,16 @@ class compression:
                                                     
                                                     
                                                     Block_101_2_1_binary=""
-
-
-                                                    #Predict
-
-                                                    Block_10T=Block_10e+10
+                                                    Divide=Block_10e%90
+                                                    if Divide==0:
+                                                                                                         Block_10T=Block_10e+2
+ 
+                                                        
+                                                    
+                                                   
+                                                    Block_10T=Block_10e+1
+                                                    
+                                                  
                                                     #print(Block_10T)
                                                     
                                                     Block_10T1=str(Block_10T)
@@ -398,11 +403,12 @@ class compression:
                                                     Block_N=0
                                                     long1=len(Block_10T1)
                                                     
+                                                    
                                                     Block_10T3=Block_10T1
                                                     Block_10T4=""
 
 
-                                                    while long1!=Block_N:
+                                                    while long1<Block_N:
                                                             Block_10T12=Block_10T1[Block_N:Block_N+1]
                                                             Block_N=Block_N+1
                                                             if Block_10T12=="1":
@@ -437,7 +443,6 @@ class compression:
                                                                                                         
                                                     
                                                     #print(Block_102_binary)
-
                                             if Number_N==Block_102_binary:
 
                                                     Block_103=Block_101+1
@@ -562,7 +567,8 @@ class compression:
                                             
 
                                     Block_101=Block_101+9
-                                    #print(Block_101)
+                                    Block_10e=Block_10e+1
+                                    #print(Block_10e)
 
                                     
                                     
