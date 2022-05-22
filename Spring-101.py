@@ -405,8 +405,8 @@ class compression:
                                                     while long1>Block_N:
                                                             Block_10T12=Block_10T1[Block_N:Block_N+1]
                                                             Block_N=Block_N+1
-                                                            if Block_10T12=="0":
-                                                                    Block_10T4=Block_10T4+"1"
+                                                            if Block_10T12=="1":
+                                                                    Block_10T4=Block_10T4+"0"
                                                                     
                                                             else:
                                                                  Block_10T4=Block_10T4+Block_10T12
@@ -550,7 +550,7 @@ class compression:
                                                     #print(Block_101_4_1_binary)
 
                                                    
-                                                    Number_N4=Number_N4+Block_10T4+"0"
+                                                    Number_N4=Number_N4+Block_10T4+"1"
                                                     #print(Block_10T4+"1")
                                                     block=block+long
 
@@ -614,6 +614,9 @@ class compression:
                                             while block<lenf6:
                                                     Number_N1=INIT[block:block+1]
                                                     if Number_N1=="1":
+                                                            Number_N4=Number_N4+"0"
+
+                                                    elif Number_N1=="0":
                                                             Number_N4=Number_N4+"1"
 
                                                     else:
