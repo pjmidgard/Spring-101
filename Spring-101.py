@@ -298,7 +298,7 @@ class compression:
                                                     
                                                     #print(Number_N2)
                                                     
-                                                    Block_102_binary=Block_106_binary+"1"+Block_106_binary+"1"+Block_106_binary+"1"
+                                                    Block_102_binary=""
 
 
                                                     Block_103=Block_101+1
@@ -309,7 +309,7 @@ class compression:
                                                     
 
                                                     
-                                                    Block_122_binary=Block_106_binary+"1"+Block_106_binary+"1"+Block_106_binary+"1"
+                                                    Block_122_binary=""
 
 
                                                     Block_103=Block_101+2
@@ -319,7 +319,7 @@ class compression:
                                             
                                                     
                                                     
-                                                    Block_123_binary=Block_106_binary+"1"+Block_106_binary+"1"+Block_106_binary+"1"
+                                                    Block_123_binary=""
 
 
 
@@ -331,7 +331,7 @@ class compression:
                                             
                                                     
                                                     
-                                                    Block_101_1_binary=Block_106_binary+"1"+Block_106_binary+"1"+Block_106_binary+"1"
+                                                    Block_101_1_binary=""
 
 
                                                     Block_103=Block_101+4
@@ -348,7 +348,7 @@ class compression:
                                                     
 
                                                     
-                                                    Block_101_2_binary=Block_106_binary+"1"+Block_106_binary1+"1"+Block_106_binary1+"1"
+                                                    Block_101_2_binary=""
 
 
                                                     Block_103=Block_101+5
@@ -358,7 +358,7 @@ class compression:
                                             
                                                     
                                                     
-                                                    Block_101_3_binary=Block_106_binary+"1"+Block_106_binary1+"1"+Block_106_binary1+"1"
+                                                    Block_101_3_binary=""
 
 
                                                     Block_103=Block_101+6
@@ -368,7 +368,7 @@ class compression:
                                             
                                                     
                                                     
-                                                    Block_101_1_1_binary=Block_106_binary+"1"+Block_106_binary1+"1"+Block_106_binary1+"1"
+                                                    Block_101_1_1_binary=""
 
 
                                                     Block_103=Block_101+7
@@ -379,7 +379,7 @@ class compression:
                                                     
                                                     
                                                     
-                                                    Block_101_2_1_binary=Block_106_binary+"1"+Block_106_binary1+"1"+Block_106_binary1+"1"
+                                                    Block_101_2_1_binary=""
 
 
                                                     #Predict
