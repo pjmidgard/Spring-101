@@ -425,7 +425,7 @@ class compression:
                                                     
 
                                                     
-                                                    Block_101_4_1_binary=Block_106_binary+"0"
+                                                    Block_101_4_1_binary=Block_106_binary+"1"
 
                                                     long=len(Block_101_4_1_binary)
                                                     Number_N17=INIT[block:block+long]
