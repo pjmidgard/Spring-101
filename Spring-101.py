@@ -388,7 +388,7 @@ class compression:
 
                                                     #Predict
 
-                                                    Block_10T=Block_10e+10
+                                                    Block_10T=Block_10e+1
                                                     #print(Block_10T)
                                                     
                                                     Block_10T1=str(Block_10T)
@@ -562,7 +562,7 @@ class compression:
                                             
 
                                     Block_101=Block_101+9
-                                    Block_10e=Block_10e+10
+                                    Block_10e=Block_10e+1
                                     #print(Block_101)
 
                                     
