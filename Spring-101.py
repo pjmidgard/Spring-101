@@ -402,7 +402,7 @@ class compression:
                                                     Block_10T4=""
 
 
-                                                    while long1<Block_N:
+                                                    while long1>Block_N:
                                                             Block_10T12=Block_10T1[Block_N:Block_N+1]
                                                             Block_N=Block_N+1
                                                             if Block_10T12=="0":
