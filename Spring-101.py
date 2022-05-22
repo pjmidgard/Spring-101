@@ -27,7 +27,7 @@ class compression:
                         Deep3=-1
                         Block_101=1
                         compress_or_not_compress1=0
-                        Block_10e=10
+                        Block_10e=0
 
                         i=1
 
@@ -264,9 +264,9 @@ class compression:
                                             
                                                     Number_N=Number_N1+"1"+Number_N2+"1"+Number_N3+"1"
                                                     
-                                                    Block_102_binary="0"+"1"+"0"+"1"+"0"+"1"
-                                                    Block_122_binary="0"+"1"+"0"+"1"+"1"+"1"
-                                                    Block_123_binary="0"+"1"+"1"+"1"+"0"+"1"
+                                                    Block_102_binary="0"+"0"+"0"+"0"+"0"+"0"
+                                                    Block_122_binary="0"+"0"+"0"+"0"+"1"+"0"
+                                                    Block_123_binary="0"+"0"+"1"+"0"+"0"+"0"
 
                                                     Block_103=Block_101+0
                                                     Block_105_binary=str(Block_103)
@@ -274,9 +274,9 @@ class compression:
                                                     
 
 
-                                                    Block_101_1_binary="0"+"1"+"1"+"1"+"1"+"1"
-                                                    Block_101_2_binary="1"+"1"+"0"+"1"+"0"+"1"
-                                                    Block_101_3_binary="1"+"1"+"0"+"1"+"1"+"1"
+                                                    Block_101_1_binary="0"+"0"+"1"+"0"+"1"+"0"
+                                                    Block_101_2_binary="1"+"0"+"0"+"0"+"0"+"0"
+                                                    Block_101_3_binary="1"+"0"+"0"+"0"+"1"+"0"
 
 
                                                     Block_103=Block_101+0
@@ -285,8 +285,8 @@ class compression:
                                                     
 
 
-                                                    Block_101_1_1_binary="1"+"1"+"1"+"1"+"0"+"1"
-                                                    Block_101_2_1_binary="1"+"1"+"1"+"1"+"1"+"1"
+                                                    Block_101_1_1_binary="1"+"0"+"1"+"0"+"0"+"0"
+                                                    Block_101_2_1_binary="1"+"0"+"1"+"0"+"1"+"0"
 
                                                     Block_101_4_1_binary=""
                                                     
@@ -384,16 +384,11 @@ class compression:
                                                     
                                                     
                                                     Block_101_2_1_binary=""
-                                                    Divide=Block_10e%90
-                                                    if Divide==0:
-                                                                                                         Block_10T=Block_10e+2
- 
-                                                        
-                                                    
-                                                   
-                                                    Block_10T=Block_10e+1
-                                                    
-                                                  
+
+
+                                                    #Predict
+
+                                                    Block_10T=Block_10e+10
                                                     #print(Block_10T)
                                                     
                                                     Block_10T1=str(Block_10T)
@@ -403,7 +398,6 @@ class compression:
                                                     Block_N=0
                                                     long1=len(Block_10T1)
                                                     
-                                                    
                                                     Block_10T3=Block_10T1
                                                     Block_10T4=""
 
@@ -411,8 +405,8 @@ class compression:
                                                     while long1<Block_N:
                                                             Block_10T12=Block_10T1[Block_N:Block_N+1]
                                                             Block_N=Block_N+1
-                                                            if Block_10T12=="1":
-                                                                    Block_10T4=Block_10T4+"0"
+                                                            if Block_10T12=="0":
+                                                                    Block_10T4=Block_10T4+"1"
                                                                     
                                                             else:
                                                                  Block_10T4=Block_10T4+Block_10T12
@@ -431,7 +425,7 @@ class compression:
                                                     
 
                                                     
-                                                    Block_101_4_1_binary=Block_106_binary+"1"
+                                                    Block_101_4_1_binary=Block_106_binary+"0"
 
                                                     long=len(Block_101_4_1_binary)
                                                     Number_N17=INIT[block:block+long]
@@ -443,6 +437,7 @@ class compression:
                                                                                                         
                                                     
                                                     #print(Block_102_binary)
+
                                             if Number_N==Block_102_binary:
 
                                                     Block_103=Block_101+1
@@ -450,7 +445,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+"1"
+                                                    Number_N4=Number_N4+Block_106_binary+"0"
                                                     if Block_101==1:
                                                             block=block+3
                                                     else:
@@ -464,7 +459,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+"1"
+                                                    Number_N4=Number_N4+Block_106_binary+"0"
                                                     if Block_101==1:
                                                             block=block+3
                                                     else:
@@ -478,7 +473,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+"1"
+                                                    Number_N4=Number_N4+Block_106_binary+"0"
                                                     if Block_101==1:
                                                             block=block+3
                                                     else:
@@ -505,7 +500,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+"1"
+                                                    Number_N4=Number_N4+Block_106_binary+"0"
                                                     if Block_101==1:
                                                             block=block+3
                                                     else:
@@ -532,7 +527,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+"1"
+                                                    Number_N4=Number_N4+Block_106_binary+"0"
                                                     if Block_101==1:
                                                             block=block+3
                                                     else:
@@ -545,7 +540,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+"1"
+                                                    Number_N4=Number_N4+Block_106_binary+"0"
                                                     if Block_101==1:
                                                             block=block+3
                                                     else:
@@ -555,7 +550,7 @@ class compression:
                                                     #print(Block_101_4_1_binary)
 
                                                    
-                                                    Number_N4=Number_N4+Block_10T4+"1"
+                                                    Number_N4=Number_N4+Block_10T4+"0"
                                                     #print(Block_10T4+"1")
                                                     block=block+long
 
@@ -567,8 +562,8 @@ class compression:
                                             
 
                                     Block_101=Block_101+9
-                                    Block_10e=Block_10e+1
-                                    #print(Block_10e)
+                                    Block_10e=Block_10e+10
+                                    #print(Block_101)
 
                                     
                                     
