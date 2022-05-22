@@ -580,7 +580,7 @@ class compression:
                                             while block<lenf6:
                                                     Number_N1=INIT[block:block+1]
                                                     if Number_N1=="1":
-                                                            Number_N4=Number_N4+"0"
+                                                            Number_N4=Number_N4+"1"
 
                                                     else:
                                                             Number_N4=Number_N4+Number_N1
