@@ -27,6 +27,7 @@ class compression:
                         Deep3=-1
                         Block_101=1
                         compress_or_not_compress1=0
+                        Block_10e=10
 
                         i=1
 
@@ -71,6 +72,8 @@ class compression:
                     if i==1:
                         
                         nameas=name+".bin"
+                        N_N=0
+                        N_n=0
                     
                     	
                     nac=len(nameas)
@@ -240,6 +243,7 @@ class compression:
                                     Number_N=""
                                     INIT=Equal_info_between_of_the_cirlce_of_the_file
                                     block=0
+                                    Block_10T=0
                                     Number_N4=""
 
                                     while block<lenf6:
@@ -384,7 +388,36 @@ class compression:
 
                                                     #Predict
 
-                                                    Block_103=Block_101+7
+                                                    Block_10T=Block_10e+10
+                                                    #print(Block_10T)
+                                                    
+                                                    Block_10T1=str(Block_10T)
+
+                                                   
+                                                    
+                                                    Block_N=0
+                                                    long1=len(Block_10T1)
+                                                    
+                                                    Block_10T3=Block_10T1
+                                                    Block_10T4=""
+
+
+                                                    while long1!=Block_N:
+                                                            Block_10T12=Block_10T1[Block_N:Block_N+1]
+                                                            Block_N=Block_N+1
+                                                            if Block_10T12=="1":
+                                                                    Block_10T4=Block_10T4+"0"
+                                                                    
+                                                            else:
+                                                                 Block_10T4=Block_10T4+Block_10T12
+                                                            Block_N=Block_N+1
+                                                                    
+                                                    #print(Block_10T4)      
+                                                            
+                                                    
+                                                    
+
+                                                    Block_103=Block_101+1
                                                     Block_105_binary=str(Block_103)
 
                                                     Block_106_binary=Block_105_binary
@@ -397,6 +430,7 @@ class compression:
                                                     long=len(Block_101_4_1_binary)
                                                     Number_N17=INIT[block:block+long]
                                                     Number_N2=Number_N17
+                                                    #print(Number_N2)
                                                     #print(Block_101_4_1_binary)
                                                     
 
@@ -512,16 +546,15 @@ class compression:
                                                     else:
                                                             block=block+6
 
-                                            elif Number_N2==Block_101_4_1_binary and Block_101!=1:
+                                            if Number_N2==Block_101_4_1_binary and Block_101!=1 and long1>1:
                                                     #print(Block_101_4_1_binary)
 
-                                                    Block_103=Block_101+9
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+"1"
+                                                   
+                                                    Number_N4=Number_N4+Block_10T4+"1"
+                                                    #print(Block_10T4+"1")
                                                     block=block+long
+
+                                        
                                             else:
                                                     Number_N4=Number_N4+Number_N
                                                     block=block+6
