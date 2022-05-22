@@ -487,7 +487,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+"1"
+                                                    Number_N4=Number_N4+Block_106_binary+"0"
                                                     if Block_101==1:
                                                             block=block+3
                                                     else:
@@ -513,7 +513,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N4=Number_N4+Block_106_binary+"1"
+                                                    Number_N4=Number_N4+Block_106_binary+"0"
                                                     if Block_101==1:
                                                             block=block+3
                                                     else:
