@@ -561,7 +561,7 @@ class compression:
                                                   
                                             
 
-                                    Block_101=Block_101+9
+                                    Block_101=Block_101+1
                                     Block_10e=Block_10e+1
                                     #print(Block_101)
 
