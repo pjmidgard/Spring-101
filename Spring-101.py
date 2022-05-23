@@ -655,7 +655,7 @@ class compression:
                                                     else:
                                                             Number_N4=Number_N4+Number_N1
 
-                                                    block=block+1
+                                                    
                                                              
                                             Number_N5=int(Number_N4)
                                             Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
