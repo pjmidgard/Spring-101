@@ -390,8 +390,11 @@ class compression:
 
                                                     Block_10T=Block_10e+1
                                                     #print(Block_10T)
-                                                    Block_10TU10==Block_10T%10
-                                                    Block_10TU11==Block_10T%11
+                                                    Block_10T_U=0
+                                                    Block_10TU10=0
+                                                    Block_10TU11=0
+                                                    Block_10TU10=Block_10T%10
+                                                    Block_10TU11=Block_10T%11
                                                     if Block_10T==1:
                                                         Block_10T_U=Block_10T+1 
                                                     elif Block_10TU10==0:
@@ -403,7 +406,8 @@ class compression:
                                                     Block_10T1=str(Block_10T_U)
 
                                                     Block_10T4=Block_10T1
-                                                    
+                                                    long1=len(Block_10T4)
+                                            
                                                     
 
 
