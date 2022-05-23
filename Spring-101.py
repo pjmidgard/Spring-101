@@ -390,6 +390,7 @@ class compression:
 
                                                     Block_10T=Block_10e+1
                                                     #print(Block_10T)
+                                                    Block_10R=0
                                                     Block_10T_U=0
                                                     Block_10TU10=0
                                                     Block_10TU11=0
@@ -397,11 +398,14 @@ class compression:
                                                     Block_10TU11=Block_10T%11
                                                     if Block_10T==1:
                                                         Block_10T_U=Block_10T+1 
+                                                        Block_10R=Block_101+1
                                                     elif Block_10TU10==0:
-                                                        Block_10T_U=Block_10T+Block_10T 
+                                                        Block_10T_U=Block_10T+Block_10T
+                                                        Block_10R=Block_101+Block_101
                                                         
                                                     elif Block_10TU11==0:
                                                         Block_10T_U=Block_10T+Block_10T
+                                                        Block_10R=Block_101+Block_101
                                                     
                                                     Block_10T1=str(Block_10T_U)
 
@@ -417,7 +421,7 @@ class compression:
                                                     
                                                     
 
-                                                    Block_103=Block_101+1
+                                                    Block_103=Block_10R+1
                                                     Block_105_binary=str(Block_103)
 
                                                     Block_106_binary=Block_105_binary
