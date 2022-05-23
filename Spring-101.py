@@ -401,11 +401,13 @@ class compression:
                                                     if Block_10T==1:
                                                         Block_10T_U=Block_10T+1 
                                                         Block_10R=Block_101+1
-                                                    elif Block_10TU10==0:
+                                                    
+                                                        
+                                                    elif Block_10TU11==0:
                                                         Block_10T_U=Block_10T+Block_10T
                                                         Block_10R=Block_101+Block_101
                                                         
-                                                    elif Block_10TU11==0:
+                                                    elif Block_10TU10==0:
                                                         Block_10T_U=Block_10T+Block_10T
                                                         Block_10R=Block_101+Block_101
                                                         
