@@ -26,8 +26,9 @@ class compression:
 
                         Deep3=-1
                         Block_101=1
+                        Block_101E=2
                         compress_or_not_compress1=0
-                        Block_10e=0
+                        Block_10e=2
 
                         i=1
 
@@ -404,20 +405,20 @@ class compression:
                                                     Block_10TU11=Block_10T%11
                                                     if Block_10T==1:
                                                         Block_10T_U=Block_10T+1 
-                                                        Block_10R=Block_101+1
+                                                        Block_10R=Block_101E+1
                                                     
                                                         
                                                     elif Block_10TU11==0:
                                                         Block_10T_U=Block_10T+Block_10T
-                                                        Block_10R=Block_101+Block_101
+                                                        Block_10R=Block_101E+Block_101E
                                                         
                                                     elif Block_10TU10==0:
                                                         Block_10T_U=Block_10T+Block_10T
-                                                        Block_10R=Block_101+Block_101
+                                                        Block_10R=Block_101E+Block_101E
                                                         
                                                     else:
                                                         Block_10T_U=Block_10T
-                                                        Block_10R=Block_101
+                                                        Block_10R=Block_101E
                                                         
                                                     
                                                     Block_10T1=str(Block_10T_U)
@@ -576,7 +577,7 @@ class compression:
                                                             #print(Block_10T4+"1")
                                                             block=block+3                
                                             if Circle_times2!=0:
-                                                    if Number_N12==Block_101_4_1_binary and Block_101!=1 and long1>1 and X_1!=Block_101_4_1_binary  and X_2!=Block_101_4_1_binary and Circle_times2!=0:
+                                                    if Number_N12==Block_101_4_1_binary and long1>1 and X_1!=Block_101_4_1_binary  and X_2!=Block_101_4_1_binary and Circle_times2!=0:
                                                             #print(Block_101_4_1_binary)
 
                                                            
@@ -596,6 +597,7 @@ class compression:
                                                     
                                     Block_101=Block_101+1
                                     Block_10e=Block_10e+1
+                                    Block_101E=Block_101E+1
                                     #print(Block_101)
 
                                     
