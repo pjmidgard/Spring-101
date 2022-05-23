@@ -27,7 +27,7 @@ class compression:
                         Deep3=-1
                         Block_101=1
                         compress_or_not_compress1=0
-                        Block_10e=0
+                        Block_10e=2
 
                         i=1
 
@@ -110,6 +110,16 @@ class compression:
 
                        # Read the whole file at once
                         data = binary_file.read()
+
+                        X2=""
+                        X3=""
+                        X4=""
+                        X5=""
+                        X6=""
+                        X7=""
+                        X8=""
+                        X9=""
+                        
       
                         s=str(data)
 
@@ -294,6 +304,7 @@ class compression:
                                                     Block_101_2_1_binary="1"+"0"+"1"+"0"+"1"+"0"
 
                                                     Block_101_4_1_binary=""
+                                                    long1=0
                                                     
                                                     
                                                     
@@ -398,12 +409,8 @@ class compression:
                                                     
                                                     Block_10TU10=Block_10T%10
                                                     Block_10TU11=Block_10T%11
-                                                    if Block_10T==1:
-                                                        Block_10T_U=Block_10T+1 
-                                                        Block_10R=Block_101+1
-                                                    
-                                                        
-                                                    elif Block_10TU11==0:
+                                                   
+                                                    if Block_10TU11==0:
                                                         Block_10T_U=Block_10T+Block_10T
                                                         Block_10R=Block_101+Block_101
                                                         
@@ -439,6 +446,18 @@ class compression:
 
                                                     
                                                     Block_101_4_1_binary=Block_106_binary+"01"
+
+
+                                                    X2="20"+Block_101_4_1_binary
+                                                    X3="30"+Block_101_4_1_binary
+                                                    X4="40"+Block_101_4_1_binary
+                                                    X5="50"+Block_101_4_1_binary
+                                                    X6="60"+Block_101_4_1_binary
+                                                    X7="70"+Block_101_4_1_binary
+                                                    X8="80"+Block_101_4_1_binary
+                                                    X9="90"+Block_101_4_1_binary
+
+                                                    
 
                                                     long=len(Block_101_4_1_binary)
                                                     Number_N17=INIT[block:block+long]
@@ -559,15 +578,69 @@ class compression:
                                                     else:
                                                             block=block+6
 
-                                            if Number_N2==Block_101_4_1_binary and Block_101!=1 and long1>1:
+                                            elif Number_N2==X2 and long1>1:
                                                     #print(Block_101_4_1_binary)
 
                                                    
-                                                    Number_N4=Number_N4+Block_10T4+"1"
+                                                    Number_N4=Number_N4+"20"+Block_10T4+"1"
+                                                    #print(Block_10T4+"1")
+                                                    block=block+long
+                                            elif Number_N2==X3 and long1>1:
+                                                    #print(Block_101_4_1_binary)
+
+                                                   
+                                                    Number_N4=Number_N4+"30"+Block_10T4+"1"
+                                                    #print(Block_10T4+"1")
+                                                    block=block+long
+                                            elif Number_N2==X4 and long1>1:
+                                                    #print(Block_101_4_1_binary)
+
+                                                   
+                                                    Number_N4=Number_N4+"40"+Block_10T4+"1"
                                                     #print(Block_10T4+"1")
                                                     block=block+long
 
-                                        
+                                            elif Number_N2==X5 and long1>1:
+                                                    #print(Block_101_4_1_binary)
+
+                                                   
+                                                    Number_N4=Number_N4+"50"+Block_10T4+"1"
+                                                    #print(Block_10T4+"1")
+                                                    block=block+long
+
+                                            
+                                                    
+                                            elif Number_N2==X6  and long1>1:
+                                                    #print(Block_101_4_1_binary)
+
+                                                   
+                                                    Number_N4=Number_N4+"60"+Block_10T4+"1"
+                                                    #print(Block_10T4+"1")
+                                                    block=block+long
+
+                                            elif Number_N2==X7 and Block_101!=1 and long1>1:
+                                                    #print(Block_101_4_1_binary)
+
+                                                   
+                                                    Number_N4=Number_N4+"70"+Block_10T4+"1"
+                                                    #print(Block_10T4+"1")
+                                                    block=block+long
+
+                                            elif Number_N2==X8 and long1>1:
+                                                    #print(Block_101_4_1_binary)
+
+                                                   
+                                                    Number_N4=Number_N4+"80"+Block_10T4+"1"
+                                                    #print(Block_10T4+"1")
+                                                    block=block+long
+                                                    
+                                            elif Number_N2==X9 and long1>1:
+                                                    #print(Block_101_4_1_binary)
+
+                                                   
+                                                    Number_N4=Number_N4+"90"+Block_10T4+"1"
+                                                    #print(Block_10T4+"1")
+                                                    block=block+long
                                             else:
                                                     Number_N4=Number_N4+Number_N
                                                     block=block+6
