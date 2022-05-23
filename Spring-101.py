@@ -572,7 +572,7 @@ class compression:
                                                             #print(Block_101_4_1_binary
 
                                                            
-                                                            Number_N4=Number_N4+Number_N
+                                                            Number_N4=Number_N4+"0"+Number_N
                                                             #print(Block_10T4+"1")
                                                             block=block+3                
                                             if Circle_times2!=0:
