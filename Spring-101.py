@@ -449,8 +449,8 @@ class compression:
 
                                                     X_2="01"+Block_106_binary+"01"
 
-                                                    X_3="11"+Block_106_binary+"01
-                                                    X_4="10"+Block_106_binary+"01
+                                                    X_3="11"+Block_106_binary+"01"
+                                                    X_4="10"+Block_106_binary+"01"
 
 
                                                     long=len(Block_101_4_1_binary)
