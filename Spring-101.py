@@ -27,7 +27,7 @@ class compression:
                         Deep3=-1
                         Block_101=1
                         compress_or_not_compress1=0
-                        Block_10e=2
+                        Block_10e=0
 
                         i=1
 
@@ -50,6 +50,9 @@ class compression:
                     
                     namem=""
                     namema="?"
+                    Number_N12=""
+                    X_1=""
+                    X_2=""
         
                     nameas=name
                     nac=len(nameas)
@@ -110,16 +113,6 @@ class compression:
 
                        # Read the whole file at once
                         data = binary_file.read()
-
-                        X2=""
-                        X3=""
-                        X4=""
-                        X5=""
-                        X6=""
-                        X7=""
-                        X8=""
-                        X9=""
-                        
       
                         s=str(data)
 
@@ -257,6 +250,7 @@ class compression:
                                     INIT=""
                                     Number_N=""
                                     INIT=Equal_info_between_of_the_cirlce_of_the_file
+                                    #print(INIT)
                                     block=0
                                     Block_10T=0
                                     Number_N4=""
@@ -277,7 +271,7 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    Number_N=Number_N1+"1"+Number_N2+"1"+Number_N3+"1"
+                                                    Number_N=Number_N1+"0"+Number_N2+"0"+Number_N3+"0"
                                                     
                                                     Block_102_binary="0"+"0"+"0"+"0"+"0"+"0"
                                                     Block_122_binary="0"+"0"+"0"+"0"+"1"+"0"
@@ -304,7 +298,6 @@ class compression:
                                                     Block_101_2_1_binary="1"+"0"+"1"+"0"+"1"+"0"
 
                                                     Block_101_4_1_binary=""
-                                                    long1=0
                                                     
                                                     
                                                     
@@ -409,8 +402,12 @@ class compression:
                                                     
                                                     Block_10TU10=Block_10T%10
                                                     Block_10TU11=Block_10T%11
-                                                   
-                                                    if Block_10TU11==0:
+                                                    if Block_10T==1:
+                                                        Block_10T_U=Block_10T+1 
+                                                        Block_10R=Block_101+1
+                                                    
+                                                        
+                                                    elif Block_10TU11==0:
                                                         Block_10T_U=Block_10T+Block_10T
                                                         Block_10R=Block_101+Block_101
                                                         
@@ -442,211 +439,161 @@ class compression:
 
                                                     Block_106_binary=Block_105_binary
                                             
-                                                    
+                                                    Number_N18=INIT[block:block+2]
 
                                                     
-                                                    Block_101_4_1_binary=Block_106_binary+"01"
+                                                    Block_101_4_1_binary=Number_N18+Block_106_binary+"0"
 
+                                                    X_1="00"+Block_106_binary+"01"
 
-                                                    X2="20"+Block_101_4_1_binary
-                                                    X3="30"+Block_101_4_1_binary
-                                                    X4="40"+Block_101_4_1_binary
-                                                    X5="50"+Block_101_4_1_binary
-                                                    X6="60"+Block_101_4_1_binary
-                                                    X7="70"+Block_101_4_1_binary
-                                                    X8="80"+Block_101_4_1_binary
-                                                    X9="90"+Block_101_4_1_binary
-
-                                                    
+                                                    X_2="01"+Block_106_binary+"01"
 
                                                     long=len(Block_101_4_1_binary)
                                                     Number_N17=INIT[block:block+long]
-                                                    Number_N2=Number_N17
-                                                    #print(Number_N2)
+                                                    Number_N12=Number_N17
+                                                    #print(Number_N12)
                                                     #print(Block_101_4_1_binary)
                                                     
 
                                                                                                         
                                                     
                                                     #print(Block_102_binary)
+                                            if Circle_times2==0:
+                                                    if Number_N==Block_102_binary:
 
-                                            if Number_N==Block_102_binary:
+                                                            Block_103=Block_101+1
+                                                            Block_105_binary=str(Block_103)
 
-                                                    Block_103=Block_101+1
-                                                    Block_105_binary=str(Block_103)
+                                                            Block_106_binary=Block_105_binary
+                                                    
+                                                            Number_N4=Number_N4+Block_106_binary+"0"
+                                                            if Block_101==1:
+                                                                    block=block+3
+                                                            else:
+                                                                    block=block+6
+                                                                    
+                                                    
+                                                    elif Number_N==Block_122_binary:
 
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+"0"
-                                                    if Block_101==1:
-                                                            block=block+3
-                                                    else:
-                                                            block=block+6
+                                                            Block_103=Block_101+2
+                                                            Block_105_binary=str(Block_103)
+
+                                                            Block_106_binary=Block_105_binary
+                                                    
+                                                            Number_N4=Number_N4+Block_106_binary+"0"
+                                                            if Block_101==1:
+                                                                    block=block+3
+                                                            else:
+                                                                    block=block+6
+                                                
+                                                            #print(Block_106_binary)
+                                                    elif Number_N==Block_123_binary:
+
+                                                            Block_103=Block_101+3
+                                                            Block_105_binary=str(Block_103)
+
+                                                            Block_106_binary=Block_105_binary
+                                                    
+                                                            Number_N4=Number_N4+Block_106_binary+"0"
+                                                            if Block_101==1:
+                                                                    block=block+3
+                                                            else:
+                                                                    block=block+6
+
+
+                                                    elif Number_N==Block_101_1_binary:
+
+                                                            Block_103=Block_101+4
+                                                            Block_105_binary=str(Block_103)
+
+                                                            Block_106_binary=Block_105_binary
+                                                    
+                                                            Number_N4=Number_N4+Block_106_binary+"0"
+                                                            if Block_101==1:
+                                                                    block=block+3
+                                                            else:
+                                                                    block=block+6
+
+                                                    elif Number_N==Block_101_2_binary:
+
+                                                            Block_103=Block_101+5
+                                                            Block_105_binary=str(Block_103)
+
+                                                            Block_106_binary=Block_105_binary
+                                                    
+                                                            Number_N4=Number_N4+Block_106_binary+"0"
+                                                            if Block_101==1:
+                                                                    block=block+3
+                                                            else:
+                                                                    block=block+6
                                                             
-                                            
-                                            elif Number_N==Block_122_binary:
+                                                    elif Number_N==Block_101_3_binary:
 
-                                                    Block_103=Block_101+2
-                                                    Block_105_binary=str(Block_103)
+                                                            Block_103=Block_101+6
+                                                            Block_105_binary=str(Block_103)
 
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+"0"
-                                                    if Block_101==1:
-                                                            block=block+3
-                                                    else:
-                                                            block=block+6
-                                        
-                                                    #print(Block_106_binary)
-                                            elif Number_N==Block_123_binary:
-
-                                                    Block_103=Block_101+3
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+"0"
-                                                    if Block_101==1:
-                                                            block=block+3
-                                                    else:
-                                                            block=block+6
-
-
-                                            elif Number_N==Block_101_1_binary:
-
-                                                    Block_103=Block_101+4
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+"0"
-                                                    if Block_101==1:
-                                                            block=block+3
-                                                    else:
-                                                            block=block+6
-
-                                            elif Number_N==Block_101_2_binary:
-
-                                                    Block_103=Block_101+5
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+"0"
-                                                    if Block_101==1:
-                                                            block=block+3
-                                                    else:
-                                                            block=block+6
+                                                            Block_106_binary=Block_105_binary
                                                     
-                                            elif Number_N==Block_101_3_binary:
-
-                                                    Block_103=Block_101+6
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+"0"
-                                                    if Block_101==1:
-                                                            block=block+3
-                                                    else:
-                                                            block=block+6
+                                                            Number_N4=Number_N4+Block_106_binary+"0"
+                                                            if Block_101==1:
+                                                                    block=block+3
+                                                            else:
+                                                                    block=block+6
 
 
-                                            elif Number_N==Block_101_1_1_binary:
+                                                    elif Number_N==Block_101_1_1_binary:
 
-                                                    Block_103=Block_101+7
-                                                    Block_105_binary=str(Block_103)
+                                                            Block_103=Block_101+7
+                                                            Block_105_binary=str(Block_103)
 
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+"0"
-                                                    if Block_101==1:
-                                                            block=block+3
-                                                    else:
-                                                            block=block+6
-
-                                            elif Number_N==Block_101_2_1_binary:
-
-                                                    Block_103=Block_101+8
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                            
-                                                    Number_N4=Number_N4+Block_106_binary+"0"
-                                                    if Block_101==1:
-                                                            block=block+3
-                                                    else:
-                                                            block=block+6
-
-                                            elif Number_N2==X2 and long1>1:
-                                                    #print(Block_101_4_1_binary)
-
-                                                   
-                                                    Number_N4=Number_N4+"20"+Block_10T4+"1"
-                                                    #print(Block_10T4+"1")
-                                                    block=block+long
-                                            elif Number_N2==X3 and long1>1:
-                                                    #print(Block_101_4_1_binary)
-
-                                                   
-                                                    Number_N4=Number_N4+"30"+Block_10T4+"1"
-                                                    #print(Block_10T4+"1")
-                                                    block=block+long
-                                            elif Number_N2==X4 and long1>1:
-                                                    #print(Block_101_4_1_binary)
-
-                                                   
-                                                    Number_N4=Number_N4+"40"+Block_10T4+"1"
-                                                    #print(Block_10T4+"1")
-                                                    block=block+long
-
-                                            elif Number_N2==X5 and long1>1:
-                                                    #print(Block_101_4_1_binary)
-
-                                                   
-                                                    Number_N4=Number_N4+"50"+Block_10T4+"1"
-                                                    #print(Block_10T4+"1")
-                                                    block=block+long
-
-                                            
+                                                            Block_106_binary=Block_105_binary
                                                     
-                                            elif Number_N2==X6  and long1>1:
-                                                    #print(Block_101_4_1_binary)
+                                                            Number_N4=Number_N4+Block_106_binary+"0"
+                                                            if Block_101==1:
+                                                                    block=block+3
+                                                            else:
+                                                                    block=block+6
 
-                                                   
-                                                    Number_N4=Number_N4+"60"+Block_10T4+"1"
-                                                    #print(Block_10T4+"1")
-                                                    block=block+long
+                                                    elif Number_N==Block_101_2_1_binary:
 
-                                            elif Number_N2==X7 and Block_101!=1 and long1>1:
-                                                    #print(Block_101_4_1_binary)
+                                                            Block_103=Block_101+8
+                                                            Block_105_binary=str(Block_103)
 
-                                                   
-                                                    Number_N4=Number_N4+"70"+Block_10T4+"1"
-                                                    #print(Block_10T4+"1")
-                                                    block=block+long
-
-                                            elif Number_N2==X8 and long1>1:
-                                                    #print(Block_101_4_1_binary)
-
-                                                   
-                                                    Number_N4=Number_N4+"80"+Block_10T4+"1"
-                                                    #print(Block_10T4+"1")
-                                                    block=block+long
+                                                            Block_106_binary=Block_105_binary
                                                     
-                                            elif Number_N2==X9 and long1>1:
-                                                    #print(Block_101_4_1_binary)
+                                                            Number_N4=Number_N4+Block_106_binary+"0"
+                                                            if Block_101==1:
+                                                                    block=block+3
+                                                            else:
+                                                                    block=block+6
+                                                            #print(Number_N4)
+                                                    
+                                                    else:
+                                                            #print(Block_101_4_1_binary
 
-                                                   
-                                                    Number_N4=Number_N4+"90"+Block_10T4+"1"
-                                                    #print(Block_10T4+"1")
-                                                    block=block+long
-                                            else:
-                                                    Number_N4=Number_N4+Number_N
-                                                    block=block+6
+                                                           
+                                                            Number_N4=Number_N4+Number_N
+                                                            #print(Block_10T4+"1")
+                                                            block=block+3                
+                                            if Circle_times2!=0:
+                                                    if Number_N12==Block_101_4_1_binary and Block_101!=1 and long1>1 and X_1!=Block_101_4_1_binary  and X_2!=Block_101_4_1_binary and Circle_times2!=0:
+                                                            #print(Block_101_4_1_binary)
+
+                                                           
+                                                            Number_N4=Number_N4+Block_10T4+"1"
+                                                            #print(Block_10T4+"1")
+                                                            block=block+long
+
                                                   
-                                            
+                                                    else:
+                                                            #print(Block_101_4_1_binary
 
+                                                           
+                                                            Number_N4=Number_N4+Number_N
+                                                            #print(Block_10T4+"1")
+                                                            block=block+6
+                                            
+                                                    
                                     Block_101=Block_101+1
                                     Block_10e=Block_10e+1
                                     #print(Block_101)
