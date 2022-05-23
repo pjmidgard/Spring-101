@@ -390,27 +390,23 @@ class compression:
 
                                                     Block_10T=Block_10e+1
                                                     #print(Block_10T)
+                                                    Block_10TU10==Block_10T%10
+                                                    Block_10TU11==Block_10T%11
+                                                    if Block_10T==1:
+                                                        Block_10T_U=Block_10T+1 
+                                                    elif Block_10TU10==0:
+                                                        Block_10T_U=Block_10T+Block_10T 
+                                                        
+                                                    elif Block_10TU11==0:
+                                                        Block_10T_U=Block_10T+Block_10T
                                                     
-                                                    Block_10T1=str(Block_10T)
+                                                    Block_10T1=str(Block_10T_U)
 
-                                                   
+                                                    Block_10T4=Block_10T1
                                                     
-                                                    Block_N=0
-                                                    long1=len(Block_10T1)
                                                     
-                                                    Block_10T3=Block_10T1
-                                                    Block_10T4=""
 
 
-                                                    while long1>Block_N:
-                                                            Block_10T12=Block_10T1[Block_N:Block_N+1]
-                                                            Block_N=Block_N+1
-                                                            if Block_10T12=="1":
-                                                                    Block_10T4=Block_10T4+"0"
-                                                                    
-                                                            else:
-                                                                 Block_10T4=Block_10T4+Block_10T12
-                                                            Block_N=Block_N+1
                                                                     
                                                     #print(Block_10T4)      
                                                             
