@@ -449,6 +449,10 @@ class compression:
 
                                                     X_2="01"+Block_106_binary+"01"
 
+                                                    X_3="11"+Block_106_binary+"01
+                                                    X_4="10"+Block_106_binary+"01
+
+
                                                     long=len(Block_101_4_1_binary)
                                                     Number_N17=INIT[block:block+long]
                                                     Number_N12=Number_N17
@@ -577,7 +581,7 @@ class compression:
                                                             #print(Block_10T4+"1")
                                                             block=block+3                
                                             if Circle_times2!=0:
-                                                    if Number_N12==Block_101_4_1_binary and long1>1 and X_1!=Block_101_4_1_binary  and X_2!=Block_101_4_1_binary and Circle_times2!=0:
+                                                    if Number_N12==Block_101_4_1_binary and long1>1 and X_1!=Block_101_4_1_binary  and X_2!=Block_101_4_1_binary and X_3!=Block_101_4_1_binary and X_4!=Block_101_4_1_binary and Circle_times2!=0:
                                                             #print(Block_101_4_1_binary)
 
                                                            
