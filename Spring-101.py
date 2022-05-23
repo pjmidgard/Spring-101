@@ -78,6 +78,11 @@ class compression:
                     	
                     nac=len(nameas)
                     
+                    Block_10R=0
+                    Block_10T_U=0
+                    Block_10TU10=0
+                    Block_10TU11=0
+                    
                    
                     s=""
 
@@ -390,10 +395,7 @@ class compression:
 
                                                     Block_10T=Block_10e+1
                                                     #print(Block_10T)
-                                                    Block_10R=0
-                                                    Block_10T_U=0
-                                                    Block_10TU10=0
-                                                    Block_10TU11=0
+                                                    
                                                     Block_10TU10=Block_10T%10
                                                     Block_10TU11=Block_10T%11
                                                     if Block_10T==1:
@@ -406,6 +408,11 @@ class compression:
                                                     elif Block_10TU11==0:
                                                         Block_10T_U=Block_10T+Block_10T
                                                         Block_10R=Block_101+Block_101
+                                                        
+                                                    else:
+                                                        Block_10T_U=Block_10T
+                                                        Block_10R=Block_101
+                                                        
                                                     
                                                     Block_10T1=str(Block_10T_U)
 
