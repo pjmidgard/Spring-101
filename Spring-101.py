@@ -444,22 +444,139 @@ class compression:
                                                     Number_N18=INIT[block:block+2]
 
                                                     
-                                                    Block_101_4_1_binary=Number_N18+Block_106_binary+"08"
+                                                    Block_101_4_1_binary=Number_N18+Block_106_binary+"0808"
 
-                                                    X2="20"+Block_106_binary+"08"
+                                                    X2="20"+Block_106_binary+"0808"
 
-                                                    X3="30"+Block_106_binary+"08"
+                                                    X3="30"+Block_106_binary+"0808"
 
-                                                    X4="40"+Block_106_binary+"08"
-                                                    X5="50"+Block_106_binary+"08"
+                                                    X4="40"+Block_106_binary+"0808"
+                                                    X5="50"+Block_106_binary+"0808"
                                                  
-                                                    X6="60"+Block_106_binary+"08"
+                                                    X6="60"+Block_106_binary+"0808"
                                                         
-                                                    X7="70"+Block_106_binary+"08"
+                                                    X7="70"+Block_106_binary+"0808"
                                                  
-                                                    X8="80"+Block_106_binary+"08"
+                                                    X8="80"+Block_106_binary+"0808"
                                                     
-                                                    X9="90"+Block_106_binary+"08"
+                                                    X9="90"+Block_106_binary+"0808"
+                                                    
+                                                    
+                                                    X12="20"+Block_106_binary+"0208"
+
+                                                    X13="30"+Block_106_binary+"0208"
+
+                                                    X14="40"+Block_106_binary+"0208"
+                                                    X15="50"+Block_106_binary+"0208"
+                                                 
+                                                    X16="60"+Block_106_binary+"0208"
+                                                        
+                                                    X17="70"+Block_106_binary+"0208"
+                                                 
+                                                    X18="80"+Block_106_binary+"0208"
+                                                    
+                                                    X19="90"+Block_106_binary+"0208"
+                                                    
+                                                    
+                                                    X22="20"+Block_106_binary+"0308"
+
+                                                    X23="30"+Block_106_binary+"0308"
+
+                                                    X24="40"+Block_106_binary+"0308"
+                                                    X25="50"+Block_106_binary+"0308"
+                                                 
+                                                    X26="60"+Block_106_binary+"0308"
+                                                        
+                                                    X27="70"+Block_106_binary+"0308"
+                                                 
+                                                    X28="80"+Block_106_binary+"0308"
+                                                
+                                                    X29="90"+Block_106_binary+"0308"
+                                                    
+                                                    
+                                                    
+                                                    X32="20"+Block_106_binary+"0408"
+
+                                                    X33="30"+Block_106_binary+"0408"
+
+                                                    X34="40"+Block_106_binary+"0408"
+                                                    X35="50"+Block_106_binary+"0408"
+                                                
+                                                    X36="60"+Block_106_binary+"0408"
+                                                        
+                                                    X37="70"+Block_106_binary+"0408"
+                                                 
+                                                    X38="80"+Block_106_binary+"0408"
+                                                
+                                                    X39="90"+Block_106_binary+"0408"
+
+                                                    
+                                                    
+                                                    X42="20"+Block_106_binary+"0508"
+
+                                                    X43="30"+Block_106_binary+"0508"
+
+                                                    X44="40"+Block_106_binary+"0508"
+                                                    X45="50"+Block_106_binary+"0508"
+                                                
+                                                    X46="60"+Block_106_binary+"0508"
+                                                      
+                                                    X47="70"+Block_106_binary+"0508"
+                                                 
+                                                    X48="80"+Block_106_binary+"0508"
+                                                
+                                                    X49="90"+Block_106_binary+"0508"
+                                                    
+                                                    
+                                                    X52="20"+Block_106_binary+"0608"
+
+                                                    X53="30"+Block_106_binary+"0608"
+
+                                                    X54="40"+Block_106_binary+"0608"
+                                                    X55="50"+Block_106_binary+"0608"
+                                                
+                                                    X56="60"+Block_106_binary+"0608"
+                                                      
+                                                    X57="70"+Block_106_binary+"0608"
+                                                 
+                                                    X58="80"+Block_106_binary+"0608"
+                                                
+                                                    X59="90"+Block_106_binary+"0608"
+                                                    
+                                                    
+                                                    
+                                                    X62="20"+Block_106_binary+"0708"
+
+                                                    X63="30"+Block_106_binary+"0708"
+
+                                                    X64="40"+Block_106_binary+"0708"
+                                                    X65="50"+Block_106_binary+"0708"
+                                                
+                                                    X66="60"+Block_106_binary+"0708"
+                                                      
+                                                    X67="70"+Block_106_binary+"0708"
+                                                 
+                                                    X68="80"+Block_106_binary+"0708"
+                                                
+                                                    X69="90"+Block_106_binary+"0708"
+                                                    
+                                                    
+                                                    X72="20"+Block_106_binary+"0908"
+
+                                                    X73="30"+Block_106_binary+"0908"
+
+                                                    X74="40"+Block_106_binary+"0908"
+                                                    X75="50"+Block_106_binary+"0908"
+                                                
+                                                    X76="60"+Block_106_binary+"0908"
+                                                      
+                                                    X77="70"+Block_106_binary+"0908"
+                                                
+                                                    X78="80"+Block_106_binary+"0908"
+                                                
+                                                    X79="90"+Block_106_binary+"0908"
+
+
 
 
                                                     long=len(Block_101_4_1_binary)
@@ -595,10 +712,70 @@ class compression:
                                                             #print(Block_101_4_1_binary)
 
                                                            
-                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"1"
+                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"12"
+                                                            #print(Number_N18+Block_10T4+"1")
+                                                            block=block+long
+                                                            
+                                                            
+                                                    elif X10==X12 or X10==X13 or X10==X14  or X10==X15  or X10==X16 or X10==X17 or X10==X18 or X10==X19:
+                                                            #print(Block_101_4_1_binary)
+
+                                                           
+                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"13"
+                                                            #print(Number_N18+Block_10T4+"1")
+                                                            block=block+long
+                                                            
+                                                            
+                                                    elif X10==X22 or X10==X23 or X10==X24  or X10==X25  or X10==X26 or X10==X27 or X10==X28 or X10==X29:
+                                                            #print(Block_101_4_1_binary)
+
+                                                           
+                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"14"
+                                                            #print(Number_N18+Block_10T4+"1")
+                                                            block=block+long
+                                                    
+                                                    elif X10==X32 or X10==X33 or X10==X34  or X10==X35  or X10==X36 or X10==X37 or X10==X38 or X10==X39:
+                                                            #print(Block_101_4_1_binary)
+
+                                                           
+                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"15"
+                                                            #print(Number_N18+Block_10T4+"1")
+                                                            block=block+long
+                                                   
+                                                
+                                                    elif X10==X42 or X10==X43 or X10==X44  or X10==X45  or X10==X46 or X10==X47 or X10==X48 or X10==X49:
+                                                            #print(Block_101_4_1_binary)
+
+                                                           
+                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"16"
+                                                            #print(Number_N18+Block_10T4+"1")
+                                                            block=block+long
+                                                    
+                                                    elif X10==X52 or X10==X53 or X10==X54  or X10==X55  or X10==X56 or X10==X57 or X10==X58 or X10==X59:
+                                                            #print(Block_101_4_1_binary)
+
+                                                           
+                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"17"
+                                                            #print(Number_N18+Block_10T4+"1")
+                                                            block=block+long
+                                                    
+                                                    elif X10==X62 or X10==X63 or X10==X64  or X10==X65  or X10==X66 or X10==X67 or X10==X68 or X10==X69:
+                                                            #print(Block_101_4_1_binary)
+
+                                                           
+                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"18"
                                                             #print(Number_N18+Block_10T4+"1")
                                                             block=block+long
 
+                                                    elif X10==X72 or X10==X73 or X10==X74  or X10==X75  or X10==X76 or X10==X77 or X10==X78 or X10==X79:
+                                                            #print(Block_101_4_1_binary)
+
+                                                           
+                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"19"
+                                                            #print(Number_N18+Block_10T4+"1")
+                                                            block=block+long
+
+                                                  
                                                   
                                                     else:
                                                             #print(Block_101_4_1_binary
@@ -616,7 +793,7 @@ class compression:
                                     
                                     
                                           
-                                    if Block_10eT_T==255:
+                                    if Block_10eT_T==1000:
                                           Block_10eT_T=0
                                           
                                           Block_10e=2
