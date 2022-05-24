@@ -242,7 +242,7 @@ class compression:
                                     	Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
                                     	SpinS=1
 
-                                    if Circle_times2>=(2**16)-1:
+                                    if Circle_times2>=(2**32)-1:
                                             compress_or_not_compress1=3
 
 
@@ -426,7 +426,7 @@ class compression:
 
                                                     Block_10T4=Block_10T1
                                                     long1=len(Block_10T4)
-                                            
+                                        
                                                     
 
 
@@ -444,137 +444,137 @@ class compression:
                                                     Number_N18=INIT[block:block+2]
 
                                                     
-                                                    Block_101_4_1_binary=Number_N18+Block_106_binary+"0808"
+                                                    Block_101_4_1_binary=Number_N18+Block_106_binary+"080"
 
-                                                    X2="20"+Block_106_binary+"0808"
+                                                    X2="20"+Block_106_binary+"080"
 
-                                                    X3="30"+Block_106_binary+"0808"
+                                                    X3="30"+Block_106_binary+"080"
 
-                                                    X4="40"+Block_106_binary+"0808"
-                                                    X5="50"+Block_106_binary+"0808"
+                                                    X4="40"+Block_106_binary+"080"
+                                                    X5="50"+Block_106_binary+"080"
                                                  
-                                                    X6="60"+Block_106_binary+"0808"
+                                                    X6="60"+Block_106_binary+"080"
+                                                    
+                                                    X7="70"+Block_106_binary+"080"
+                                                 
+                                                    X8="80"+Block_106_binary+"080"
+                                                    
+                                                    X9="90"+Block_106_binary+"080"
+                                                    
+                                                    
+                                                    X12="20"+Block_106_binary+"020"
+
+                                                    X13="30"+Block_106_binary+"020"
+
+                                                    X14="40"+Block_106_binary+"020"
+                                                    X15="50"+Block_106_binary+"020"
+                                                 
+                                                    X16="60"+Block_106_binary+"020"
                                                         
-                                                    X7="70"+Block_106_binary+"0808"
+                                                    X17="70"+Block_106_binary+"020"
                                                  
-                                                    X8="80"+Block_106_binary+"0808"
+                                                    X18="80"+Block_106_binary+"020"
                                                     
-                                                    X9="90"+Block_106_binary+"0808"
+                                                    X19="90"+Block_106_binary+"020"
                                                     
                                                     
-                                                    X12="20"+Block_106_binary+"0208"
+                                                    X22="20"+Block_106_binary+"030"
 
-                                                    X13="30"+Block_106_binary+"0208"
+                                                    X23="30"+Block_106_binary+"030"
 
-                                                    X14="40"+Block_106_binary+"0208"
-                                                    X15="50"+Block_106_binary+"0208"
+                                                    X24="40"+Block_106_binary+"030"
+                                                    X25="50"+Block_106_binary+"030"
                                                  
-                                                    X16="60"+Block_106_binary+"0208"
+                                                    X26="60"+Block_106_binary+"030"
                                                         
-                                                    X17="70"+Block_106_binary+"0208"
+                                                    X27="70"+Block_106_binary+"030"
                                                  
-                                                    X18="80"+Block_106_binary+"0208"
+                                                    X28="80"+Block_106_binary+"030"
+                                                
+                                                    X29="90"+Block_106_binary+"030"
                                                     
-                                                    X19="90"+Block_106_binary+"0208"
                                                     
                                                     
-                                                    X22="20"+Block_106_binary+"0308"
+                                                    X32="20"+Block_106_binary+"040"
 
-                                                    X23="30"+Block_106_binary+"0308"
+                                                    X33="30"+Block_106_binary+"040"
 
-                                                    X24="40"+Block_106_binary+"0308"
-                                                    X25="50"+Block_106_binary+"0308"
-                                                 
-                                                    X26="60"+Block_106_binary+"0308"
+                                                    X34="40"+Block_106_binary+"040"
+                                                    X35="50"+Block_106_binary+"040"
+                                                
+                                                    X36="60"+Block_106_binary+"040"
                                                         
-                                                    X27="70"+Block_106_binary+"0308"
+                                                    X37="70"+Block_106_binary+"040"
                                                  
-                                                    X28="80"+Block_106_binary+"0308"
+                                                    X38="80"+Block_106_binary+"040"
                                                 
-                                                    X29="90"+Block_106_binary+"0308"
-                                                    
-                                                    
-                                                    
-                                                    X32="20"+Block_106_binary+"0408"
+                                                    X39="90"+Block_106_binary+"040"
 
-                                                    X33="30"+Block_106_binary+"0408"
+                                                    
+                                                    
+                                                    X42="20"+Block_106_binary+"050"
 
-                                                    X34="40"+Block_106_binary+"0408"
-                                                    X35="50"+Block_106_binary+"0408"
+                                                    X43="30"+Block_106_binary+"050"
+
+                                                    X44="40"+Block_106_binary+"050"
+                                                    X45="50"+Block_106_binary+"050"
                                                 
-                                                    X36="60"+Block_106_binary+"0408"
-                                                        
-                                                    X37="70"+Block_106_binary+"0408"
-                                                 
-                                                    X38="80"+Block_106_binary+"0408"
-                                                
-                                                    X39="90"+Block_106_binary+"0408"
-
-                                                    
-                                                    
-                                                    X42="20"+Block_106_binary+"0508"
-
-                                                    X43="30"+Block_106_binary+"0508"
-
-                                                    X44="40"+Block_106_binary+"0508"
-                                                    X45="50"+Block_106_binary+"0508"
-                                                
-                                                    X46="60"+Block_106_binary+"0508"
+                                                    X46="60"+Block_106_binary+"050"
                                                       
-                                                    X47="70"+Block_106_binary+"0508"
+                                                    X47="70"+Block_106_binary+"050"
                                                  
-                                                    X48="80"+Block_106_binary+"0508"
+                                                    X48="80"+Block_106_binary+"050"
                                                 
-                                                    X49="90"+Block_106_binary+"0508"
+                                                    X49="90"+Block_106_binary+"050"
                                                     
                                                     
-                                                    X52="20"+Block_106_binary+"0608"
+                                                    X52="20"+Block_106_binary+"060"
 
-                                                    X53="30"+Block_106_binary+"0608"
+                                                    X53="30"+Block_106_binary+"060"
 
-                                                    X54="40"+Block_106_binary+"0608"
-                                                    X55="50"+Block_106_binary+"0608"
+                                                    X54="40"+Block_106_binary+"060"
+                                                    X55="50"+Block_106_binary+"060"
                                                 
-                                                    X56="60"+Block_106_binary+"0608"
+                                                    X56="60"+Block_106_binary+"060"
                                                       
-                                                    X57="70"+Block_106_binary+"0608"
+                                                    X57="70"+Block_106_binary+"060"
                                                  
-                                                    X58="80"+Block_106_binary+"0608"
+                                                    X58="80"+Block_106_binary+"060"
                                                 
-                                                    X59="90"+Block_106_binary+"0608"
+                                                    X59="90"+Block_106_binary+"060"
                                                     
                                                     
                                                     
-                                                    X62="20"+Block_106_binary+"0708"
+                                                    X62="20"+Block_106_binary+"070"
 
-                                                    X63="30"+Block_106_binary+"0708"
+                                                    X63="30"+Block_106_binary+"070"
 
-                                                    X64="40"+Block_106_binary+"0708"
-                                                    X65="50"+Block_106_binary+"0708"
+                                                    X64="40"+Block_106_binary+"070"
+                                                    X65="50"+Block_106_binary+"070"
                                                 
-                                                    X66="60"+Block_106_binary+"0708"
+                                                    X66="60"+Block_106_binary+"070"
                                                       
-                                                    X67="70"+Block_106_binary+"0708"
+                                                    X67="70"+Block_106_binary+"070"
                                                  
-                                                    X68="80"+Block_106_binary+"0708"
+                                                    X68="80"+Block_106_binary+"070"
                                                 
-                                                    X69="90"+Block_106_binary+"0708"
+                                                    X69="90"+Block_106_binary+"070"
                                                     
                                                     
-                                                    X72="20"+Block_106_binary+"0908"
+                                                    X72="20"+Block_106_binary+"090"
 
-                                                    X73="30"+Block_106_binary+"0908"
+                                                    X73="30"+Block_106_binary+"090"
 
-                                                    X74="40"+Block_106_binary+"0908"
-                                                    X75="50"+Block_106_binary+"0908"
+                                                    X74="40"+Block_106_binary+"090"
+                                                    X75="50"+Block_106_binary+"090"
                                                 
-                                                    X76="60"+Block_106_binary+"0908"
+                                                    X76="60"+Block_106_binary+"090"
                                                       
-                                                    X77="70"+Block_106_binary+"0908"
+                                                    X77="70"+Block_106_binary+"090"
                                                 
-                                                    X78="80"+Block_106_binary+"0908"
+                                                    X78="80"+Block_106_binary+"090"
                                                 
-                                                    X79="90"+Block_106_binary+"0908"
+                                                    X79="90"+Block_106_binary+"090"
 
 
 
