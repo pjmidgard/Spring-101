@@ -445,17 +445,26 @@ class compression:
                                                     
                                                     Block_101_4_1_binary=Number_N18+Block_106_binary+"0"
 
-                                                    X_1="00"+Block_106_binary+"01"
+                                                    X2="02"+Block_106_binary+"01"
 
-                                                    X_2="01"+Block_106_binary+"01"
+                                                    X3="03"+Block_106_binary+"01"
 
-                                                    X_3="11"+Block_106_binary+"01"
-                                                    X_4="10"+Block_106_binary+"01"
+                                                    X4="04"+Block_106_binary+"01"
+                                                    X5="05"+Block_106_binary+"01"
+                                                 
+                                                    X6="06"+Block_106_binary+"01"
+                                                        
+                                                    X7="07"+Block_106_binary+"01"
+                                                 
+                                                    X8="08"+Block_106_binary+"01"
+                                                        
+                                                    X9="09"+Block_106_binary+"01"
 
 
                                                     long=len(Block_101_4_1_binary)
                                                     Number_N17=INIT[block:block+long]
                                                     Number_N12=Number_N17
+                                                    X10=Number_N12
                                                     #print(Number_N12)
                                                     #print(Block_101_4_1_binary)
                                                     
@@ -581,11 +590,11 @@ class compression:
                                                             #print(Block_10T4+"1")
                                                             block=block+3                
                                             if Circle_times2!=0:
-                                                    if Number_N12==Block_101_4_1_binary and long1>1 and X_1!=Block_101_4_1_binary  and X_2!=Block_101_4_1_binary and X_3!=Block_101_4_1_binary and X_4!=Block_101_4_1_binary and Circle_times2!=0:
+                                                    if X10==X2 or X10==X2 or X10==X3 or X10==X4  or X10==X5  or X10==X6 or X10==X7 or X10==X8 or X10==X9 
                                                             #print(Block_101_4_1_binary)
 
                                                            
-                                                            Number_N4=Number_N4+Block_10T4+"1"
+                                                            Number_N4=Number_N4+Number_N18+Block_10T4+"1"
                                                             #print(Block_10T4+"1")
                                                             block=block+long
 
