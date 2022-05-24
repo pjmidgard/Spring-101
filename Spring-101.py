@@ -405,20 +405,20 @@ class compression:
                                                     Block_10TU11=Block_10T%11
                                                     if Block_10T==1:
                                                         Block_10T_U=Block_10T+1 
-                                                        Block_10R=Block_101E+1
+                                                        Block_101E=Block_101E+1
                                                     
                                                         
                                                     elif Block_10TU11==0:
                                                         Block_10T_U=Block_10T+Block_10T
-                                                        Block_10R=Block_101E+Block_101E
+                                                        Block_101E=Block_101E+Block_101E
                                                         
                                                     elif Block_10TU10==0:
                                                         Block_10T_U=Block_10T+Block_10T
-                                                        Block_10R=Block_101E+Block_101E
+                                                        Block_101E=Block_101E+Block_101E
                                                         
                                                     else:
                                                         Block_10T_U=Block_10T
-                                                        Block_10R=Block_101E
+                                                        Block_101E=Block_101E
                                                         
                                                     
                                                     Block_10T1=str(Block_10T_U)
@@ -435,7 +435,7 @@ class compression:
                                                     
                                                     
 
-                                                    Block_103=Block_10R+1
+                                                    Block_103=Block_101E+1
                                                     Block_105_binary=str(Block_103)
 
                                                     Block_106_binary=Block_105_binary
