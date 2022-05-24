@@ -242,7 +242,7 @@ class compression:
                                     	Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
                                     	SpinS=1
 
-                                    if Circle_times2>=(2**32)-1:
+                                    if Circle_times2>=(2**16)-1:
                                             compress_or_not_compress1=3
 
 
