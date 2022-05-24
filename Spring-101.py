@@ -443,22 +443,22 @@ class compression:
                                                     Number_N18=INIT[block:block+2]
 
                                                     
-                                                    Block_101_4_1_binary=Number_N18+Block_106_binary+"0"
+                                                    Block_101_4_1_binary=Number_N18+Block_106_binary+"08"
 
-                                                    X2="02"+Block_106_binary+"01"
+                                                    X2="20"+Block_106_binary+"08"
 
-                                                    X3="03"+Block_106_binary+"01"
+                                                    X3="30"+Block_106_binary+"08"
 
-                                                    X4="04"+Block_106_binary+"01"
-                                                    X5="05"+Block_106_binary+"01"
+                                                    X4="40"+Block_106_binary+"08"
+                                                    X5="50"+Block_106_binary+"08"
                                                  
-                                                    X6="06"+Block_106_binary+"01"
+                                                    X6="60"+Block_106_binary+"08"
                                                         
-                                                    X7="07"+Block_106_binary+"01"
+                                                    X7="70"+Block_106_binary+"08"
                                                  
-                                                    X8="08"+Block_106_binary+"01"
-                                                        
-                                                    X9="09"+Block_106_binary+"01"
+                                                    X8="80"+Block_106_binary+"08"
+                                                    
+                                                    X9="90"+Block_106_binary+"08"
 
 
                                                     long=len(Block_101_4_1_binary)
@@ -590,12 +590,12 @@ class compression:
                                                             #print(Block_10T4+"1")
                                                             block=block+3                
                                             if Circle_times2!=0:
-                                                    if X10==X2 or X10==X2 or X10==X3 or X10==X4  or X10==X5  or X10==X6 or X10==X7 or X10==X8 or X10==X9 
+                                                    if X10==X2 or X10==X2 or X10==X3 or X10==X4  or X10==X5  or X10==X6 or X10==X7 or X10==X8 or X10==X9:
                                                             #print(Block_101_4_1_binary)
 
                                                            
                                                             Number_N4=Number_N4+Number_N18+Block_10T4+"1"
-                                                            #print(Block_10T4+"1")
+                                                            #print(Number_N18+Block_10T4+"1")
                                                             block=block+long
 
                                                   
