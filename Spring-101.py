@@ -616,12 +616,13 @@ class compression:
                                     
                                     
                                           
-                                    if Block_10eT_T=255:
-                                          Block_10eT_T=Block_10eT_T+1
+                                    if Block_10eT_T==255:
+                                          Block_10eT_T=0
+                                          
                                           Block_10e=2
                                           Block_101E=2
                                           
-                                         
+                                    Block_10eT_T=Block_10eT_T+1      
 
                                     
                                     
