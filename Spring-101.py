@@ -590,7 +590,7 @@ class compression:
                                                             #print(Block_10T4+"1")
                                                             block=block+3                
                                             if Circle_times2!=0:
-                                                    if X10==X2 or X10==X2 or X10==X3 or X10==X4  or X10==X5  or X10==X6 or X10==X7 or X10==X8 or X10==X9:
+                                                    if X10==X2 or X10==X3 or X10==X4  or X10==X5  or X10==X6 or X10==X7 or X10==X8 or X10==X9:
                                                             #print(Block_101_4_1_binary)
 
                                                            
