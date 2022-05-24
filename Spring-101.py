@@ -27,6 +27,7 @@ class compression:
                         Deep3=-1
                         Block_101=1
                         Block_101E=2
+                        Block_10eT_T=0    
                         compress_or_not_compress1=0
                         Block_10e=2
 
@@ -241,7 +242,7 @@ class compression:
                                     	Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
                                     	SpinS=1
 
-                                    if Circle_times2>=(2**32)-1:
+                                    if Circle_times2>=(2**16)-1:
                                             compress_or_not_compress1=3
 
 
@@ -612,6 +613,15 @@ class compression:
                                     Block_10e=Block_10e+1
                                     Block_101E=Block_101E+1
                                     #print(Block_101)
+                                    
+                                    
+                                          
+                                    if Block_10eT_T=255:
+                                          Block_10eT_T=Block_10eT_T+1
+                                          Block_10e=2
+                                          Block_101E=2
+                                          
+                                         
 
                                     
                                     
