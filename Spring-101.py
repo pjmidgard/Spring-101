@@ -244,7 +244,7 @@ class compression:
                                     	Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
                                     	SpinS=1
 
-                                    if Circle_times2>=(2**16)-1:
+                                    if Circle_times2>=(2**8)-1:
                                             compress_or_not_compress1=3
 
 
@@ -263,6 +263,7 @@ class compression:
                                     Predict_Number=Predict_Number2
                                     Predict_Number3=Predict_Number2
                                     Predict_Number4=str(Predict_Number3)
+                                    Number_Predict_Save=0
                                     
 
                                     while block<lenf6:
@@ -580,6 +581,7 @@ class compression:
                                                             Number_N4=Number_N4+"1"
                                                             #print(X2)
                                                             block=block+long
+                                                            Number_Predict_Save=1
                                                             
                                                             
                                                     
@@ -599,7 +601,8 @@ class compression:
                                     Block_101=Block_101+1
                                     Block_10e=Block_10e+1
                                     Block_101E=Block_101E+1
-                                    Number_N4=Predict_Number4+Number_N4
+                                    if Number_Predict_Save==1:
+                                        Number_N4=Predict_Number4+Number_N4
                                     #print(Block_101)
                                     Predict_Number2=Predict_Number2+1
                                     if Predict_Number2==100:
