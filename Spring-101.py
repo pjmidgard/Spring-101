@@ -31,6 +31,7 @@ class compression:
                         compress_or_not_compress1=0
                         Block_10e=2
                         Predict_Number=10
+                        Predict_Number2=10
 
                         i=1
 
@@ -243,7 +244,7 @@ class compression:
                                     	Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
                                     	SpinS=1
 
-                                    if Circle_times2>=1:
+                                    if Circle_times2>=(2**16)-1:
                                             compress_or_not_compress1=3
 
 
@@ -257,7 +258,10 @@ class compression:
                                     block=0
                                     Block_10T=0
                                     Number_N4=""
-                                    Predict_Number=10000
+
+                                    
+                                    Predict_Number=Predict_Number2
+                                    
 
                                     while block<lenf6:
                                             Number_N1=INIT[block:block+1]
@@ -567,7 +571,7 @@ class compression:
                                             if Circle_times2!=0:
                                                 
                                                 
-                                                    if X10==X2 and long1==5:
+                                                    if X10==X2 and long1==2:
                                                             #print(Block_101_4_1_binary)
 
                                                            
@@ -588,12 +592,16 @@ class compression:
                                                             block=block+1
                                             
                                                     Predict_Number=Predict_Number+1#
-                                                    if Predict_Number==99999:
-                                                            Predict_Number=10000
+                                                    if Predict_Number==100:
+                                                            Predict_Number=10
                                     Block_101=Block_101+1
                                     Block_10e=Block_10e+1
                                     Block_101E=Block_101E+1
                                     #print(Block_101)
+                                    Predict_Number2=Predict_Number2+1
+                                    if Predict_Number2==100:
+                                            Predict_Number2=10
+                                    
                                     
                                     
                                           
