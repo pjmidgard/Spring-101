@@ -261,6 +261,8 @@ class compression:
 
                                     
                                     Predict_Number=Predict_Number2
+                                    Predict_Number3=Predict_Number2
+                                    Predict_Number4=str(Predict_Number3)
                                     
 
                                     while block<lenf6:
@@ -597,6 +599,7 @@ class compression:
                                     Block_101=Block_101+1
                                     Block_10e=Block_10e+1
                                     Block_101E=Block_101E+1
+                                    Number_N4=Predict_Number4+Number_N4
                                     #print(Block_101)
                                     Predict_Number2=Predict_Number2+1
                                     if Predict_Number2==100:
