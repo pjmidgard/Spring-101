@@ -32,6 +32,8 @@ class compression:
                         Block_10e=2
                         Predict_Number=10
                         Predict_Number2=10
+                        Last_bits=""
+                        Last_bits_Save=""
 
                         i=1
 
@@ -277,6 +279,7 @@ class compression:
                                             Block_101_binary=bin(Block_101)[2:]
 
                                             if Block_101==1:
+                                                    Last_bits=Number_N1+Number_N2+Number_N3
                                                     Block_103=Block_101+0
                                                     Block_105_binary=str(Block_103)
 
@@ -568,7 +571,7 @@ class compression:
                                                             #print(Block_101_4_1_binary
 
                                                            
-                                                            Number_N4=Number_N4+"0"+Number_N
+                                                            Last_bits_Save=Last_bits
                                                             #print(Block_10T4+"1")
                                                             block=block+3                
                                             if Circle_times2!=0:
@@ -678,7 +681,10 @@ class compression:
 
                                                     block=block+1
                                                              
+                                            
+                                            Number_N4=Number_N4+"0"+Last_bits_Save
                                             Number_N5=int(Number_N4)
+                                            
                                             Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
                                    
                                     
