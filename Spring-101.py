@@ -852,12 +852,14 @@ class compression:
                                             if Predict_Number3==99:
                                                     Predict_Number4="353"
 
+                                            Number_N4=Predict_Number4+Number_N4
+
                                             
                                           
 
 
                                         
-                                        Number_N4=Predict_Number4+Number_N4
+                                             
                                     #print(Block_101)
                                     Predict_Number2=Predict_Number2+1
                                     if Predict_Number2==100:
