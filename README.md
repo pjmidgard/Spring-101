@@ -10,4 +10,6 @@ For predict information we start to count from 10-99 every step and every times 
 
 Predict long 2 numbers.
 
+Also, I makes table to change 2-3 numbers of predict numbers 10-99 : 222-353
+
 
