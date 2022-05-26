@@ -914,7 +914,11 @@ class compression:
                                     if compress_or_not_compress1==3:
 
 
+
+                                            Number_N4=Number_N4+"0"+Last_bits_Save
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                             lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
+                                                                                        
 
                                             INIT=""
                                             Number_N=""
@@ -936,7 +940,7 @@ class compression:
                                                     block=block+1
                                                              
                                             
-                                            Number_N4=Number_N4+"0"+Last_bits_Save
+                                            
                                             Number_N5=int(Number_N4)
                                             
                                             Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
