@@ -278,7 +278,7 @@ class compression:
                                            
                                             Block_101_binary=bin(Block_101)[2:]
 
-                                            if Block_101==1:
+                                            if info_8==0:
                                                     Last_bits=Number_N1+Number_N2+Number_N3
                                                     Block_103=Block_101+0
                                                     Block_105_binary=str(Block_103)
@@ -315,7 +315,7 @@ class compression:
                                                     
                                                     
                                                     
-                                            else:
+                                            if info_8!=0:
                                                     Block_103=Block_101+0
                                                     Block_105_binary=str(Block_103)
 
@@ -457,7 +457,7 @@ class compression:
                                                                                                         
                                                     
                                                     #print(Block_102_binary)
-                                            if Circle_times2==0:
+                                            if info_8==0:
                                                     if Number_N==Block_102_binary:
 
                                                             Block_103=Block_101+1
@@ -574,7 +574,7 @@ class compression:
                                                             Last_bits_Save=Last_bits
                                                             #print(Block_10T4+"1")
                                                             block=block+3                
-                                            if Circle_times2!=0:
+                                            if info_8!=0:
                                                 
                                                 
                                                     if X10==X2 and long1==2:
@@ -604,6 +604,10 @@ class compression:
                                     Block_101=Block_101+1
                                     Block_10e=Block_10e+1
                                     Block_101E=Block_101E+1
+
+                                    
+                                            
+                                            
                                     if Number_Predict_Save==1:
                                             
                                             if Predict_Number3==10:
@@ -854,31 +858,24 @@ class compression:
 
                                             Number_N4=Predict_Number4+Number_N4
 
-                                            
-                                          
+
+                                            Number_N4=Number_N4+Last_bits_Save
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                            lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                                                                
+                                            Last_bits_long=len(Last_bits_Save)
+                                            Last_bits_long_str=str(Last_bits_long)
+                                            Number_N4=Last_bits_long_str+Number_N4
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
 
-                                            INIT=""
-                                            Number_N=""
-                                            INIT=Equal_info_between_of_the_cirlce_of_the_file_17
-                                            block=0
-                                            Number_N4=""
-
-                                            while block<lenf6:
-                                                        Number_N1=INIT[block:block+1]
-                                                        if Number_N1=="1":
-                                                                Number_N4=Number_N4+"0"
-
-                                                        elif Number_N1=="0":
-                                                                Number_N4=Number_N4+"1"
-
-                                                        else:
-                                                                Number_N4=Number_N4+Number_N1
-
-                                                        block=block+1
-
+                                            Number_N5=bin(Number_N4)[2:]
+                                          
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N5
+                                            if info_8==1:
+                                                info_8=0    
+                                                               
+                                            elif info_8==0:
+                                                info_8=1 
+                                                               
+                                            
                                         
                                              
                                     #print(Block_101)
@@ -936,13 +933,7 @@ class compression:
 
 
 
-                                            Number_N4=Number_N4+"0"+Last_bits_Save
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                            Last_bits_long=len(Last_bits_Save)
-                                            Last_bits_long=Last_bits_long+1
-                                            Last_bits_long_str=str(Last_bits_long)
-                                            Number_N4=Last_bits_long_str+Number_N4
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            
                                             
                                             lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                                                                         
