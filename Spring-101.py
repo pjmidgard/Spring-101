@@ -856,7 +856,28 @@ class compression:
 
                                             
                                           
+                                    Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
+                                                                                        
 
+                                    INIT=""
+                                    Number_N=""
+                                    INIT=Equal_info_between_of_the_cirlce_of_the_file_17
+                                    block=0
+                                    Number_N4=""
+
+                                    while block<lenf6:
+                                                Number_N1=INIT[block:block+1]
+                                                if Number_N1=="1":
+                                                        Number_N4=Number_N4+"0"
+
+                                                elif Number_N1=="0":
+                                                        Number_N4=Number_N4+"1"
+
+                                                else:
+                                                        Number_N4=Number_N4+Number_N1
+
+                                                block=block+1
 
                                         
                                              
@@ -917,6 +938,10 @@ class compression:
 
                                             Number_N4=Number_N4+"0"+Last_bits_Save
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            Last_bits_long=len(Last_bits_Save)
+                                            Last_bits_long=Last_bits_long+1
+                                            Last_bits_long_binary=bin(Last_bits_long)[2:]
+                                            Number_N4=Last_bits_long_binary+Number_N4
                                             lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                                                                         
 
