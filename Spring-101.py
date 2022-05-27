@@ -601,7 +601,7 @@ class compression:
                                                     Predict_Number=Predict_Number+1#
                                                     if Predict_Number==100:
                                                             Predict_Number=10
-                                    Block_101=Block_101+1
+                                    
                                     Block_10e=Block_10e+1
                                     Block_101E=Block_101E+1
 
