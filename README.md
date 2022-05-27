@@ -17,4 +17,11 @@ Predict change to ones after change 1-0 and 0-1 and on the end.
 add 0 and count how many last bits wich one on start  wich number e.g.: 1-3:
 
 
+Random generated file
+
+Before: 1KB
+After: 147B
+Speed: 1-15B/s
+
+
 
