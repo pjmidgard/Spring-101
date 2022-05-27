@@ -21,7 +21,7 @@ Random generated file
 
 Before: 1KB
 After: 149B
-Speed: 1-15B/s
+Speed: 1-12B/s
 
 
 
