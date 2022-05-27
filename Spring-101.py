@@ -34,6 +34,7 @@ class compression:
                         Predict_Number2=10
                         Last_bits=""
                         Last_bits_Save=""
+                        info_8=0
 
                         i=1
 
