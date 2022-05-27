@@ -856,28 +856,28 @@ class compression:
 
                                             
                                           
-                                    Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                                                        
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
+                                                                                                
 
-                                    INIT=""
-                                    Number_N=""
-                                    INIT=Equal_info_between_of_the_cirlce_of_the_file_17
-                                    block=0
-                                    Number_N4=""
+                                            INIT=""
+                                            Number_N=""
+                                            INIT=Equal_info_between_of_the_cirlce_of_the_file_17
+                                            block=0
+                                            Number_N4=""
 
-                                    while block<lenf6:
-                                                Number_N1=INIT[block:block+1]
-                                                if Number_N1=="1":
-                                                        Number_N4=Number_N4+"0"
+                                            while block<lenf6:
+                                                        Number_N1=INIT[block:block+1]
+                                                        if Number_N1=="1":
+                                                                Number_N4=Number_N4+"0"
 
-                                                elif Number_N1=="0":
-                                                        Number_N4=Number_N4+"1"
+                                                        elif Number_N1=="0":
+                                                                Number_N4=Number_N4+"1"
 
-                                                else:
-                                                        Number_N4=Number_N4+Number_N1
+                                                        else:
+                                                                Number_N4=Number_N4+Number_N1
 
-                                                block=block+1
+                                                        block=block+1
 
                                         
                                              
