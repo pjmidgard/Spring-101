@@ -20,7 +20,7 @@ add 0 and count how many last bits wich one on start  wich number e.g.: 1-3:
 Random generated file
 
 Before: 1KB
-After: 147B
+After: 149B
 Speed: 1-15B/s
 
 
