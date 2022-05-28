@@ -34,6 +34,8 @@ class compression:
                         Predict_Number2=10
                         Last_bits=""
                         Last_bits_Save=""
+                        File_stop=1
+                        E=0
 
                         i=1
 
@@ -246,8 +248,7 @@ class compression:
                                     	Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
                                     	SpinS=1
 
-                                    if Circle_times2>=(2**16)-1:
-                                            compress_or_not_compress1=3
+                                    
 
 
                                     lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
@@ -266,6 +267,7 @@ class compression:
                                     Predict_Number3=Predict_Number2
                                     Predict_Number4=str(Predict_Number3)
                                     Number_Predict_Save=0
+                                    E=0
                                     
 
                                     while block<lenf6:
@@ -866,7 +868,10 @@ class compression:
                                           
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
 
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N4)[2:]
+                                            Number_N5=int(Number_N4)
+
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
+                                            E=1
                                             
 
                                         
@@ -908,6 +913,9 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     #print(lenfS)
 
+                                    if lenfS<20:
+                                            File_stop=0
+
                                     
 
                                     if compress_or_not_compress==2 and Circle_times2==0:
@@ -921,6 +929,10 @@ class compression:
                                     if compress_or_not_compress==2:
                                             
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
+
+
+                                    if E==1 and Circle_times2>=255:
+                                            compress_or_not_compress1=3
 
                                     if compress_or_not_compress1==3:
 
