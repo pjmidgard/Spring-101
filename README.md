@@ -1,7 +1,7 @@
 # Spring-101
 Spring-101
 
-Algorithm Init
+Algorithm Spring-101
 
 2-9 1 long  1  predict 2 long and 0 add on the start before last 0-2 bits for last 0-2 bits >=1000 times and Reverso.
 For predict information we start to count from 10-99 every step and every times of compress save number that start if 1 number is find.
