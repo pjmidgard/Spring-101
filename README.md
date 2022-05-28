@@ -16,7 +16,7 @@ add 0 and count how many last bits wich one on start  wich number e.g.: 1-3:
 We need to change 1-0 and save 3 numbers when we have at list one ones
 We repeat this again and again.
 
-+1 99-10 predict save like 0
++1 100-10 predict save like 0
 
 
 Random generated file
