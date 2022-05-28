@@ -430,8 +430,7 @@ class compression:
                                                                     
                                                     #print(Block_10T4)      
                                                             
-                                                    
-                                                    
+                                                  
 
                                                     Block_103=Predict_Number
                                                     Block_105_binary=str(Block_103)
@@ -445,6 +444,26 @@ class compression:
 
                                                     X2=Block_106_binary
                                                     long1=len(X2)
+
+
+                                                    Predict_Number11=Predict_Number+1
+                                                    if  Predict_Number11==100:
+                                                            Predict_Number11=10
+                                                            
+
+
+                                                    Block_1031=Predict_Number11
+                                                    Block_1051_binary=str(Block_1031)
+
+                                                    Block_10611_binary=Block_1051_binary
+                                            
+                                                    
+
+                                                    
+                                                    Block_101_4_11_binary=Block_10611_binary
+
+                                                    X12=Block_10611_binary
+                                                    long11=len(X12)
                                                     #print(X2)
 
                                                    
@@ -589,7 +608,15 @@ class compression:
                                                             Number_Predict_Save=1
                                                             
                                                             
-                                                    
+                                                    if X10==X12 and long11==2:
+                                                            #print(Block_101_4_1_binary)
+
+                                                           
+                                                            Number_N4=Number_N4+"0"
+                                                            #print(X2)
+                                                            block=block+long
+                                                            Number_Predict_Save=1
+                                                            
                                                   
                                                   
                                                     else:
