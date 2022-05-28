@@ -22,7 +22,7 @@ We repeat this again and again.
 Random generated file
 
 Before: 1KB
-After: 1022B
+After: 867B
 Speed: 512B/s
 
 
