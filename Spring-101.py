@@ -934,6 +934,11 @@ class compression:
                                     if E==1 and Circle_times2>=255:
                                             compress_or_not_compress1=3
 
+
+                                    elif E==0 and Circle_times2==255:
+                                            compress_or_not_compress1=3
+                                            Equal_info_between_of_the_cirlce_of_the_file_17="9"+Equal_info_between_of_the_cirlce_of_the_file_17
+
                                     if compress_or_not_compress1==3:
 
 
