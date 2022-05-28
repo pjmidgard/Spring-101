@@ -3,7 +3,7 @@ Spring-101
 
 Algorithm Spring-101
 
-2-9 1 long  1  predict 2 long and 0 add on the start before last 0-2 bits for last 0-2 bits >=1000 times and Reverso.
+2-9 1 long  1  predict 2 long and 0 add on the start before last 0-2 bits for last 0-2 bits >=255 times and Reverso.
 For predict information we start to count from 10-99 every step and every times of compress save number that start if 1 number is find.
 
 Predict long 2 numbers.
@@ -20,11 +20,6 @@ Add nine on the start sometimes for 1000 if more not add.
 
 
 
-Random generated file
-
-Before: 1KB
-After: 541B
-Speed: 171B/s
 
 
 
