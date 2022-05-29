@@ -11,6 +11,7 @@ Predict long 2 numbers.
 Also, I have made the table to change 2-3 numbers of predict numbers 10-99 : 222-353
 first step we change 3 bits to 2-9.
 change to table 2-3 numbers from 10-99 : 222-353
+We need reverso table.
 Predict change to ones and +1 100-10 predict save like 0 zero and zero to one on the end.
 add 0 and count how many last bits wich one on start  wich number e.g.: 1-3:
 We need to change 1-0 and save 3 numbers when we have at list one ones
