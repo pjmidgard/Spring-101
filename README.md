@@ -8,6 +8,8 @@ For predict information we start to count from 10-99 every step and every times 
 
 Predict long 2 numbers.
 
+We need two tables.
+
 Also, I have made the table to change 2-3 numbers of predict numbers 10-99 : 222-353
 first step we change 3 bits to 2-9.
 change to table 2-3 numbers from 10-99 : 222-353
