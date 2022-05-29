@@ -15,7 +15,7 @@ Predict change to ones and +1 100-10 predict save like 0 zero and zero to one on
 add 0 and count how many last bits wich one on start  wich number e.g.: 1-3:
 We need to change 1-0 and save 3 numbers when we have at list one ones
 We repeat this again and again.
-Add nine on the start sometimes for 1000 if more not add.
+
 
 
 
