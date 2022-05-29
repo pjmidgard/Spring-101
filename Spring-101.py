@@ -891,13 +891,7 @@ class compression:
 
                                             
 
-                                            Number_N4=Number_N4+"0"+Last_bits_Save
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                            Last_bits_long=len(Last_bits_Save)
-                                            Last_bits_long=Last_bits_long+1
-                                            Last_bits_long_str=str(Last_bits_long)
-                                            Number_N4=Last_bits_long_str+Number_N4
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            
                                           
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                             
@@ -1017,7 +1011,7 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
 
 
-                                    if Circle_times2==(2**16)-1:
+                                    if Circle_times2==(2**8)-1:
                                             compress_or_not_compress1=3
 
 
@@ -1034,7 +1028,16 @@ class compression:
 
 
                                     
-                                    if   lenfS<=Deep3 or compress_or_not_compress1==3:       		
+                                    if   lenfS<=Deep3 or compress_or_not_compress1==3:
+
+
+                                            Number_N4=Number_N4+"0"+Last_bits_Save
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            Last_bits_long=len(Last_bits_Save)
+                                            Last_bits_long=Last_bits_long+1
+                                            Last_bits_long_str=str(Last_bits_long)
+                                            Number_N4=Last_bits_long_str+Number_N4
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
 
                                             Number_N5=int(Number_N4)
 
