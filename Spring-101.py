@@ -81,6 +81,8 @@ class compression:
                                 raise SystemExit
                    
                     if i==1:
+                        Compress_times=0
+                        
                         
                         nameas=name+".bin"
                         N_N=0
@@ -478,7 +480,7 @@ class compression:
                                                                                                         
                                                     
                                                     #print(Block_102_binary)
-                                            if Circle_times2==0:
+                                            if Block_101==1:
                                                     if Number_N==Block_102_binary:
 
                                                             Block_103=Block_101+1
@@ -595,7 +597,7 @@ class compression:
                                                             Last_bits_Save=Last_bits
                                                             #print(Block_10T4+"1")
                                                             block=block+3                
-                                            if Circle_times2!=0:
+                                            if Block_101!=1:
                                                 
                                                 
                                                     if X10==X2 and long1==2:
@@ -630,10 +632,15 @@ class compression:
                                                     Predict_Number=Predict_Number+1#
                                                     if Predict_Number==100:
                                                             Predict_Number=10
-                                    Block_101=Block_101+1
+                                    if Block_101==1:
+                                        Block_101=2
+                                    else:
+                                        Block_101=1
+                                        
+                                        
                                     Block_10e=Block_10e+1
                                     Block_101E=Block_101E+1
-                                    if Number_Predict_Save==1:
+                                    if Number_Predict_Save==1 and Block_101==1:
                                             
                                             if Predict_Number3==10:
                                                     Predict_Number4="222"
@@ -894,10 +901,14 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                           
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            #print(Number_N4)
 
                                             Number_N5=int(Number_N4)
 
                                             Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
+                                            Number_N4=Equal_info_between_of_the_cirlce_of_the_file_17
+                                            
+                                            Compress_times=Compress_times+1
                                             E=1
                                             
 
@@ -958,47 +969,13 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
 
 
-                                    if E==1 and Circle_times2>=1000:
+                                    if E==1 and Circle_times2>=256:
                                             compress_or_not_compress1=3
 
 
-                                    elif E==0 and Circle_times2==1000:
-                                            compress_or_not_compress1=3
-                                            Equal_info_between_of_the_cirlce_of_the_file_17="9"+Equal_info_between_of_the_cirlce_of_the_file_17
-
-                                    if compress_or_not_compress1==3:
-
-
-
+                                           
                                             
                                             
-                                            lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                                                        
-
-                                            INIT=""
-                                            Number_N=""
-                                            INIT=Equal_info_between_of_the_cirlce_of_the_file_17
-                                            block=0
-                                            Number_N4=""
-
-                                            while block<lenf6:
-                                                    Number_N1=INIT[block:block+1]
-                                                    if Number_N1=="1":
-                                                            Number_N4=Number_N4+"0"
-
-                                                    elif Number_N1=="0":
-                                                            Number_N4=Number_N4+"1"
-
-                                                    else:
-                                                            Number_N4=Number_N4+Number_N1
-
-                                                    block=block+1
-                                                             
-                                            
-                                            
-                                            Number_N5=int(Number_N4)
-                                            
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
                                    
                                     
                                     if   lenfS<=Deep3 or compress_or_not_compress==2:
@@ -1018,6 +995,19 @@ class compression:
                                             lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)                                           
                                             Equal_info_between_of_the_cirlce_of_the_file_17="1"+Equal_info_between_of_the_cirlce_of_the_file_17
                                             lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
+                                    if   lenfS<=Deep3 or compress_or_not_compress1==3:
+
+                                            	                                               
+                                            	times_compress=bin(Compress_times)[2:]
+                                            	add_bitst="" 
+                                            	
+                                            	count_bitst=48-lenf%48
+                                            	z=0
+                                            	if count_bitst!=0:
+                                            	        if count_bitst!=48:
+                                            	            while z<count_bitst:
+                                            	            	add_bitst="0"+add_bitst
+                                            	            	z=z+1
 
                                     if   lenfS<=Deep3 or compress_or_not_compress1==3:
                                                 
@@ -1030,7 +1020,7 @@ class compression:
                                             	            	add_bits="0"+add_bits
                                             	            	z=z+1
                                     if   lenfS<=Deep3 or compress_or_not_compress1==3:
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17+add_bitst+times_compress
                                             
                                     if   lenfS<=Deep3 or compress_or_not_compress1==3:
                                                 
