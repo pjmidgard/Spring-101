@@ -19,6 +19,8 @@ add 0 and count how many last bits wich one on start  wich number e.g.: 1-3:
 We need to change 1-0 and save 3 numbers when we have at list one ones
 We repeat this again and again.
 
+Speed: 15B/s
+
 
 
 
