@@ -898,7 +898,7 @@ class compression:
 
                                                 Block_file=100
                                                 Block_file2=-100
-                                                Block_count=0
+                                                Block_count=1
                                                 Block_101=1
                                                 
 
