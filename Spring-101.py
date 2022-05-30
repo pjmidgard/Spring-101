@@ -1,3 +1,4 @@
+
 from time import time
 import os
 import binascii
@@ -898,7 +899,7 @@ class compression:
 
                                                 Block_file=100
                                                 Block_file2=-100
-                                                Block_count=1
+                                                Block_count=0
                                                 Block_101=1
                                                 
 
@@ -1084,7 +1085,7 @@ class compression:
                                                
                                                 z=0
                                                 if count_bitst!=0:
-                                                        if count_bitst!=48:
+                                                        if count_bitst!=16:
                                                             while z<count_bitst:
                                                                 add_bitst="0"+add_bitst
                                                                 z=z+1
