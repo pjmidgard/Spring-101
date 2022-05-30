@@ -899,6 +899,7 @@ class compression:
                                                 Block_file=1024
                                                 Block_file2=-1024
                                                 Block_count=0
+                                                Block_101=1
 
                                             Block_file=Block_file+1024
                                             Block_file2=Block_file2+1024
@@ -1022,12 +1023,13 @@ class compression:
                                     Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file_17
 
                                     if compress_or_not_compress==2:
-                                           
+                                                  
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
 
 
                                     if Circle_times2==(2**16)-1:
                                             compress_or_not_compress1=3
+                  
 
 
                                          
@@ -1045,7 +1047,7 @@ class compression:
                                    
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
 
-
+                                            Number_N4=Number_N4+INIT[:(1024*254)]
                                             Number_N4=Number_N4+"0"+Last_bits_Save
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                             Last_bits_long=len(Last_bits_Save)
