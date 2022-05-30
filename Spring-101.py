@@ -894,7 +894,7 @@ class compression:
 
                                             Number_N4=Predict_Number4+Number_N4
 
-                                            if Block_count=254:
+                                            if Block_count==254:
 
                                                 Block_file=1024
                                                 Block_file2=-1024
@@ -902,7 +902,7 @@ class compression:
 
                                             Block_file=Block_file+1024
                                             Block_file2=Block_file2+1024
-                                            Block_count+Block_count+1
+                                            Block_count=Block_count+1
 
                                            
 
