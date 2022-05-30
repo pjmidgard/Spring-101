@@ -36,8 +36,8 @@ class compression:
                         Last_bits_Save=""
                         File_stop=1
                         E=0
-                        Block_file=0
-                        Block_file2=-1024
+                        Block_file=1024
+                        Block_file2=0
                         Block_count=1
 
                         i=1
