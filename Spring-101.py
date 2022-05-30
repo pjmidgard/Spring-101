@@ -1073,7 +1073,8 @@ class compression:
                                                 lenf1=len(times_compress)
                                                 add_bitst=""
                                                
-                                                count_bitst=48-lenf1%48
+                                                count_bitst=16-lenf1%16
+                                               
                                                 z=0
                                                 if count_bitst!=0:
                                                         if count_bitst!=48:
