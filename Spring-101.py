@@ -1,3 +1,4 @@
+
 from time import time
 import os
 import binascii
@@ -36,7 +37,7 @@ class compression:
                         Last_bits_Save=""
                         File_stop=1
                         E=0
-                        Block_file=1024
+                        Block_file=100
                         Block_file2=0
                         Block_count=1
 
@@ -896,10 +897,11 @@ class compression:
 
                                             if Block_count==254:
 
-                                                Block_file=1024
-                                                Block_file2=-1024
+                                                Block_file=100
+                                                Block_file2=-100
                                                 Block_count=0
                                                 Block_101=1
+                                                
 
                                             Block_file=Block_file+1024
                                             Block_file2=Block_file2+1024
@@ -964,8 +966,14 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                            
                                             Number_N4=Equal_info_between_of_the_cirlce_of_the_file_17
+                                            if Block_101==1:
+                                                                                                       Number_N5=int(Number_N4)
+                                                                                                       Number_N4=bin(Number_N5) [2:]
+                                                
+
+                                                
                                        
-                                           
+                                 
                                             Compress_times=Compress_times+1
                                             E=1
                                            
