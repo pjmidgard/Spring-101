@@ -901,7 +901,7 @@ class compression:
 
                                             Number_N4=Predict_Number4+Number_N4
 
-                                            if Block_count==254:
+                                            if Block_count==10:
 
                                                 Block_file=1000
                                                 Block_file2=-1000
@@ -1043,7 +1043,7 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
 
 
-                                    if Circle_times2==300:
+                                    if Circle_times2==(2**16):
                                             compress_or_not_compress1=3 
                   
 
