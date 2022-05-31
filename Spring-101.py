@@ -36,7 +36,7 @@ class compression:
                         Last_bits_Save=""
                         File_stop=1
                         E=0
-                        Block_file=100
+                        Block_file=1000
                         Block_file2=0
                         Block_count=1
 
@@ -900,14 +900,14 @@ class compression:
 
                                             if Block_count==254:
 
-                                                Block_file=100
-                                                Block_file2=-100
+                                                Block_file=1000
+                                                Block_file2=-1000
                                                 Block_count=0
                                                 Block_101=1
                                                 
 
-                                            Block_file=Block_file+100
-                                            Block_file2=Block_file2+100
+                                            Block_file=Block_file+1000
+                                            Block_file2=Block_file2+1000
                                             Block_count=Block_count+1
 
                                            
