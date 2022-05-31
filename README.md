@@ -3,7 +3,7 @@ Spring-101
 
 Algorithm Xinitx2
 
-2-9 1 long 1 predict 2 long and 0 add on the start before last 0-2 bits for last 0-2 bits 300 times and Reverso. For predict information we start to count from 10-99 every step and every times of compress save number that start if 1 number is find.
+2-9 1 long 1 predict 2 long and 0 add on the start before last 0-2 bits for last 0-2 bits (2**8) times and Reverso. For predict information we start to count from 10-99 every step and every times of compress save number that start if 1 number is find.
 
 Predict long 2 numbers.
 
