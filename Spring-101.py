@@ -263,8 +263,12 @@ class compression:
                                     INIT=""
                                     Number_N=""
                                     INIT=Equal_info_between_of_the_cirlce_of_the_file
+                                    INIT2=""    
+                                    INIT3="" 
                                     if Block_101!=1:
                                         INIT[Block_file2:Block_file]
+                                        INIT2=INIT[:Block_file2]
+                                        INIT3=INIT[Block_file:]
                                     #print(INIT)
                                     block=0
                                     Block_10T=0
@@ -967,8 +971,9 @@ class compression:
                                            
                                             Number_N4=Equal_info_between_of_the_cirlce_of_the_file_17
                                             if Block_101==1:
-                                                                                                       Number_N5=int(Number_N4)
-                                                                                                       Number_N4=bin(Number_N5) [2:]
+                                                Number_N4=INIT2+Number_N4+INIT3  
+                                                Number_N5=int(Number_N4)
+                                                Number_N4=bin(Number_N5) [2:]
                                                 
 
                                                 
@@ -979,7 +984,8 @@ class compression:
                                            
 
                                        
-                                           
+                                    if Block_101!=1:
+                                                Number_N4=INIT2+Number_N4+INIT3        
                                     #print(Block_101)
                                     Predict_Number2=Predict_Number2+1
                                     if Predict_Number2==100:
