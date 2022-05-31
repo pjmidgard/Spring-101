@@ -1166,27 +1166,11 @@ class compression:
                                     if C==1:
                                         if  Circle_times2==0:
 
-                                                Translate_info_Decimal=Equal_info_between_of_the_cirlce_of_the_file[0:8]
-                                                Translate_info_Decimal_2 = int(Translate_info_Decimal, 2)
-                                                if Translate_info_Decimal_2>7:
-                                                        Corrupted=1
-                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[8:]
-                                                lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-
-                                                sda10=Equal_info_between_of_the_cirlce_of_the_file[0:16]
-                                                Deep5 = int(sda10, 2)
-                                                Deep5=Deep5+2
-                                                Deep4=Deep5-1
+                                                Times_6=Equal_info_between_of_the_cirlce_of_the_file[0:16]
+                                                T = int(Times_6, 2)
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[16:]
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                                Deep7=Deep5-2
-                                               
-                                                Times_6=Equal_info_between_of_the_cirlce_of_the_file[0:48]
-                                                T = int(Times_6, 2)
-                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[48:]
-                                                lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                                print("Deep: ")
-                                                print(Deep7-25)
+                                                
                                                
                                         if  Circle_times2>0:
                                             Translate_info_Decimal_2=0
@@ -1201,13 +1185,7 @@ class compression:
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[0:lenf6-Deep4]
                                        
                                                
-                                                Number_of_the_file = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
-                                                Number_add_plus_one_2 = int(Number_add_plus_one, 2)
-                                                Prime_Not = int(Prime_Not, 2)
-                                                Hole_Number_information=(2**Deep5)-1
-                                                add_ones_together=Hole_Number_information+Number_add_plus_one_2
-                                                Number_of_the_file=Number_of_the_file*add_ones_together
-                                                Number_of_the_file=Number_of_the_file+Prime_Not
+                                                
                                      
                                     Times_6=Number_add_plus_one
                                     Number_add_plus_one=""
