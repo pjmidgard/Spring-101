@@ -34,8 +34,7 @@ class compression:
                         Predict_Number2=10
                         Last_bits=""
                         Last_bits_Save=""
-                        File_stop=1
-                        E=0
+                        
                         Block_file=1000
                         Block_file2=0
                         Block_count=1
@@ -1025,11 +1024,6 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     #print(lenfS)
 
-                                    if lenfS<20:
-                                            File_stop=0
-
-                                   
-
                                     if compress_or_not_compress==2 and Circle_times2==0:
                                                     Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
                                    
@@ -1063,7 +1057,6 @@ class compression:
                                    
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
 
-                                            Number_N4=Number_N4+INIT[Block_file:]
                                             Number_N4=Number_N4+"0"+Last_bits_Save
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                             Last_bits_long=len(Last_bits_Save)
