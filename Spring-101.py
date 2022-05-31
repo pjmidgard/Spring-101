@@ -265,9 +265,12 @@ class compression:
                                     INIT2=""    
                                     INIT3="" 
                                     if Block_101!=1:
-                                        INIT[Block_file2:Block_file]
+                                        
                                         INIT2=INIT[:Block_file2]
                                         INIT3=INIT[Block_file:]
+                                        INIT4=INIT[Block_file2:Block_file]
+                                        INIT=INIT4
+                                        
                                     #print(INIT)
                                     block=0
                                     Block_10T=0
