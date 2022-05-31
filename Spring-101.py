@@ -254,9 +254,10 @@ class compression:
 
                                    
 
-
+                                    
                                     lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                    lenf6_Size=lenf6//2000
+                                    if Block_count==1:
+                                            lenf6_Size=lenf6//2000
                                            
                                    
                                     INIT=""
@@ -281,7 +282,7 @@ class compression:
                                     Predict_Number3=Predict_Number2
                                     Predict_Number4=str(Predict_Number3)
                                     Number_Predict_Save=0
-                                    E=0
+                                    
                                    
 
                                     while block<lenf6:
@@ -974,6 +975,19 @@ class compression:
                                             Number_N4=Equal_info_between_of_the_cirlce_of_the_file_17
                                             if Block_101==1:
                                                 Number_N4=INIT2+Number_N4+INIT3
+
+                                                lenf6_Size_long=bin(lenf6_Size)[2:]
+                                                lenf2=len(lenf6_Size_long)
+                                                add_bitst1=""
+                                               
+                                                count_bitst1=40-lenf2%40
+                                               
+                                                z=0
+                                                if count_bitst1!=0:
+                                                        if count_bitst1!=40:
+                                                            while z<count_bitst1:
+                                                                add_bitst1="0"+add_bitst1
+                                                                z=z+1
                                              
                                                 Number_N4=Number_N4+"0"+Last_bits_Save
                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
@@ -986,6 +1000,8 @@ class compression:
                                              
                                                 Number_N5=int(Number_N4)
                                                 Number_N4=bin(Number_N5) [2:]
+
+                                                Number_N4=count_bitst1+lenf6_Size_long+Number_N4
                                              
                                              
                                                 
@@ -1091,21 +1107,10 @@ class compression:
 
                                             
 
-                                    if  lenfS<=Deep3 or compress_or_not_compress1==3:
+                                    
 
                                                                                              
-                                                lenf6_Size_long=bin(lenf6_Size)[2:]
-                                                lenf2=len(lenf6_Size_long)
-                                                add_bitst1=""
-                                               
-                                                count_bitst1=16-lenf2%16
-                                               
-                                                z=0
-                                                if count_bitst1!=0:
-                                                        if count_bitst1!=16:
-                                                            while z<count_bitst1:
-                                                                add_bitst1="0"+add_bitst1
-                                                                z=z+1
+                                             
 
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
 
@@ -1136,7 +1141,7 @@ class compression:
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
                                            
                                            
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=add_bitst+times_compress+count_bitst1+lenf6_Size_long+add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=add_bitst+times_compress+add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
                                            
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
                                                
