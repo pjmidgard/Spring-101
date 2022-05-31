@@ -981,7 +981,7 @@ class compression:
                                        
                                  
                                             Compress_times=Compress_times+1
-                                            E=1
+                                            
                                            
 
                                        
