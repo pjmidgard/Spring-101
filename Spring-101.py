@@ -257,7 +257,8 @@ class compression:
                                     
                                     lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
                                     if Block_count==1 and Block_101!=1:
-                                            lenf6_Size=lenf6//2000
+                                            lenf6_Size=int(math.ceil(lenf6/2000))
+                                            
                                            
                                    
                                     INIT=""
