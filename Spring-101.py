@@ -903,7 +903,7 @@ class compression:
 
                                             Number_N4=Predict_Number4+Number_N4
 
-                                            if Block_count==1000:
+                                            if Block_count==lenf6_Size:
 
                                                 Block_file=1000-2000
                                                 Block_file2=0-2000
