@@ -1194,7 +1194,7 @@ class compression:
                                             
                                             
 
-                                            Number_N4=INIT2+Number_N4+INIT3
+                                            
 
                                              
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
@@ -1204,7 +1204,8 @@ class compression:
                                             Number_N4=Equal_info_between_of_the_cirlce_of_the_file_17
                                             if Block_101==1:
                                                 
-
+                                                Number_N4=INIT2+Number_N4+INIT3
+                                                
                                                 lenf6_Size_long=bin(lenf6_Size)[2:]
                                                 lenf2=len(lenf6_Size_long)
                                                 add_bitst1=""
@@ -1295,7 +1296,7 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
 
 
-                                    if Circle_times2==2:
+                                    if Circle_times2==1:
                                             compress_or_not_compress1=3 
                   
 
