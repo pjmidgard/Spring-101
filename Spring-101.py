@@ -18,6 +18,7 @@ class compression:
      
         def cryptograpy_compression4(self):
                 def Corridor_close(Predict_Number4):
+                                                    Predict_Number3=0
                                                     if Predict_Number4=="222":
                                                         Predict_Number3=10
                                                     if Predict_Number4=="223":
@@ -306,8 +307,11 @@ class compression:
                         
                         Block_file=1000
                         Block_file2=0
-                        Block_count=1
+                        Block_count=0
                         lenf6_Size=0
+                        Number_Same=0
+                        Number_N4=""
+                        Number_N7=""
                     
                         i=2
                
@@ -1175,7 +1179,7 @@ class compression:
 
                                                 Block_file=1000-2000
                                                 Block_file2=0-2000
-                                                Block_count=0
+                                                
                                                 Block_101=1
                                                 
 
@@ -1280,7 +1284,7 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
 
 
-                                    if Circle_times2==(2**16)-1:
+                                    if Circle_times2==2:
                                             compress_or_not_compress1=3 
                   
 
@@ -1366,9 +1370,7 @@ class compression:
                                            
                                            
                                             Equal_info_between_of_the_cirlce_of_the_file_17=add_bitst+times_compress+add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
-                                    if Compress_times==lenf6_Size-1 and compress_or_not_compress1==3 or Compress_times==1 and compress_or_not_compress1==3:
-                                       
-                                       Equal_info_between_of_the_cirlce_of_the_file_17="0000000000000000"+The_Same
+                                    
                                         
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
                                                
@@ -1419,7 +1421,9 @@ class compression:
                                         if  Circle_times2==0:
 
                                                 Times_6=Equal_info_between_of_the_cirlce_of_the_file[0:16]
+                                                
                                                 T = int(Times_6, 2)
+                                                print(T)
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[16:]
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
                                                 
@@ -1465,6 +1469,7 @@ class compression:
                                                     
                                                     Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[::-1]
                                                     Corridor=0
+                                                    Number_N4=""
                                             
                                        
                                            
@@ -1475,7 +1480,7 @@ class compression:
                                                 if Corridor==0:
                                                     Numbers_10 = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
                                                     
-                                                    Numbers_10_Str=srt(Numbers_10)
+                                                    Numbers_10_Str=str(Numbers_10)
                                                     
                                                     Numbers_10_long=len(Numbers_10_Str)
                                                     
@@ -1624,6 +1629,7 @@ class compression:
                                                                
                                                                         Number_N4=Number_N4+Block_106_binary
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
             
                                                                                
                                                                
@@ -1633,6 +1639,7 @@ class compression:
                                                                
                                                                         Number_N4=Number_N4+Block_106_binary
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
             
                                                            
                                                                         #print(Block_106_binary)
@@ -1642,6 +1649,7 @@ class compression:
                                                                
                                                                         Number_N4=Number_N4+Block_106_binary
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
             
             
                                                                 elif Number_N==Block_101_1_binary:
@@ -1650,6 +1658,7 @@ class compression:
                                                                
                                                                         Number_N4=Number_N4+Block_106_binary
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
             
                                                                 elif Number_N==Block_101_2_binary:
             
@@ -1657,6 +1666,7 @@ class compression:
                                                                
                                                                         Number_N4=Number_N4+Block_106_binary
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
                                                                        
                                                                 elif Number_N==Block_101_3_binary:
             
@@ -1664,6 +1674,7 @@ class compression:
                                                                
                                                                         Number_N4=Number_N4+Block_106_binary
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
             
             
                                                                 elif Number_N==Block_101_1_1_binary:
@@ -1672,6 +1683,7 @@ class compression:
                                                                
                                                                         Number_N4=Number_N4+Block_106_binary
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
             
                                                                 elif Number_N==Block_101_2_1_binary:
             
@@ -1679,25 +1691,30 @@ class compression:
                                                                
                                                                         Number_N4=Number_N4+Block_106_binary
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
                                                                        
                                                                         #print(Number_N4)
                                                     
                                                                 elif Number_N=="1":
             
-                                                                        Block_106_binary=str(Predict_Number)
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        Bits_Translate=bin(Predict_Number) [2:]
+                
+                                                                        Number_N4=Number_N4+Bits_Translate
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
                                                                         
                                                                         #print(Number_N4)
                                                     
                                                     
                                                                 elif Number_N=="0":
             
-                                                                        Block_106_binary=str(Predict_Number11)
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        
+                
+                                                                        Bits_Translate=bin(Predict_Number11) [2:]
+                
+                                                                        Number_N4=Number_N4+Bits_Translate
                                                                         block=block+1
+                                                                        Number_Same=Number_Same+1
                                                                         
                                                                         #print(Number_N4)
                                                                
@@ -1707,24 +1724,37 @@ class compression:
                                                                      
                                                                         Last_bits_Save=Last_bits
                                                                         #print(Block_10T4+"1")
-                                                                        block=block+1              
+                                                                        block=block+1   
+                                                                        Number_Same=Number_Same+1
                                                         
                                                                 Predict_Number=Predict_Number+1#
                                                                 if Predict_Number==100:
                                                                         Predict_Number=10
                                             
                                             
-                                                if len(Number_N4)==1000:#1000
+                                                if Number_Same==lenf6:#1000
 
                                                     Block_file=1000-2000#1000 3000
                                                     Block_file2=0-2000#0      2000
-                                                    Block_count=0
+                                            
                                                     Block_101=1
+                                                    Number_Same=0
                                                 
 
                                                 Block_file=Block_file+2000
                                                 Block_file2=Block_file2+2000
                                                 Block_count=Block_count+1
+                                                
+                                                
+                                                
+                                                
+                                
+                                                
+                                                
+                                                
+                                                
+                                            
+                                                
                                             
                                             
                                                     
@@ -1744,8 +1774,10 @@ class compression:
                                  
                                     Prime_Not=""
                                    
-                                   
-                                    Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[2:]
+                                
+                                    Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                    Number_N4=""
+                                    
                                    
                                     Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file_17
                                  
@@ -1762,7 +1794,7 @@ class compression:
                                         #print(Circle_times2)
                                        
                                        
-                                        if  Block_count==T:
+                                        if  Block_count==T or T==0:
                                              
                                             if C==1 and T==0:
                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
@@ -1779,14 +1811,28 @@ class compression:
                                        
                                             if C==1 and T!=0:
 
-                                                Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[3:]
-                                                lenf14=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                #print(lenf14)
-                                                lenf16=lenf14%8
-                                                if lenf16!=0 or lenf14>=((2**40)-1)*8 or Corrupted==1:
+                                                Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17[1:]
+                                                
+                                                #Number_our = Equal_info_between_of_the_cirlce_of_the_file_17.find("10001101")
+                                                
 
-                                                    print("file corrupted")
-                                                    raise SystemExit
+                                                #print(Number_our)#64
+                                                #Number_our = Equal_info_between_of_the_cirlce_of_the_file_17.find("01001111",64)
+                                               
+                                                #print(Number_our)
+                                                #Number_our1=Number_our-64
+                                                #print(Number_our1)
+                                                #Number_our12=Number_our1-64
+                                                #print(Number_our12)#16
+                                                
+                                                #Number_our = Equal_info_between_of_the_cirlce_of_the_file_17.find("11011100",144)
+                                                
+                                                #print(Number_our)#238-
+                                                
+                                                
+                                                
+                                                lenf14=len(Equal_info_between_of_the_cirlce_of_the_file_17)
+                                               
                                                    
                                                
                                                 lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
