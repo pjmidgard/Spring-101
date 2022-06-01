@@ -287,6 +287,7 @@ class compression:
                         Block_file=1000
                         Block_file2=0
                         Block_count=1
+                        lenf6_Size=0
 
                         i=1
 
@@ -306,6 +307,7 @@ class compression:
                         Block_file=1000
                         Block_file2=0
                         Block_count=1
+                        lenf6_Size=0
                     
                         i=2
                
