@@ -1344,7 +1344,7 @@ class compression:
                                                  Number_N5=int(Number_N4)
 
                                                  Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
-                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17[::-1]
+                                                 
                                    
 
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
