@@ -13,8 +13,257 @@ namez = input("c,  compress or e, extract? ")
 
 #@Author Jurijus Pacalovas
 class compression:
+    
+        
      
         def cryptograpy_compression4(self):
+                def Corridor_close(Predict_Number4):
+                                                    if Predict_Number4=="222":
+                                                        Predict_Number3=10
+                                                    if Predict_Number4=="223":
+                                                        Predict_Number3=11
+                                                    if Predict_Number4=="224":
+                                                            Predict_Number3=12
+                                                    if Predict_Number4=="225":
+                                                            Predict_Number3=13
+                                                    if Predict_Number4=="226":
+                                                            Predict_Number3=14
+                                                    if Predict_Number4=="227":
+                                                            Predict_Number3=15
+        
+                                                    if Predict_Number4=="228":
+                                                            Predict_Number3=16
+        
+                                                    if Predict_Number4=="229":
+                                                            Predict_Number3=17
+        
+                                                    if Predict_Number4=="232":
+                                                            Predict_Number3=18
+                                                           
+                                                    if Predict_Number4=="233":
+                                                            Predict_Number3=19
+        
+        
+                                                    if Predict_Number4=="234":
+                                                            Predict_Number3=20
+                                                    if Predict_Number4=="235":
+                                                            Predict_Number3=21
+                                                    if Predict_Number4=="236":
+                                                            Predict_Number3=22
+                                                    if Predict_Number4=="237":
+                                                            Predict_Number3=23
+                                                    if Predict_Number4=="238":
+                                                            Predict_Number3=24
+                                                    if Predict_Number4=="239":
+                                                            Predict_Number3=25
+        
+                                                    if Predict_Number4=="242":
+                                                            Predict_Number3=26
+        
+                                                    if Predict_Number4=="243":
+                                                            Predict_Number3=27
+        
+                                                    if Predict_Number4=="244":
+                                                            Predict_Number3=28
+                                                           
+                                                    if Predict_Number4=="245":
+                                                            Predict_Number3=29
+        
+        
+                                                    if Predict_Number4=="246":
+                                                            Predict_Number3=30
+                                                    if Predict_Number4=="247":
+                                                            Predict_Number3=31
+                                                    if Predict_Number4=="248":
+                                                            Predict_Number3=32
+                                                    if Predict_Number4=="249":
+                                                            Predict_Number3=33
+                                                    if Predict_Number4=="252":
+                                                            Predict_Number3=34
+                                                    if Predict_Number4=="253":
+                                                            Predict_Number3=35
+        
+                                                    if Predict_Number4=="254":
+                                                            Predict_Number3=36
+        
+                                                    if Predict_Number4=="255":
+                                                            Predict_Number3=37
+        
+                                                    if Predict_Number4=="256":
+                                                            Predict_Number3=38
+                                                           
+                                                    if Predict_Number4=="257":
+                                                            Predict_Number3=39
+        
+                                                    if Predict_Number4=="258":
+                                                            Predict_Number3=40
+        
+                                                    if Predict_Number4=="259":
+                                                            Predict_Number3=41
+                                                           
+                                                    if Predict_Number4=="262":
+                                                            Predict_Number3=42
+        
+                                                    if Predict_Number4=="263":
+                                                            Predict_Number3=43
+        
+                                                    if Predict_Number4=="264":
+                                                            Predict_Number3=44
+        
+                                                    if Predict_Number4=="265":
+                                                            Predict_Number3=45
+        
+                                                    if Predict_Number4=="266":
+                                                            Predict_Number3=46
+        
+                                                    if Predict_Number4=="267":
+                                                            Predict_Number3=47
+                                                           
+                                                    if Predict_Number4=="268":
+                                                            Predict_Number3=48
+        
+                                                    if Predict_Number4=="269":
+                                                            Predict_Number3=49
+        
+                                                    if Predict_Number4=="272":
+                                                            Predict_Number3=50
+        
+                                                    if Predict_Number4=="273":
+                                                            Predict_Number3=51
+        
+        
+        
+                                                    if Predict_Number4=="274":
+                                                            Predict_Number3=52
+                                                    if Predict_Number4=="275":
+                                                            Predict_Number3=53
+                                                    if Predict_Number4=="276":
+                                                            Predict_Number3=54
+                                                    if Predict_Number4=="277":
+                                                            Predict_Number3=55
+                                                    if Predict_Number4=="278":
+                                                            Predict_Number3=56
+                                                    if Predict_Number4=="279":
+                                                            Predict_Number3=57
+        
+                                                    if Predict_Number4=="282":
+                                                            Predict_Number3=58
+        
+                                                    if Predict_Number4=="283":
+                                                            Predict_Number3=59
+        
+                                                    if Predict_Number4=="284":
+                                                            Predict_Number3=60
+                                                           
+                                                    if Predict_Number4=="285":
+                                                            Predict_Number3=61
+        
+        
+                                                    if Predict_Number4=="286":
+                                                            Predict_Number3=62
+                                                    if Predict_Number4=="287":
+                                                            Predict_Number3=63
+                                                    if Predict_Number4=="288":
+                                                            Predict_Number3=64
+                                                    if Predict_Number4=="289":
+                                                            Predict_Number3=65
+                                                    if Predict_Number4=="292":
+                                                            Predict_Number3=66
+                                                    if Predict_Number4=="293":
+                                                            Predict_Number3=67
+        
+                                                    if Predict_Number4=="294":
+                                                            Predict_Number3=68
+        
+                                                    if Predict_Number4=="295":
+                                                            Predict_Number3=69
+        
+                                                    if Predict_Number4=="296":
+                                                            Predict_Number3=70
+                                                           
+                                                    if Predict_Number4=="297":
+                                                            Predict_Number3=71
+        
+        
+                                                    if Predict_Number4=="298":
+                                                            Predict_Number3=72
+                                                    if Predict_Number4=="299":
+                                                            Predict_Number3=73
+                                                    if Predict_Number4=="322":
+                                                            Predict_Number3=74
+                                                    if Predict_Number4=="323":
+                                                            Predict_Number3=75
+                                                    if Predict_Number4=="324":
+                                                            Predict_Number3=76
+                                                    if Predict_Number4=="325":
+                                                            Predict_Number3=77
+        
+                                                    if Predict_Number4=="326":
+                                                            Predict_Number3=78
+        
+                                                    if Predict_Number4=="327":
+                                                            Predict_Number3=79
+        
+                                                    if Predict_Number4=="328":
+                                                            Predict_Number3=80
+                                                           
+                                                    if Predict_Number4=="329":
+                                                            Predict_Number3=81
+        
+                                                    if Predict_Number4=="332":
+                                                            Predict_Number3=82
+        
+                                                    if Predict_Number4=="333":
+                                                            Predict_Number3=83
+                                                           
+                                                    if Predict_Number4=="334":
+                                                            Predict_Number3=84
+        
+                                                    if Predict_Number4=="335":
+                                                            Predict_Number3=85
+        
+                                                    if Predict_Number4=="336":
+                                                            Predict_Number3=86
+        
+                                                    if Predict_Number4=="337":
+                                                            Predict_Number3=87
+        
+                                                    if Predict_Number4=="337":
+                                                            Predict_Number3=88
+        
+                                                    if Predict_Number4=="338":
+                                                            Predict_Number3=89
+                                                           
+                                                    if Predict_Number4=="342":
+                                                            Predict_Number3=90
+        
+                                                    if Predict_Number4=="343":
+                                                            Predict_Number3=91
+        
+                                                    if Predict_Number4=="344":
+                                                            Predict_Number3=92
+        
+                                                    if Predict_Number4=="345":
+                                                            Predict_Number3=93
+        
+                                                    if Predict_Number4=="346":
+                                                            Predict_Number3=94
+        
+                                                    if Predict_Number4=="347":
+                                                            Predict_Number3=95
+        
+                                                    if Predict_Number4=="348":
+                                                            Predict_Number3=96
+        
+                                                    if Predict_Number4=="349":
+                                                            Predict_Number3=97
+                                                       
+                                                    if Predict_Number4=="352":
+                                                            Predict_Number3=98
+        
+                                                    if Predict_Number4=="353":
+                                                            Predict_Number3=99
+                                                    return Predict_Number3
                
                 self.name = "Written: Jurijus pacalovas"
 
@@ -1245,256 +1494,21 @@ class compression:
                                                     
                                                     Corridor=1
                                                     
+                                                    
+                                                    
                                                     Predict_Number4=Numbers_10_Str[0:3]
                                                     
                                                     Numbers_10_Str=Numbers_10_Str[3:]
                                                     
-                                                    if Predict_Number4=="222":
-                                                            Predict_Number3=10
-                                                    if Predict_Number4=="223":
-                                                            Predict_Number3=11
-                                                    if Predict_Number4=="224":
-                                                            Predict_Number3=12
-                                                    if Predict_Number4=="225":
-                                                            Predict_Number3=13
-                                                    if Predict_Number4=="226":
-                                                            Predict_Number3=14
-                                                    if Predict_Number4=="227":
-                                                            Predict_Number3=15
-        
-                                                    if Predict_Number4=="228":
-                                                            Predict_Number3=16
-        
-                                                    if Predict_Number4=="229":
-                                                            Predict_Number3=17
-        
-                                                    if Predict_Number4=="232":
-                                                            Predict_Number3=18
-                                                           
-                                                    if Predict_Number4=="233":
-                                                            Predict_Number3=19
-        
-        
-                                                    if Predict_Number4=="234":
-                                                            Predict_Number3=20
-                                                    if Predict_Number4=="235":
-                                                            Predict_Number3=21
-                                                    if Predict_Number4=="236":
-                                                            Predict_Number3=22
-                                                    if Predict_Number4=="237":
-                                                            Predict_Number3=23
-                                                    if Predict_Number4=="238":
-                                                            Predict_Number3=24
-                                                    if Predict_Number4=="239":
-                                                            Predict_Number3=25
-        
-                                                    if Predict_Number4=="242":
-                                                            Predict_Number3=26
-        
-                                                    if Predict_Number4=="243":
-                                                            Predict_Number3=27
-        
-                                                    if Predict_Number4=="244":
-                                                            Predict_Number3=28
-                                                           
-                                                    if Predict_Number4=="245":
-                                                            Predict_Number3=29
-        
-        
-                                                    if Predict_Number4=="246":
-                                                            Predict_Number3=30
-                                                    if Predict_Number4=="247":
-                                                            Predict_Number3=31
-                                                    if Predict_Number4=="248":
-                                                            Predict_Number3=32
-                                                    if Predict_Number4=="249":
-                                                            Predict_Number3=33
-                                                    if Predict_Number4=="252":
-                                                            Predict_Number3=34
-                                                    if Predict_Number4=="253":
-                                                            Predict_Number3=35
-        
-                                                    if Predict_Number4=="254":
-                                                            Predict_Number3=36
-        
-                                                    if Predict_Number4=="255":
-                                                            Predict_Number3=37
-        
-                                                    if Predict_Number4=="256":
-                                                            Predict_Number3=38
-                                                           
-                                                    if Predict_Number4=="257":
-                                                            Predict_Number3=39
-        
-                                                    if Predict_Number4=="258":
-                                                            Predict_Number3=40
-        
-                                                    if Predict_Number4=="259":
-                                                            Predict_Number3=41
-                                                           
-                                                    if Predict_Number4=="262":
-                                                            Predict_Number3=42
-        
-                                                    if Predict_Number4=="263":
-                                                            Predict_Number3=43
-        
-                                                    if Predict_Number4=="264":
-                                                            Predict_Number3=44
-        
-                                                    if Predict_Number4=="265":
-                                                            Predict_Number3=45
-        
-                                                    if Predict_Number4=="266":
-                                                            Predict_Number3=46
-        
-                                                    if Predict_Number4=="267":
-                                                            Predict_Number3=47
-                                                           
-                                                    if Predict_Number4=="268":
-                                                            Predict_Number3=48
-        
-                                                    if Predict_Number4=="269":
-                                                            Predict_Number3=49
-        
-                                                    if Predict_Number4=="272":
-                                                            Predict_Number3=50
-        
-                                                    if Predict_Number4=="273":
-                                                            Predict_Number3=51
-        
-        
-        
-                                                    if Predict_Number4=="274":
-                                                            Predict_Number3=52
-                                                    if Predict_Number4=="275":
-                                                            Predict_Number3=53
-                                                    if Predict_Number4=="276":
-                                                            Predict_Number3=54
-                                                    if Predict_Number4=="277":
-                                                            Predict_Number3=55
-                                                    if Predict_Number4==56:
-                                                            Predict_Number3="278"
-                                                    if Predict_Number4==57:
-                                                            Predict_Number3="279"
-        
-                                                    if Predict_Number4==58:
-                                                            Predict_Number3="282"
-        
-                                                    if Predict_Number4==59:
-                                                            Predict_Number3="283"
-        
-                                                    if Predict_Number4==60:
-                                                            Predict_Number3="284"
-                                                           
-                                                    if Predict_Number4==61:
-                                                            Predict_Number3="285"
-        
-        
-                                                    if Predict_Number4==62:
-                                                            Predict_Number3="286"
-                                                    if Predict_Number4==63:
-                                                            Predict_Number3="287"
-                                                    if Predict_Number4==64:
-                                                            Predict_Number3="288"
-                                                    if Predict_Number4==65:
-                                                            Predict_Number3="289"
-                                                    if Predict_Number4==66:
-                                                            Predict_Number3="292"
-                                                    if Predict_Number4==67:
-                                                            Predict_Number3="293"
-        
-                                                    if Predict_Number4==68:
-                                                            Predict_Number3="294"
-        
-                                                    if Predict_Number4==69:
-                                                            Predict_Number3="295"
-        
-                                                    if Predict_Number4==70:
-                                                            Predict_Number3="296"
-                                                           
-                                                    if Predict_Number4==71:
-                                                            Predict_Number3="297"
-        
-        
-                                                    if Predict_Number4==72:
-                                                            Predict_Number3="298"
-                                                    if Predict_Number4==73:
-                                                            Predict_Number3="299"
-                                                    if Predict_Number4==74:
-                                                            Predict_Number3="322"
-                                                    if Predict_Number4==75:
-                                                            Predict_Number3="323"
-                                                    if Predict_Number4==76:
-                                                            Predict_Number3="324"
-                                                    if Predict_Number4==77:
-                                                            Predict_Number3="325"
-        
-                                                    if Predict_Number4==78:
-                                                            Predict_Number3="326"
-        
-                                                    if Predict_Number4==79:
-                                                            Predict_Number3="327"
-        
-                                                    if Predict_Number4==80:
-                                                            Predict_Number3="328"
-                                                           
-                                                    if Predict_Number4==81:
-                                                            Predict_Number3="329"
-        
-                                                    if Predict_Number4==82:
-                                                            Predict_Number3="332"
-        
-                                                    if Predict_Number4==83:
-                                                            Predict_Number3="333"
-                                                           
-                                                    if Predict_Number4==84:
-                                                            Predict_Number3="334"
-        
-                                                    if Predict_Number4==85:
-                                                            Predict_Number3="335"
-        
-                                                    if Predict_Number4==86:
-                                                            Predict_Number3="336"
-        
-                                                    if Predict_Number4==87:
-                                                            Predict_Number3="337"
-        
-                                                    if Predict_Number4==88:
-                                                            Predict_Number3="338"
-        
-                                                    if Predict_Number4==89:
-                                                            Predict_Number3="339"
-                                                           
-                                                    if Predict_Number4==90:
-                                                            Predict_Number3="342"
-        
-                                                    if Predict_Number4==91:
-                                                            Predict_Number3="343"
-        
-                                                    if Predict_Number4==92:
-                                                            Predict_Number3="344"
-        
-                                                    if Predict_Number4==93:
-                                                            Predict_Number3="345"
-        
-                                                    if Predict_Number4==94:
-                                                            Predict_Number3="346"
-        
-                                                    if Predict_Number4==95:
-                                                            Predict_Number3="347"
-        
-                                                    if Predict_Number4==96:
-                                                            Predict_Number3="348"
-        
-                                                    if Predict_Number4==97:
-                                                            Predict_Number3="349"
-                                                       
-                                                    if Predict_Number4==98:
-                                                            Predict_Number3="352"
-        
-                                                    if Predict_Number4==99:
-                                                            Predict_Number3="353"       
-                                                       
+                                                    
+                                                    Corridor_Open=Corridor_close(Predict_Number4)
+                                                    
+                                                    Predict_Number=Corridor_Open
+                                                    
+                                                    Block_101=1
+                                                    
+                                                    
+                                                    
                                                        
                                                        
                                                
@@ -1502,14 +1516,213 @@ class compression:
                                                     
                                                     
                                                 if Numbers_10_long>=Block_file:
+                                                    
                                                     Corridor=0
+                                                    
+                                                    Corridor_Open=Corridor_close(Predict_Number4)
+                                                    Predict_Number=Corridor_Open
+                                                    
+                                                    Block_101=1
+                                                    
                                                     
                                             
                                             
+                                                lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+                                                if Block_count==1 and Block_101!=1:
+                                                    lenf6_Size=int(math.ceil(lenf6/2000))
+                                            
+                                           
+                                   
+                                                INIT=""
+                                                Number_N=""
+                                                INIT=Equal_info_between_of_the_cirlce_of_the_file
+                                                INIT2=""    
+                                                INIT3="" 
+                                                if Block_101!=1:
+                                                    
+                                                    INIT2=INIT[:Block_file2]
+                                                    INIT3=INIT[Block_file:]
+                                                    INIT4=INIT[Block_file2:Block_file]
+                                                    INIT=INIT4
+                                                    
+                                                #print(INIT)
+                                                block=0
+                                                Block_10T=0
+                                                Number_N4=""
+                                                
+                                                
+                                        
+            
+                                               
+                                                Predict_Number=Predict_Number2
+                                                Predict_Number3=Predict_Number2
+                                                Predict_Number4=str(Predict_Number3)
+                                                Number_Predict_Save=0
+                                                
+                                               
+            
+                                                while block<lenf6:
+                                                        Number_N1=INIT[block:block+1]
+                                                        Number_N2=INIT[block+1:block+2]
+                                                        Number_N3=INIT[block+2:block+3]
+                                                        Number_N14=INIT[block+3:block+4]
+                                                        Number_N15=INIT[block+4:block+5]
+                                                        Number_N16=INIT[block+5:block+6]
+                                                     
+                                                        Block_101_binary=bin(Block_101)[2:]
+            
+                                                        if Block_101==1:
+                                                                Last_bits=Number_N1+Number_N2+Number_N3
+                                                                Block_103=Block_101+0
+                                                                Block_105_binary=str(Block_103)
+            
+                                                                Block_106_binary=Block_105_binary
+                                                       
+                                                                Number_N=Number_N1
+                                                               
+                                                                Block_102_binary="2"
+                                                                Block_122_binary="3"
+                                                                Block_123_binary="4"
+                        
+            
+                                                                Block_103=Block_101+0
+                                                                Block_105_binary=str(Block_103)
+            
+                                                                Block_101_1_binary="5"
+                                                                Block_101_2_binary="6"
+                                                                Block_101_3_binary="7"
+            
+            
+                                                                Block_103=Block_101+0
+                                                                Block_105_binary=str(Block_103)
+            
+                                                               
+            
+            
+                                                                Block_101_1_1_binary="8"
+                                                                Block_101_2_1_binary="9"
+            
+                                                                Block_101_4_1_binary=""
+                
+                                                                Predict_Number11=Predict_Number+1
+                                                                if  Predict_Number11==100:
+                                                                    Predict_Number11=10
+                
+                
+                
+                
+                                                               
+                                                               
+                                                               
+                                                        
+                                                        if Block_101==1:
+                                                                if Number_N==Block_102_binary:
+            
+                                                                        Block_106_binary="000"
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+            
+                                                                               
+                                                               
+                                                                elif Number_N==Block_122_binary:
+            
+                                                                        Block_106_binary="001"
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+            
+                                                           
+                                                                        #print(Block_106_binary)
+                                                                elif Number_N==Block_123_binary:
+            
+                                                                        Block_106_binary="010"
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+            
+            
+                                                                elif Number_N==Block_101_1_binary:
+            
+                                                                        Block_106_binary="011"
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+            
+                                                                elif Number_N==Block_101_2_binary:
+            
+                                                                        Block_106_binary="100"
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+                                                                       
+                                                                elif Number_N==Block_101_3_binary:
+            
+                                                                        Block_106_binary="101"
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+            
+            
+                                                                elif Number_N==Block_101_1_1_binary:
+            
+                                                                        Block_106_binary="110"
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+            
+                                                                elif Number_N==Block_101_2_1_binary:
+            
+                                                                        Block_106_binary="111"
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+                                                                       
+                                                                        #print(Number_N4)
+                                                    
+                                                                elif Number_N=="1":
+            
+                                                                        Block_106_binary=str(Predict_Number)
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+                                                                        
+                                                                        #print(Number_N4)
+                                                    
+                                                    
+                                                                elif Number_N=="0":
+            
+                                                                        Block_106_binary=str(Predict_Number11)
+                                                               
+                                                                        Number_N4=Number_N4+Block_106_binary
+                                                                        block=block+1
+                                                                        
+                                                                        #print(Number_N4)
+                                                               
+                                                                else:
+                                                                        #print(Block_101_4_1_binary
+            
+                                                                     
+                                                                        Last_bits_Save=Last_bits
+                                                                        #print(Block_10T4+"1")
+                                                                        block=block+1              
+                                                        
+                                                                Predict_Number=Predict_Number+1#
+                                                                if Predict_Number==100:
+                                                                        Predict_Number=10
                                             
                                             
-                                            
-                                            
+                                                if len(Number_N4)==1000:#1000
+
+                                                    Block_file=1000-2000#1000 3000
+                                                    Block_file2=0-2000#0      2000
+                                                    Block_count=0
+                                                    Block_101=1
+                                                
+
+                                                Block_file=Block_file+2000
+                                                Block_file2=Block_file2+2000
+                                                Block_count=Block_count+1
                                             
                                             
                                                     
@@ -1547,7 +1760,7 @@ class compression:
                                         #print(Circle_times2)
                                        
                                        
-                                        if  Circle_times2==T:
+                                        if  Block_count==T:
                                              
                                             if C==1 and T==0:
                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
