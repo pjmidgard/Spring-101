@@ -43,7 +43,7 @@ class compression:
 
                     if namez=="e":
                          
-                         Deep3=-1
+                        Deep3=-1
                         Block_101=1
                         Block_101E=2
                         Block_10eT_T=0   
@@ -1172,46 +1172,48 @@ class compression:
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[16:]
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
                                                 
-                                                if Equal_info_between_of_the_cirlce_of_the_file[0:9]=="000000001":
-                                                  
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[9:]
-                                                  
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:8]=="00000001":
-                                                  
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[8:] 
-                                                       
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:7]=="0000001":
-                                                  
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[7:] 
-                                                       
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:6]=="000001":
-                                                  
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[6:]
-                                                       
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:5]=="00001":
-                                                  
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[5:]
-                                                       
-                                               
-                                               elif Equal_info_between_of_the_cirlce_of_the_file[0:4]=="0001":
-                                                  
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[4:]
-                                                       
-                                                       
-                                               elif Equal_info_between_of_the_cirlce_of_the_file[0:3]=="001":
-                                                  
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[3:]
-                                                       
-                                               elif Equal_info_between_of_the_cirlce_of_the_file[0:2]=="01":
-                                                  
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[2:]
-                                                       
-                                               elif Equal_info_between_of_the_cirlce_of_the_file[0:1]=="1":
-                                                  
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
+                                                if T!=0:
                                                 
-                                               
-                                        if  Circle_times2>0:
+                                                    if Equal_info_between_of_the_cirlce_of_the_file[0:9]=="000000001":
+                                                      
+                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[9:]
+                                                      
+                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:8]=="00000001":
+                                                      
+                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[8:] 
+                                                           
+                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:7]=="0000001":
+                                                      
+                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[7:] 
+                                                           
+                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:6]=="000001":
+                                                      
+                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[6:]
+                                                           
+                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:5]=="00001":
+                                                      
+                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[5:]
+                                                           
+                                                   
+                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:4]=="0001":
+                                                      
+                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[4:]
+                                                           
+                                                           
+                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:3]=="001":
+                                                      
+                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[3:]
+                                                           
+                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:2]=="01":
+                                                      
+                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[2:]
+                                                           
+                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:1]=="1":
+                                                      
+                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
+                                                    
+                                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[::-1]
+                                                    Corridor=0
                                             
                                        
                                            
@@ -1219,6 +1221,43 @@ class compression:
                                         if C==1 and T!=0:
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+                                                if Corridor==0:
+                                                    Numbers_10 = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
+                                                    
+                                                    Numbers_10_Str=srt(Numbers_10)
+                                                    
+                                                    Numbers_10_long=len(Numbers_10_Str)
+                                                    
+                                                    if Numbers_10_Str[0:1]=="1":
+                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-1]
+                                                        
+                                                    elif Numbers_10_Str[0:1]=="2":
+                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-2]
+                                                        
+                                                    elif Numbers_10_Str[0:1]=="3":
+                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-3]
+                                                        
+                                                    elif Numbers_10_Str[0:1]=="4":
+                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-4]    
+                                                    
+                                                    Corridor=1
+                                                
+                                                    
+                                                    
+                                                if Numbers_10_long>=Block_file:
+                                                    Corridor=0
+                                                    
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                                    
+                                                
+                                                    
                     
                                                 
                                                 
