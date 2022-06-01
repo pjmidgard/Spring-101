@@ -1175,24 +1175,35 @@ class compression:
 
                                             Number_N4=Predict_Number4+Number_N4
 
-                                            if Block_count>=lenf6_Size-1:
+                                            if Block_count>=lenf6_Size:
 
-                                                Block_file=1000-2000
-                                                Block_file2=0-2000
+                                                Block_file=1000-1000
+                                                Block_file2=0-1000
                                                 
                                                 Block_101=1
                                                 
 
-                                            Block_file=Block_file+2000
-                                            Block_file2=Block_file2+2000
+                                            Block_file=Block_file+1000
+                                            Block_file2=Block_file2+1000
                                             Block_count=Block_count+1
+
+                                            Size_Block=len(INIT2+Number_N4)
+
+                                            Block_file2=Size_Block
+                                            Block_file=Block_file2+1000
+                                            
+                                            
+
+                                            Number_N4=INIT2+Number_N4+INIT3
 
                                              
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+
+                                            
                                            
                                             Number_N4=Equal_info_between_of_the_cirlce_of_the_file_17
                                             if Block_101==1:
-                                                Number_N4=INIT2+Number_N4+INIT3
+                                                
 
                                                 lenf6_Size_long=bin(lenf6_Size)[2:]
                                                 lenf2=len(lenf6_Size_long)
