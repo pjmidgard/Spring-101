@@ -289,7 +289,8 @@ class compression:
                         Block_file2=0
                         Block_count=1
                         lenf6_Size=0
-
+                        Predict_Number8=""
+                        
                         i=1
 
                     if namez=="e":
@@ -925,7 +926,7 @@ class compression:
                                        
                                     Block_10e=Block_10e+1
                                     Block_101E=Block_101E+1
-                                    if Number_Predict_Save==1:
+                                    if Number_Predict_Save==1 or Number_Predict_Save==0:
                                            
                                             if Predict_Number3==10:
                                                     Predict_Number4="222"
@@ -1173,7 +1174,11 @@ class compression:
                                             if Predict_Number3==99:
                                                     Predict_Number4="353"
 
-                                            Number_N4=Predict_Number4+Number_N4
+
+                                            if Block_file==1000:
+                                                    Predict_Number8=Predict_Number4
+
+                                            
 
                                             if Block_count>=lenf6_Size:
 
@@ -1218,7 +1223,9 @@ class compression:
                                                             while z<count_bitst1:
                                                                 add_bitst1="0"+add_bitst1
                                                                 z=z+1
-                                             
+
+                                                                
+                                                Number_N4=Predict_Number8+Number_N4
                                                 Number_N4=Number_N4+"0"+Last_bits_Save
                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                                 Last_bits_long=len(Last_bits_Save)
