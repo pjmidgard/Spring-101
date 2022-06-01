@@ -1238,9 +1238,266 @@ class compression:
                                                         Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-3]
                                                         
                                                     elif Numbers_10_Str[0:1]=="4":
-                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-4]    
+                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-4] 
+                                                            
+                                                            
+                                                            
                                                     
                                                     Corridor=1
+                                                    
+                                                    Predict_Number4=Numbers_10_Str[0:3]
+                                                    
+                                                    Numbers_10_Str=Numbers_10_Str[3:]
+                                                    
+                                                    if Predict_Number4=="222":
+                                                            Predict_Number3=10
+                                                    if Predict_Number4=="223":
+                                                            Predict_Number3=11
+                                                    if Predict_Number4=="224":
+                                                            Predict_Number3=12
+                                                    if Predict_Number4=="225":
+                                                            Predict_Number3=13
+                                                    if Predict_Number4=="226":
+                                                            Predict_Number3=14
+                                                    if Predict_Number4=="227":
+                                                            Predict_Number3=15
+        
+                                                    if Predict_Number4=="228":
+                                                            Predict_Number3=16
+        
+                                                    if Predict_Number4=="229":
+                                                            Predict_Number3=17
+        
+                                                    if Predict_Number4=="232":
+                                                            Predict_Number3=18
+                                                           
+                                                    if Predict_Number4=="233":
+                                                            Predict_Number3=19
+        
+        
+                                                    if Predict_Number4=="234":
+                                                            Predict_Number3=20
+                                                    if Predict_Number4=="235":
+                                                            Predict_Number3=21
+                                                    if Predict_Number4=="236":
+                                                            Predict_Number3=22
+                                                    if Predict_Number4=="237":
+                                                            Predict_Number3=23
+                                                    if Predict_Number4=="238":
+                                                            Predict_Number3=24
+                                                    if Predict_Number4=="239":
+                                                            Predict_Number3=25
+        
+                                                    if Predict_Number4=="242":
+                                                            Predict_Number3=26
+        
+                                                    if Predict_Number4=="243":
+                                                            Predict_Number3=27
+        
+                                                    if Predict_Number4=="244":
+                                                            Predict_Number3=28
+                                                           
+                                                    if Predict_Number4=="245":
+                                                            Predict_Number3=29
+        
+        
+                                                    if Predict_Number4=="246":
+                                                            Predict_Number3=30
+                                                    if Predict_Number4=="247":
+                                                            Predict_Number3=31
+                                                    if Predict_Number4=="248":
+                                                            Predict_Number3=32
+                                                    if Predict_Number4=="249":
+                                                            Predict_Number3=33
+                                                    if Predict_Number4=="252":
+                                                            Predict_Number3=34
+                                                    if Predict_Number4=="253":
+                                                            Predict_Number3=35
+        
+                                                    if Predict_Number4=="254":
+                                                            Predict_Number3=36
+        
+                                                    if Predict_Number4=="255":
+                                                            Predict_Number3=37
+        
+                                                    if Predict_Number4=="256":
+                                                            Predict_Number3=38
+                                                           
+                                                    if Predict_Number4=="257":
+                                                            Predict_Number3=39
+        
+                                                    if Predict_Number4=="258":
+                                                            Predict_Number3=40
+        
+                                                    if Predict_Number4=="259":
+                                                            Predict_Number3=41
+                                                           
+                                                    if Predict_Number4=="262":
+                                                            Predict_Number3=42
+        
+                                                    if Predict_Number4=="263":
+                                                            Predict_Number3=43
+        
+                                                    if Predict_Number4=="264":
+                                                            Predict_Number3=44
+        
+                                                    if Predict_Number4=="265":
+                                                            Predict_Number3=45
+        
+                                                    if Predict_Number4=="266":
+                                                            Predict_Number3=46
+        
+                                                    if Predict_Number4=="267":
+                                                            Predict_Number3=47
+                                                           
+                                                    if Predict_Number4=="268":
+                                                            Predict_Number3=48
+        
+                                                    if Predict_Number4=="269":
+                                                            Predict_Number3=49
+        
+                                                    if Predict_Number4=="272":
+                                                            Predict_Number3=50
+        
+                                                    if Predict_Number4=="273":
+                                                            Predict_Number3=51
+        
+        
+        
+                                                    if Predict_Number4=="274":
+                                                            Predict_Number3=52
+                                                    if Predict_Number4=="275":
+                                                            Predict_Number3=53
+                                                    if Predict_Number4=="276":
+                                                            Predict_Number3=54
+                                                    if Predict_Number4=="277":
+                                                            Predict_Number3=55
+                                                    if Predict_Number4==56:
+                                                            Predict_Number3="278"
+                                                    if Predict_Number4==57:
+                                                            Predict_Number3="279"
+        
+                                                    if Predict_Number4==58:
+                                                            Predict_Number3="282"
+        
+                                                    if Predict_Number4==59:
+                                                            Predict_Number3="283"
+        
+                                                    if Predict_Number4==60:
+                                                            Predict_Number3="284"
+                                                           
+                                                    if Predict_Number4==61:
+                                                            Predict_Number3="285"
+        
+        
+                                                    if Predict_Number4==62:
+                                                            Predict_Number3="286"
+                                                    if Predict_Number4==63:
+                                                            Predict_Number3="287"
+                                                    if Predict_Number4==64:
+                                                            Predict_Number3="288"
+                                                    if Predict_Number4==65:
+                                                            Predict_Number3="289"
+                                                    if Predict_Number4==66:
+                                                            Predict_Number3="292"
+                                                    if Predict_Number4==67:
+                                                            Predict_Number3="293"
+        
+                                                    if Predict_Number4==68:
+                                                            Predict_Number3="294"
+        
+                                                    if Predict_Number4==69:
+                                                            Predict_Number3="295"
+        
+                                                    if Predict_Number4==70:
+                                                            Predict_Number3="296"
+                                                           
+                                                    if Predict_Number4==71:
+                                                            Predict_Number3="297"
+        
+        
+                                                    if Predict_Number4==72:
+                                                            Predict_Number3="298"
+                                                    if Predict_Number4==73:
+                                                            Predict_Number3="299"
+                                                    if Predict_Number4==74:
+                                                            Predict_Number3="322"
+                                                    if Predict_Number4==75:
+                                                            Predict_Number3="323"
+                                                    if Predict_Number4==76:
+                                                            Predict_Number3="324"
+                                                    if Predict_Number4==77:
+                                                            Predict_Number3="325"
+        
+                                                    if Predict_Number4==78:
+                                                            Predict_Number3="326"
+        
+                                                    if Predict_Number4==79:
+                                                            Predict_Number3="327"
+        
+                                                    if Predict_Number4==80:
+                                                            Predict_Number3="328"
+                                                           
+                                                    if Predict_Number4==81:
+                                                            Predict_Number3="329"
+        
+                                                    if Predict_Number4==82:
+                                                            Predict_Number3="332"
+        
+                                                    if Predict_Number4==83:
+                                                            Predict_Number3="333"
+                                                           
+                                                    if Predict_Number4==84:
+                                                            Predict_Number3="334"
+        
+                                                    if Predict_Number4==85:
+                                                            Predict_Number3="335"
+        
+                                                    if Predict_Number4==86:
+                                                            Predict_Number3="336"
+        
+                                                    if Predict_Number4==87:
+                                                            Predict_Number3="337"
+        
+                                                    if Predict_Number4==88:
+                                                            Predict_Number3="338"
+        
+                                                    if Predict_Number4==89:
+                                                            Predict_Number3="339"
+                                                           
+                                                    if Predict_Number4==90:
+                                                            Predict_Number3="342"
+        
+                                                    if Predict_Number4==91:
+                                                            Predict_Number3="343"
+        
+                                                    if Predict_Number4==92:
+                                                            Predict_Number3="344"
+        
+                                                    if Predict_Number4==93:
+                                                            Predict_Number3="345"
+        
+                                                    if Predict_Number4==94:
+                                                            Predict_Number3="346"
+        
+                                                    if Predict_Number4==95:
+                                                            Predict_Number3="347"
+        
+                                                    if Predict_Number4==96:
+                                                            Predict_Number3="348"
+        
+                                                    if Predict_Number4==97:
+                                                            Predict_Number3="349"
+                                                       
+                                                    if Predict_Number4==98:
+                                                            Predict_Number3="352"
+        
+                                                    if Predict_Number4==99:
+                                                            Predict_Number3="353"       
+                                                       
+                                                       
+                                                       
+                                               
                                                 
                                                     
                                                     
