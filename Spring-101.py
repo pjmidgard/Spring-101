@@ -42,6 +42,22 @@ class compression:
                         i=1
 
                     if namez=="e":
+                         
+                         Deep3=-1
+                        Block_101=1
+                        Block_101E=2
+                        Block_10eT_T=0   
+                        compress_or_not_compress1=0
+                        Block_10e=2
+                        Predict_Number=10
+                        Predict_Number2=10
+                        Last_bits=""
+                        Last_bits_Save=""
+                        
+                        Block_file=1000
+                        Block_file2=0
+                        Block_count=1
+                    
                         i=2
                
                     Number_add_plus_one=""
@@ -250,6 +266,7 @@ class compression:
                
                                     if  Circle_times2==0 and SpinS==0:
                                         Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
+                                        The_Same=Equal_info_between_of_the_cirlce_of_the_file
                                         SpinS=1
 
                                    
@@ -915,62 +932,7 @@ class compression:
                                             Block_file2=Block_file2+2000
                                             Block_count=Block_count+1
 
-                                           
-
-                                           
-                                         
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                           
-
-                                           
-                                            lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                                                       
-
-                                            INIT=""
-                                            Number_N=""
-                                            INIT=Equal_info_between_of_the_cirlce_of_the_file_17
-                                            block=0
-                                            Number_N4=""
-
-                                            while block<lenf6:
-                                                    Number_N1=INIT[block:block+1]
-                                                   
-                                                    if Number_N1=="0":
-                                                            Number_N4=Number_N4+"9"
-
-                                                    elif Number_N1=="1":
-                                                            Number_N4=Number_N4+"8"
-
-
-                                                    elif Number_N1=="2":
-                                                            Number_N4=Number_N4+"7"
-
-                                                    elif Number_N1=="3":
-                                                            Number_N4=Number_N4+"6"
-
-                                                    elif Number_N1=="4":
-                                                            Number_N4=Number_N4+"5"
-
-                                                    elif Number_N1=="5":
-                                                            Number_N4=Number_N4+"4"
-
-                                                    elif Number_N1=="6":
-                                                            Number_N4=Number_N4+"3"
-
-                                                    elif Number_N1=="7":
-                                                            Number_N4=Number_N4+"2"
-
-
-                                                    elif Number_N1=="8":
-                                                            Number_N4=Number_N4+"1"
-
-                                                    elif Number_N1=="9":
-                                                            Number_N4=Number_N4+"0"
-
-
-
-                                                    block=block+1
-                                                   
+                                             
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                            
                                             Number_N4=Equal_info_between_of_the_cirlce_of_the_file_17
@@ -1086,25 +1048,35 @@ class compression:
 
                                    
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
+                                             
+                                            
+                                             
+                                            
+                                                
+                                               
+                                             
+                                             
+                                             
+                                            
 
-                                            Number_N4=Number_N4+"0"+Last_bits_Save
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                            Last_bits_long=len(Last_bits_Save)
-                                            Last_bits_long=Last_bits_long+1
-                                            Last_bits_long_str=str(Last_bits_long)
-                                            Number_N4=Last_bits_long_str+Number_N4
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                                 Number_N4=Number_N4+"0"+Last_bits_Save
+                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                                 Last_bits_long=len(Last_bits_Save)
+                                                 Last_bits_long=Last_bits_long+1
+                                                 Last_bits_long_str=str(Last_bits_long)
+                                                 Number_N4=Last_bits_long_str+Number_N4
+                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
 
-                                            Number_N5=int(Number_N4)
+                                                 Number_N5=int(Number_N4)
 
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17[::-1]
+                                                 Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
+                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17[::-1]
                                    
 
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
                                             lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)                                         
                                             Equal_info_between_of_the_cirlce_of_the_file_17="1"+Equal_info_between_of_the_cirlce_of_the_file_17
-                                            lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
+                                            lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
 
                                             
 
@@ -1143,7 +1115,10 @@ class compression:
                                            
                                            
                                             Equal_info_between_of_the_cirlce_of_the_file_17=add_bitst+times_compress+add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
-                                           
+                                    if Compress_times==lenf6_Size-1 and compress_or_not_compress1==3 or Compress_times==1 and compress_or_not_compress1==3:
+                                       
+                                       Equal_info_between_of_the_cirlce_of_the_file_17="0000000000000000"+The_Same
+                                        
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
                                                
                                             L=len(Equal_info_between_of_the_cirlce_of_the_file_17)
@@ -1196,21 +1171,57 @@ class compression:
                                                 T = int(Times_6, 2)
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[16:]
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                             
                                                 
+                                                if Equal_info_between_of_the_cirlce_of_the_file[0:9]=="000000001":
+                                                  
+                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[9:]
+                                                  
+                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:8]=="00000001":
+                                                  
+                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[8:] 
+                                                       
+                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:7]=="0000001":
+                                                  
+                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[7:] 
+                                                       
+                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:6]=="000001":
+                                                  
+                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[6:]
+                                                       
+                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:5]=="00001":
+                                                  
+                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[5:]
+                                                       
+                                               
+                                               elif Equal_info_between_of_the_cirlce_of_the_file[0:4]=="0001":
+                                                  
+                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[4:]
+                                                       
+                                                       
+                                               elif Equal_info_between_of_the_cirlce_of_the_file[0:3]=="001":
+                                                  
+                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[3:]
+                                                       
+                                               elif Equal_info_between_of_the_cirlce_of_the_file[0:2]=="01":
+                                                  
+                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[2:]
+                                                       
+                                               elif Equal_info_between_of_the_cirlce_of_the_file[0:1]=="1":
+                                                  
+                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
                                                 
                                                
                                         if  Circle_times2>0:
-                                            Translate_info_Decimal_2=0
+                                            
                                        
                                            
    
                                         if C==1 and T!=0:
-                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[Translate_info_Decimal_2:]
+                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                                Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-Deep4:lenf6-1]
-                                                Prime_Not=Equal_info_between_of_the_cirlce_of_the_file[lenf6-1:lenf6]
-                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[0:lenf6-Deep4]
+                    
+                                                
+                                                
                                        
                                                
                                                 
