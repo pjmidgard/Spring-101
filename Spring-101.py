@@ -1002,7 +1002,7 @@ class compression:
                                                 Number_N5=int(Number_N4)
                                                 Number_N4=bin(Number_N5) [2:]
 
-                                                Number_N4=count_bitst1+lenf6_Size_long+Number_N4
+                                                
                                              
                                              
                                                 
@@ -1196,6 +1196,8 @@ class compression:
                                                 T = int(Times_6, 2)
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[16:]
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+                                             
+                                                
                                                 
                                                
                                         if  Circle_times2>0:
