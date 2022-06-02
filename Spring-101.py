@@ -25,7 +25,7 @@ class compression:
                     if namez=="c":
                         
                         
-                        Deep=255
+                        Deep=20
  
 
                         Deep3=-1
