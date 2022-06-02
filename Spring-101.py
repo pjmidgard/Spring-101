@@ -274,7 +274,7 @@ class compression:
 
                                    
                                     Predict_Number=10
-                                    Predict_Number3=Predict_Number2
+                                    Predict_Number3=10
                                     Predict_Number4=str(Predict_Number3)
                                     Number_Predict_Save=0
                                 
@@ -783,9 +783,7 @@ class compression:
                                        
                                            
                                     #print(Block_101)
-                                    Predict_Number2=Predict_Number2+1
-                                    if Predict_Number2==100:
-                                            Predict_Number2=10
+                                    
                                    
                                    
                                    
