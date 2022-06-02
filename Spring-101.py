@@ -35,7 +35,7 @@ class compression:
                         Last_bits=""
                         Last_bits_Save=""
                         File_stop=1
-                        E=0
+                        
                         
 
                         i=1
@@ -272,7 +272,7 @@ class compression:
                                     Predict_Number3=Predict_Number2
                                     Predict_Number4=str(Predict_Number3)
                                     Number_Predict_Save=0
-                                    E=0
+                                
                                    
 
                                     while block<lenf6:
@@ -1026,7 +1026,7 @@ class compression:
                                  
                                             Compress_times=Compress_times+1
                                             #print(Compress_times)
-                                            E=1
+                                            
                                            
 
                                        
