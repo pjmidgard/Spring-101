@@ -36,9 +36,7 @@ class compression:
                         Last_bits_Save=""
                         File_stop=1
                         E=0
-                        Block_file=100
-                        Block_file2=0
-                        Block_count=1
+                        
 
                         i=1
 
@@ -1125,7 +1123,7 @@ class compression:
                                    
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
 
-                                            Number_N4=Number_N4+INIT[Block_file:]
+                                            
                                             Number_N4=Number_N4+"0"+Last_bits_Save
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                             Last_bits_long=len(Last_bits_Save)
