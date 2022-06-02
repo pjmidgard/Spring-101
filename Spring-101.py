@@ -35,9 +35,14 @@ class compression:
                         if x==True:
                                 Deep=int(Deep)
                                 Deep6=65535
+                                
+                                Deep7=255
 
                                 if Deep>Deep6:
                                         Deep=Deep6
+                                        
+                                elif Deep<Deep7:
+                                        Deep=Deep7
                                         
                                 print(Deep)
 
