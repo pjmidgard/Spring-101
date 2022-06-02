@@ -25,30 +25,8 @@ class compression:
                     if namez=="c":
                         
                         
-                        Deep = str(input("Please, enter Deep? "))
-
-                        x = Deep.isnumeric()
-                        if x==False:
-                                print("Sorry this not whole number")
-                                raise SystemExit
-                        
-                        if x==True:
-                                Deep=int(Deep)
-                                Deep6=65535
-                                
-                                Deep7=255
-
-                                if Deep>Deep6:
-                                        Deep=Deep6
-                                        
-                                elif Deep<Deep7:
-                                        Deep=Deep7
-                                        
-                                print(Deep)
-
-                            
-                                                
-                                
+                        Deep=255
+ 
 
                         Deep3=-1
                         Block_101=1
@@ -896,11 +874,11 @@ class compression:
                                                 lenf1=len(times_compress)
                                                 add_bitst=""
                                                
-                                                count_bitst=16-lenf1%16
+                                                count_bitst=8-lenf1%8
                                                
                                                 z=0
                                                 if count_bitst!=0:
-                                                        if count_bitst!=16:
+                                                        if count_bitst!=8:
                                                             while z<count_bitst:
                                                                 add_bitst="0"+add_bitst
                                                                 z=z+1
