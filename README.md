@@ -7,7 +7,7 @@ Algorithm Spring-101
 
 Predict long 2 numbers.
 
-We need one tables.
+We need two tables.
 
 
-Also, I have made the table to change 2-3 numbers of predict numbers 10-99 : 222-353 first step we change 3 bits to 2-9. Change to table 2-3 numbers from 10-99 : 222-353  Predict change to ones and +1 100-10 predict save like 0 zero and zero to one on the end. Add 0 and count how many last bits with one on start with number e.g.: 1-3: save this on the end. Save 3 numbers we repeat this again and again. Divide file blocks X*1000 block and last block. Reverso.
+Also, I have made the table to change 2-3 numbers of predict numbers 10-99 : 222-353 first step we change 3 bits to 2-9. Change to table 2-3 numbers from 10-99 : 222-353  Predict change to ones and +1 100-10 predict save like 0 zero and zero to one on the end. Add 0 and count how many last bits with one on start with number e.g.: 1-3: save this on the end. Save 3 numbers we repeat this again and again. Divide file blocks X*1000 block and last block. Reverso table.
