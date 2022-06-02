@@ -435,8 +435,35 @@ class compression:
 
 
                                                                    
-                                                    #print(Block_10T4)     
-                                                           
+                                                    #print(Block_10T4)   
+                                                
+                                                   
+                                                        
+
+                                                    if  Compress_times!=0 and Predict_Number>21 and Predict_Number<29:
+                                                        Predict_Number=30  
+                                                        
+                                                    elif  Compress_times!=0 and Predict_Number>31 and Predict_Number<39:
+                                                        Predict_Number=40  
+                                                        
+                                                    elif  Compress_times!=0 and Predict_Number>41 and Predict_Number<49:
+                                                        Predict_Number=50  
+                                                        
+                                                    elif  Compress_times!=0 and Predict_Number>51 and Predict_Number<59:
+                                                        Predict_Number=60  
+                                                        
+                                                    elif  Compress_times!=0 and Predict_Number>61 and Predict_Number<69:
+                                                        Predict_Number=70  
+                                                        
+                                                        
+                                                    elif  Compress_times!=0 and Predict_Number>71 and Predict_Number<79:
+                                                        Predict_Number=80  
+                                                 
+                                                    elif  Compress_times!=0 and Predict_Number>81 and Predict_Number<89:
+                                                        Predict_Number=90  
+                                                   
+                                                    elif  Compress_times!=0 and Predict_Number>91 and Predict_Number<99:
+                                                        Predict_Number=10
                                                  
 
                                                     Block_103=Predict_Number
@@ -605,7 +632,7 @@ class compression:
                                             if Block_101!=1:
                                                      
                                                
-                                                    if X10==X2 and long1==2 and X2[0:1]!="0" and X2[0:1]!="1" and X2[1:2]!="0" and X2[1:2]!="1":
+                                                    if X10==X2 and long1==2 and X2[0:1]!="0" and X2[0:1]!="1" and X2[1:2]!="0" and X2[1:2]!="1" and Compress_times==0:
                                                             #print(Block_101_4_1_binary)
 
                                                          
@@ -615,7 +642,7 @@ class compression:
                                                             Number_Predict_Save=1
                                                            
                                                            
-                                                    if X10==X12 and long1==2 and X2[0:1]!="0" and X12[0:1]!="1" and X2[1:2]!="0" and X12[1:2]!="1":
+                                                    elif X10==X12 and long1==2 and X12[0:1]!="0" and X12[0:1]!="1" and X12[1:2]!="0" and X12[1:2]!="1" and Compress_times==0:
                                                             #print(Block_101_4_1_binary)
 
                                                          
@@ -624,7 +651,27 @@ class compression:
                                                             block=block+long
                                                             Number_Predict_Save=1
                                                            
-                                                 
+                                                   
+                                                    elif X10==X2 and long1==2 and X2[0:1]=="0" and Compress_times!=0 or  X10==X2 and long1==2 and X2[0:1]=="1" and Compress_times!=0 or X10==X2 and long1==2 and X2[1:2]=="0" and Compress_times!=0 or X10==X2 and long1==2 and X2[1:2]=="1" and Compress_times!=0:
+
+                                                            #print(Block_101_4_1_binary)
+
+                                                         
+                                                            Number_N4=Number_N4+"1"
+                                                            #print(X2)
+                                                            block=block+long
+                                                            Number_Predict_Save=1
+                                                           
+                                                           
+                                                    elif X10==X12 and long1==2 and X12[0:1]=="0" and Compress_times!=0 or  X10==X12 and long1==2 and X12[0:1]=="1" and Compress_times!=0 or X10==X12 and long1==2 and X12[1:2]=="0" and Compress_times!=0 or X10==X12 and long1==2 and X12[1:2]=="1" and Compress_times!=0:
+                                                            #print(Block_101_4_1_binary)
+
+                                                         
+                                                            Number_N4=Number_N4+"0"
+                                                            #print(X2)
+                                                            block=block+long
+                                                            Number_Predict_Save=1
+                                                    
                                                  
                                                     else:
                                                             #print(Block_101_4_1_binary
