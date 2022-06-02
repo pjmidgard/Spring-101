@@ -13,258 +13,8 @@ namez = input("c,  compress or e, extract? ")
 
 #@Author Jurijus Pacalovas
 class compression:
-    
-        
      
         def cryptograpy_compression4(self):
-                def Corridor_close(Predict_Number4):
-                                                    Predict_Number3=0
-                                                    if Predict_Number4=="222":
-                                                        Predict_Number3=10
-                                                    if Predict_Number4=="223":
-                                                        Predict_Number3=11
-                                                    if Predict_Number4=="224":
-                                                            Predict_Number3=12
-                                                    if Predict_Number4=="225":
-                                                            Predict_Number3=13
-                                                    if Predict_Number4=="226":
-                                                            Predict_Number3=14
-                                                    if Predict_Number4=="227":
-                                                            Predict_Number3=15
-        
-                                                    if Predict_Number4=="228":
-                                                            Predict_Number3=16
-        
-                                                    if Predict_Number4=="229":
-                                                            Predict_Number3=17
-        
-                                                    if Predict_Number4=="232":
-                                                            Predict_Number3=18
-                                                           
-                                                    if Predict_Number4=="233":
-                                                            Predict_Number3=19
-        
-        
-                                                    if Predict_Number4=="234":
-                                                            Predict_Number3=20
-                                                    if Predict_Number4=="235":
-                                                            Predict_Number3=21
-                                                    if Predict_Number4=="236":
-                                                            Predict_Number3=22
-                                                    if Predict_Number4=="237":
-                                                            Predict_Number3=23
-                                                    if Predict_Number4=="238":
-                                                            Predict_Number3=24
-                                                    if Predict_Number4=="239":
-                                                            Predict_Number3=25
-        
-                                                    if Predict_Number4=="242":
-                                                            Predict_Number3=26
-        
-                                                    if Predict_Number4=="243":
-                                                            Predict_Number3=27
-        
-                                                    if Predict_Number4=="244":
-                                                            Predict_Number3=28
-                                                           
-                                                    if Predict_Number4=="245":
-                                                            Predict_Number3=29
-        
-        
-                                                    if Predict_Number4=="246":
-                                                            Predict_Number3=30
-                                                    if Predict_Number4=="247":
-                                                            Predict_Number3=31
-                                                    if Predict_Number4=="248":
-                                                            Predict_Number3=32
-                                                    if Predict_Number4=="249":
-                                                            Predict_Number3=33
-                                                    if Predict_Number4=="252":
-                                                            Predict_Number3=34
-                                                    if Predict_Number4=="253":
-                                                            Predict_Number3=35
-        
-                                                    if Predict_Number4=="254":
-                                                            Predict_Number3=36
-        
-                                                    if Predict_Number4=="255":
-                                                            Predict_Number3=37
-        
-                                                    if Predict_Number4=="256":
-                                                            Predict_Number3=38
-                                                           
-                                                    if Predict_Number4=="257":
-                                                            Predict_Number3=39
-        
-                                                    if Predict_Number4=="258":
-                                                            Predict_Number3=40
-        
-                                                    if Predict_Number4=="259":
-                                                            Predict_Number3=41
-                                                           
-                                                    if Predict_Number4=="262":
-                                                            Predict_Number3=42
-        
-                                                    if Predict_Number4=="263":
-                                                            Predict_Number3=43
-        
-                                                    if Predict_Number4=="264":
-                                                            Predict_Number3=44
-        
-                                                    if Predict_Number4=="265":
-                                                            Predict_Number3=45
-        
-                                                    if Predict_Number4=="266":
-                                                            Predict_Number3=46
-        
-                                                    if Predict_Number4=="267":
-                                                            Predict_Number3=47
-                                                           
-                                                    if Predict_Number4=="268":
-                                                            Predict_Number3=48
-        
-                                                    if Predict_Number4=="269":
-                                                            Predict_Number3=49
-        
-                                                    if Predict_Number4=="272":
-                                                            Predict_Number3=50
-        
-                                                    if Predict_Number4=="273":
-                                                            Predict_Number3=51
-        
-        
-        
-                                                    if Predict_Number4=="274":
-                                                            Predict_Number3=52
-                                                    if Predict_Number4=="275":
-                                                            Predict_Number3=53
-                                                    if Predict_Number4=="276":
-                                                            Predict_Number3=54
-                                                    if Predict_Number4=="277":
-                                                            Predict_Number3=55
-                                                    if Predict_Number4=="278":
-                                                            Predict_Number3=56
-                                                    if Predict_Number4=="279":
-                                                            Predict_Number3=57
-        
-                                                    if Predict_Number4=="282":
-                                                            Predict_Number3=58
-        
-                                                    if Predict_Number4=="283":
-                                                            Predict_Number3=59
-        
-                                                    if Predict_Number4=="284":
-                                                            Predict_Number3=60
-                                                           
-                                                    if Predict_Number4=="285":
-                                                            Predict_Number3=61
-        
-        
-                                                    if Predict_Number4=="286":
-                                                            Predict_Number3=62
-                                                    if Predict_Number4=="287":
-                                                            Predict_Number3=63
-                                                    if Predict_Number4=="288":
-                                                            Predict_Number3=64
-                                                    if Predict_Number4=="289":
-                                                            Predict_Number3=65
-                                                    if Predict_Number4=="292":
-                                                            Predict_Number3=66
-                                                    if Predict_Number4=="293":
-                                                            Predict_Number3=67
-        
-                                                    if Predict_Number4=="294":
-                                                            Predict_Number3=68
-        
-                                                    if Predict_Number4=="295":
-                                                            Predict_Number3=69
-        
-                                                    if Predict_Number4=="296":
-                                                            Predict_Number3=70
-                                                           
-                                                    if Predict_Number4=="297":
-                                                            Predict_Number3=71
-        
-        
-                                                    if Predict_Number4=="298":
-                                                            Predict_Number3=72
-                                                    if Predict_Number4=="299":
-                                                            Predict_Number3=73
-                                                    if Predict_Number4=="322":
-                                                            Predict_Number3=74
-                                                    if Predict_Number4=="323":
-                                                            Predict_Number3=75
-                                                    if Predict_Number4=="324":
-                                                            Predict_Number3=76
-                                                    if Predict_Number4=="325":
-                                                            Predict_Number3=77
-        
-                                                    if Predict_Number4=="326":
-                                                            Predict_Number3=78
-        
-                                                    if Predict_Number4=="327":
-                                                            Predict_Number3=79
-        
-                                                    if Predict_Number4=="328":
-                                                            Predict_Number3=80
-                                                           
-                                                    if Predict_Number4=="329":
-                                                            Predict_Number3=81
-        
-                                                    if Predict_Number4=="332":
-                                                            Predict_Number3=82
-        
-                                                    if Predict_Number4=="333":
-                                                            Predict_Number3=83
-                                                           
-                                                    if Predict_Number4=="334":
-                                                            Predict_Number3=84
-        
-                                                    if Predict_Number4=="335":
-                                                            Predict_Number3=85
-        
-                                                    if Predict_Number4=="336":
-                                                            Predict_Number3=86
-        
-                                                    if Predict_Number4=="337":
-                                                            Predict_Number3=87
-        
-                                                    if Predict_Number4=="337":
-                                                            Predict_Number3=88
-        
-                                                    if Predict_Number4=="338":
-                                                            Predict_Number3=89
-                                                           
-                                                    if Predict_Number4=="342":
-                                                            Predict_Number3=90
-        
-                                                    if Predict_Number4=="343":
-                                                            Predict_Number3=91
-        
-                                                    if Predict_Number4=="344":
-                                                            Predict_Number3=92
-        
-                                                    if Predict_Number4=="345":
-                                                            Predict_Number3=93
-        
-                                                    if Predict_Number4=="346":
-                                                            Predict_Number3=94
-        
-                                                    if Predict_Number4=="347":
-                                                            Predict_Number3=95
-        
-                                                    if Predict_Number4=="348":
-                                                            Predict_Number3=96
-        
-                                                    if Predict_Number4=="349":
-                                                            Predict_Number3=97
-                                                       
-                                                    if Predict_Number4=="352":
-                                                            Predict_Number3=98
-        
-                                                    if Predict_Number4=="353":
-                                                            Predict_Number3=99
-                                                    return Predict_Number3
                
                 self.name = "Written: Jurijus pacalovas"
 
@@ -284,36 +34,15 @@ class compression:
                         Predict_Number2=10
                         Last_bits=""
                         Last_bits_Save=""
-                        
-                        Block_file=1000
+                        File_stop=1
+                        E=0
+                        Block_file=100
                         Block_file2=0
                         Block_count=1
-                        lenf6_Size=0
-                        Predict_Number8=""
-                        
+
                         i=1
 
                     if namez=="e":
-                         
-                        Deep3=-1
-                        Block_101=1
-                        Block_101E=2
-                        Block_10eT_T=0   
-                        compress_or_not_compress1=0
-                        Block_10e=2
-                        Predict_Number=10
-                        Predict_Number2=10
-                        Last_bits=""
-                        Last_bits_Save=""
-                        
-                        Block_file=1000
-                        Block_file2=0
-                        Block_count=0
-                        lenf6_Size=0
-                        Number_Same=0
-                        Number_N4=""
-                        Number_N7=""
-                    
                         i=2
                
                     Number_add_plus_one=""
@@ -522,29 +251,18 @@ class compression:
                
                                     if  Circle_times2==0 and SpinS==0:
                                         Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
-                                        The_Same=Equal_info_between_of_the_cirlce_of_the_file
                                         SpinS=1
 
                                    
 
-                                    
+
                                     lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                    if Block_count==1 and Block_101!=1:
-                                            lenf6_Size=int(math.ceil(lenf6/2000))
-                                            
                                            
                                    
                                     INIT=""
                                     Number_N=""
                                     INIT=Equal_info_between_of_the_cirlce_of_the_file
-                                    INIT2=""    
-                                    INIT3="" 
-                                    if Block_101!=1:
-                                        
-                                        INIT2=INIT[:Block_file2]
-                                        INIT3=INIT[Block_file:]
-                                        INIT4=INIT[Block_file2:Block_file]
-                                        INIT=INIT4
+                                   
                                         
                                     #print(INIT)
                                     block=0
@@ -556,7 +274,7 @@ class compression:
                                     Predict_Number3=Predict_Number2
                                     Predict_Number4=str(Predict_Number3)
                                     Number_Predict_Save=0
-                                    
+                                    E=0
                                    
 
                                     while block<lenf6:
@@ -885,9 +603,9 @@ class compression:
                                                             #print(Block_10T4+"1")
                                                             block=block+3               
                                             if Block_101!=1:
+                                                     
                                                
-                                               
-                                                    if X10==X2 and long1==2:
+                                                    if X10==X2 and long1==2 and X2[0:1]!="0" and X2[0:1]!="1" and X2[1:2]!="0" and X2[1:2]!="1":
                                                             #print(Block_101_4_1_binary)
 
                                                          
@@ -897,7 +615,7 @@ class compression:
                                                             Number_Predict_Save=1
                                                            
                                                            
-                                                    if X10==X12 and long11==2:
+                                                    if X10==X12 and long1==2 and X2[0:1]!="0" and X12[0:1]!="1" and X2[1:2]!="0" and X12[1:2]!="1":
                                                             #print(Block_101_4_1_binary)
 
                                                          
@@ -926,7 +644,7 @@ class compression:
                                        
                                     Block_10e=Block_10e+1
                                     Block_101E=Block_101E+1
-                                    if Number_Predict_Save==1 or Number_Predict_Save==0:
+                                    if Number_Predict_Save==1:
                                            
                                             if Predict_Number3==10:
                                                     Predict_Number4="222"
@@ -1174,85 +892,81 @@ class compression:
                                             if Predict_Number3==99:
                                                     Predict_Number4="353"
 
-
-                                            if Block_file==1000:
-                                                    Predict_Number8=Predict_Number4
+                                            Number_N4=Predict_Number4+Number_N4
 
                                             
 
-                                            if Block_count>=lenf6_Size:
+                                           
 
-                                                Block_file=1000-1000
-                                                Block_file2=0-1000
-                                                
-                                                Block_101=1
-                                                
-
-                                            Block_file=Block_file+1000
-                                            Block_file2=Block_file2+1000
-                                            Block_count=Block_count+1
-
-                                            Size_Block=len(INIT2+Number_N4)
-
-                                            Block_file2=Size_Block
-                                            Block_file=Block_file2+1000
-                                            
-                                            
-
-                                            
-
-                                             
+                                           
+                                         
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                           
 
-                                            
+                                           
+                                            lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
+                                                                                       
+
+                                            INIT=""
+                                            Number_N=""
+                                            INIT=Equal_info_between_of_the_cirlce_of_the_file_17
+                                            block=0
+                                            Number_N4=""
+
+                                            while block<lenf6:
+                                                    Number_N1=INIT[block:block+1]
+                                                   
+                                                    if Number_N1=="0":
+                                                            Number_N4=Number_N4+"9"
+
+                                                    elif Number_N1=="1":
+                                                            Number_N4=Number_N4+"8"
+
+
+                                                    elif Number_N1=="2":
+                                                            Number_N4=Number_N4+"7"
+
+                                                    elif Number_N1=="3":
+                                                            Number_N4=Number_N4+"6"
+
+                                                    elif Number_N1=="4":
+                                                            Number_N4=Number_N4+"5"
+
+                                                    elif Number_N1=="5":
+                                                            Number_N4=Number_N4+"4"
+
+                                                    elif Number_N1=="6":
+                                                            Number_N4=Number_N4+"3"
+
+                                                    elif Number_N1=="7":
+                                                            Number_N4=Number_N4+"2"
+
+
+                                                    elif Number_N1=="8":
+                                                            Number_N4=Number_N4+"1"
+
+                                                    elif Number_N1=="9":
+                                                            Number_N4=Number_N4+"0"
+
+
+
+                                                    block=block+1
+                                                   
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                            
                                             Number_N4=Equal_info_between_of_the_cirlce_of_the_file_17
-                                            if Block_101==1:
-                                                
-                                                Number_N4=INIT2+Number_N4+INIT3
-                                                
-                                                lenf6_Size_long=bin(lenf6_Size)[2:]
-                                                lenf2=len(lenf6_Size_long)
-                                                add_bitst1=""
-                                               
-                                                count_bitst1=40-lenf2%40
-                                               
-                                                z=0
-                                                if count_bitst1!=0:
-                                                        if count_bitst1!=40:
-                                                            while z<count_bitst1:
-                                                                add_bitst1="0"+add_bitst1
-                                                                z=z+1
-
-                                                                
-                                                Number_N4=Predict_Number8+Number_N4
-                                                Number_N4=Number_N4+"0"+Last_bits_Save
-                                                Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                                Last_bits_long=len(Last_bits_Save)
-                                                Last_bits_long=Last_bits_long+1
-                                                Last_bits_long_str=str(Last_bits_long)
-                                                Number_N4=Last_bits_long_str+Number_N4
-                                                Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                             
-                                             
-                                                Number_N5=int(Number_N4)
-                                                Number_N4=bin(Number_N5) [2:]
-
-                                                
-                                             
-                                             
+                                            
                                                 
 
                                                 
                                        
                                  
                                             Compress_times=Compress_times+1
-                                            
+                                            E=1
                                            
 
                                        
-                                    if Block_101!=1:
-                                                Number_N4=INIT2+Number_N4+INIT3        
+                                           
                                     #print(Block_101)
                                     Predict_Number2=Predict_Number2+1
                                     if Predict_Number2==100:
@@ -1290,6 +1004,11 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     #print(lenfS)
 
+                                    if lenfS<20:
+                                            File_stop=0
+
+                                   
+
                                     if compress_or_not_compress==2 and Circle_times2==0:
                                                     Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
                                    
@@ -1322,43 +1041,26 @@ class compression:
 
                                    
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
-                                             
-                                            
-                                             
-                                            
-                                                
-                                               
-                                             
-                                             
-                                             
-                                            
 
-                                                 Number_N4=Number_N4+"0"+Last_bits_Save
-                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                                 Last_bits_long=len(Last_bits_Save)
-                                                 Last_bits_long=Last_bits_long+1
-                                                 Last_bits_long_str=str(Last_bits_long)
-                                                 Number_N4=Last_bits_long_str+Number_N4
-                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            Number_N4=Number_N4+INIT[Block_file:]
+                                            Number_N4=Number_N4+"0"+Last_bits_Save
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            Last_bits_long=len(Last_bits_Save)
+                                            Last_bits_long=Last_bits_long+1
+                                            Last_bits_long_str=str(Last_bits_long)
+                                            Number_N4=Last_bits_long_str+Number_N4
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
 
-                                                 Number_N5=int(Number_N4)
+                                            Number_N5=int(Number_N4)
 
-                                                 Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
-                                                 
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
+                                            Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17[::-1]
                                    
 
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
                                             lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)                                         
                                             Equal_info_between_of_the_cirlce_of_the_file_17="1"+Equal_info_between_of_the_cirlce_of_the_file_17
-                                            lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-
-                                            
-
-                                    
-
-                                                                                             
-                                             
-
+                                            lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
 
                                                                                              
@@ -1370,7 +1072,7 @@ class compression:
                                                
                                                 z=0
                                                 if count_bitst!=0:
-                                                        if count_bitst!=16:
+                                                        if count_bitst!=48:
                                                             while z<count_bitst:
                                                                 add_bitst="0"+add_bitst
                                                                 z=z+1
@@ -1389,8 +1091,7 @@ class compression:
                                            
                                            
                                             Equal_info_between_of_the_cirlce_of_the_file_17=add_bitst+times_compress+add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
-                                    
-                                        
+                                           
                                     if  lenfS<=Deep3 or compress_or_not_compress1==3:
                                                
                                             L=len(Equal_info_between_of_the_cirlce_of_the_file_17)
@@ -1439,352 +1140,48 @@ class compression:
                                     if C==1:
                                         if  Circle_times2==0:
 
-                                                Times_6=Equal_info_between_of_the_cirlce_of_the_file[0:16]
-                                                
-                                                T = int(Times_6, 2)
-                                                print(T)
+                                                Translate_info_Decimal=Equal_info_between_of_the_cirlce_of_the_file[0:8]
+                                                Translate_info_Decimal_2 = int(Translate_info_Decimal, 2)
+                                                if Translate_info_Decimal_2>7:
+                                                        Corrupted=1
+                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[8:]
+                                                lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+
+                                                sda10=Equal_info_between_of_the_cirlce_of_the_file[0:16]
+                                                Deep5 = int(sda10, 2)
+                                                Deep5=Deep5+2
+                                                Deep4=Deep5-1
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[16:]
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                                
-                                                if T!=0:
-                                                
-                                                    if Equal_info_between_of_the_cirlce_of_the_file[0:9]=="000000001":
-                                                      
-                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[9:]
-                                                      
-                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:8]=="00000001":
-                                                      
-                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[8:] 
-                                                           
-                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:7]=="0000001":
-                                                      
-                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[7:] 
-                                                           
-                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:6]=="000001":
-                                                      
-                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[6:]
-                                                           
-                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:5]=="00001":
-                                                      
-                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[5:]
-                                                           
-                                                   
-                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:4]=="0001":
-                                                      
-                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[4:]
-                                                           
-                                                           
-                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:3]=="001":
-                                                      
-                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[3:]
-                                                           
-                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:2]=="01":
-                                                      
-                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[2:]
-                                                           
-                                                    elif Equal_info_between_of_the_cirlce_of_the_file[0:1]=="1":
-                                                      
-                                                       Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
-                                                    
-                                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[::-1]
-                                                    Corridor=0
-                                                    Number_N4=""
-                                            
+                                                Deep7=Deep5-2
+                                               
+                                                Times_6=Equal_info_between_of_the_cirlce_of_the_file[0:48]
+                                                T = int(Times_6, 2)
+                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[48:]
+                                                lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+                                                print("Deep: ")
+                                                print(Deep7-25)
+                                               
+                                        if  Circle_times2>0:
+                                            Translate_info_Decimal_2=0
                                        
                                            
    
                                         if C==1 and T!=0:
-                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file
+                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[Translate_info_Decimal_2:]
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                                if Corridor==0:
-                                                    Numbers_10 = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
-                                                    
-                                                    Numbers_10_Str=str(Numbers_10)
-                                                    
-                                                    Numbers_10_long=len(Numbers_10_Str)
-                                                    
-                                                    if Numbers_10_Str[0:1]=="1":
-                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-1]
-                                                        
-                                                    elif Numbers_10_Str[0:1]=="2":
-                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-2]
-                                                        
-                                                    elif Numbers_10_Str[0:1]=="3":
-                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-3]
-                                                        
-                                                    elif Numbers_10_Str[0:1]=="4":
-                                                        Numbers_10_Str=Numbers_10_Str[1:Numbers_10_long-4] 
-                                                            
-                                                            
-                                                            
-                                                    
-                                                    Corridor=1
-                                                    
-                                                    
-                                                    
-                                                    Predict_Number4=Numbers_10_Str[0:3]
-                                                    
-                                                    Numbers_10_Str=Numbers_10_Str[3:]
-                                                    
-                                                    
-                                                    Corridor_Open=Corridor_close(Predict_Number4)
-                                                    
-                                                    Predict_Number=Corridor_Open
-                                                    
-                                                    Block_101=1
-                                                    
-                                                    
-                                                    
-                                                       
-                                                       
-                                               
-                                                
-                                                    
-                                                    
-                                                if Numbers_10_long>=Block_file:
-                                                    
-                                                    Corridor=0
-                                                    
-                                                    Corridor_Open=Corridor_close(Predict_Number4)
-                                                    Predict_Number=Corridor_Open
-                                                    
-                                                    Block_101=1
-                                                    
-                                                    
-                                            
-                                            
-                                                lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                                if Block_count==1 and Block_101!=1:
-                                                    lenf6_Size=int(math.ceil(lenf6/2000))
-                                            
-                                           
-                                   
-                                                INIT=""
-                                                Number_N=""
-                                                INIT=Equal_info_between_of_the_cirlce_of_the_file
-                                                INIT2=""    
-                                                INIT3="" 
-                                                if Block_101!=1:
-                                                    
-                                                    INIT2=INIT[:Block_file2]
-                                                    INIT3=INIT[Block_file:]
-                                                    INIT4=INIT[Block_file2:Block_file]
-                                                    INIT=INIT4
-                                                    
-                                                #print(INIT)
-                                                block=0
-                                                Block_10T=0
-                                                Number_N4=""
-                                                
-                                                
-                                        
-            
-                                               
-                                                Predict_Number=Predict_Number2
-                                                Predict_Number3=Predict_Number2
-                                                Predict_Number4=str(Predict_Number3)
-                                                Number_Predict_Save=0
-                                                
-                                               
-            
-                                                while block<lenf6:
-                                                        Number_N1=INIT[block:block+1]
-                                                        Number_N2=INIT[block+1:block+2]
-                                                        Number_N3=INIT[block+2:block+3]
-                                                        Number_N14=INIT[block+3:block+4]
-                                                        Number_N15=INIT[block+4:block+5]
-                                                        Number_N16=INIT[block+5:block+6]
-                                                     
-                                                        Block_101_binary=bin(Block_101)[2:]
-            
-                                                        if Block_101==1:
-                                                                Last_bits=Number_N1+Number_N2+Number_N3
-                                                                Block_103=Block_101+0
-                                                                Block_105_binary=str(Block_103)
-            
-                                                                Block_106_binary=Block_105_binary
-                                                       
-                                                                Number_N=Number_N1
-                                                               
-                                                                Block_102_binary="2"
-                                                                Block_122_binary="3"
-                                                                Block_123_binary="4"
-                        
-            
-                                                                Block_103=Block_101+0
-                                                                Block_105_binary=str(Block_103)
-            
-                                                                Block_101_1_binary="5"
-                                                                Block_101_2_binary="6"
-                                                                Block_101_3_binary="7"
-            
-            
-                                                                Block_103=Block_101+0
-                                                                Block_105_binary=str(Block_103)
-            
-                                                               
-            
-            
-                                                                Block_101_1_1_binary="8"
-                                                                Block_101_2_1_binary="9"
-            
-                                                                Block_101_4_1_binary=""
-                
-                                                                Predict_Number11=Predict_Number+1
-                                                                if  Predict_Number11==100:
-                                                                    Predict_Number11=10
-                
-                
-                
-                
-                                                               
-                                                               
-                                                               
-                                                        
-                                                        if Block_101==1:
-                                                                if Number_N==Block_102_binary:
-            
-                                                                        Block_106_binary="000"
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-            
-                                                                               
-                                                               
-                                                                elif Number_N==Block_122_binary:
-            
-                                                                        Block_106_binary="001"
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-            
-                                                           
-                                                                        #print(Block_106_binary)
-                                                                elif Number_N==Block_123_binary:
-            
-                                                                        Block_106_binary="010"
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-            
-            
-                                                                elif Number_N==Block_101_1_binary:
-            
-                                                                        Block_106_binary="011"
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-            
-                                                                elif Number_N==Block_101_2_binary:
-            
-                                                                        Block_106_binary="100"
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-                                                                       
-                                                                elif Number_N==Block_101_3_binary:
-            
-                                                                        Block_106_binary="101"
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-            
-            
-                                                                elif Number_N==Block_101_1_1_binary:
-            
-                                                                        Block_106_binary="110"
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-            
-                                                                elif Number_N==Block_101_2_1_binary:
-            
-                                                                        Block_106_binary="111"
-                                                               
-                                                                        Number_N4=Number_N4+Block_106_binary
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-                                                                       
-                                                                        #print(Number_N4)
-                                                    
-                                                                elif Number_N=="1":
-            
-                                                                        Bits_Translate=bin(Predict_Number) [2:]
-                
-                                                                        Number_N4=Number_N4+Bits_Translate
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-                                                                        
-                                                                        #print(Number_N4)
-                                                    
-                                                    
-                                                                elif Number_N=="0":
-            
-                                                                        
-                
-                                                                        Bits_Translate=bin(Predict_Number11) [2:]
-                
-                                                                        Number_N4=Number_N4+Bits_Translate
-                                                                        block=block+1
-                                                                        Number_Same=Number_Same+1
-                                                                        
-                                                                        #print(Number_N4)
-                                                               
-                                                                else:
-                                                                        #print(Block_101_4_1_binary
-            
-                                                                     
-                                                                        Last_bits_Save=Last_bits
-                                                                        #print(Block_10T4+"1")
-                                                                        block=block+1   
-                                                                        Number_Same=Number_Same+1
-                                                        
-                                                                Predict_Number=Predict_Number+1#
-                                                                if Predict_Number==100:
-                                                                        Predict_Number=10
-                                            
-                                            
-                                                if Number_Same==lenf6:#1000
-
-                                                    Block_file=1000-2000#1000 3000
-                                                    Block_file2=0-2000#0      2000
-                                            
-                                                    Block_101=1
-                                                    Number_Same=0
-                                                
-
-                                                Block_file=Block_file+2000
-                                                Block_file2=Block_file2+2000
-                                                Block_count=Block_count+1
-                                                
-                                                
-                                                
-                                                
-                                
-                                                
-                                                
-                                                
-                                                
-                                            
-                                                
-                                            
-                                            
-                                                    
-                                                
-                                                    
-                    
-                                                
-                                                
+                                                Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-Deep4:lenf6-1]
+                                                Prime_Not=Equal_info_between_of_the_cirlce_of_the_file[lenf6-1:lenf6]
+                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[0:lenf6-Deep4]
                                        
                                                
-                                                
+                                                Number_of_the_file = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
+                                                Number_add_plus_one_2 = int(Number_add_plus_one, 2)
+                                                Prime_Not = int(Prime_Not, 2)
+                                                Hole_Number_information=(2**Deep5)-1
+                                                add_ones_together=Hole_Number_information+Number_add_plus_one_2
+                                                Number_of_the_file=Number_of_the_file*add_ones_together
+                                                Number_of_the_file=Number_of_the_file+Prime_Not
                                      
                                     Times_6=Number_add_plus_one
                                     Number_add_plus_one=""
@@ -1793,10 +1190,8 @@ class compression:
                                  
                                     Prime_Not=""
                                    
-                                
-                                    Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                    Number_N4=""
-                                    
+                                   
+                                    Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[2:]
                                    
                                     Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file_17
                                  
@@ -1813,7 +1208,7 @@ class compression:
                                         #print(Circle_times2)
                                        
                                        
-                                        if  Block_count==T or T==0:
+                                        if  Circle_times2==T:
                                              
                                             if C==1 and T==0:
                                                 Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
@@ -1830,28 +1225,14 @@ class compression:
                                        
                                             if C==1 and T!=0:
 
-                                                Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17[1:]
-                                                
-                                                #Number_our = Equal_info_between_of_the_cirlce_of_the_file_17.find("10001101")
-                                                
-
-                                                #print(Number_our)#64
-                                                #Number_our = Equal_info_between_of_the_cirlce_of_the_file_17.find("01001111",64)
-                                               
-                                                #print(Number_our)
-                                                #Number_our1=Number_our-64
-                                                #print(Number_our1)
-                                                #Number_our12=Number_our1-64
-                                                #print(Number_our12)#16
-                                                
-                                                #Number_our = Equal_info_between_of_the_cirlce_of_the_file_17.find("11011100",144)
-                                                
-                                                #print(Number_our)#238-
-                                                
-                                                
-                                                
+                                                Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[3:]
                                                 lenf14=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                               
+                                                #print(lenf14)
+                                                lenf16=lenf14%8
+                                                if lenf16!=0 or lenf14>=((2**40)-1)*8 or Corrupted==1:
+
+                                                    print("file corrupted")
+                                                    raise SystemExit
                                                    
                                                
                                                 lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
