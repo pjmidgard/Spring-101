@@ -23,6 +23,27 @@ class compression:
                         raise SystemExit
                 if namez=="c" or namez=="e":       
                     if namez=="c":
+                        
+                        
+                        Deep = str(input("Please, enter Deep? "))
+
+                        x = Deep.isnumeric()
+                        if x==False:
+                                print("Sorry this not whole number")
+                                raise SystemExit
+                        
+                        if x==True:
+                                Deep=int(Deep)
+                                Deep6=65535
+
+                                if Deep>Deep6:
+                                        Deep=Deep6
+                                        
+                                print(Deep)
+
+                            
+                                                
+                                
 
                         Deep3=-1
                         Block_101=1
@@ -1078,7 +1099,7 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
 
 
-                                    if Circle_times2==(2**16)-1:
+                                    if Circle_times2==Deep:
                                             compress_or_not_compress1=3 
                   
 
