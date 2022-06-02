@@ -26,10 +26,10 @@ class compression:
 
                         Deep3=-1
                         Block_101=1
-                        Block_101E=2
-                        Block_10eT_T=0   
+                        
+                        
                         compress_or_not_compress1=0
-                        Block_10e=2
+                        
                         Predict_Number=10
                         Predict_Number2=10
                         Last_bits=""
@@ -419,19 +419,6 @@ class compression:
                                                     #Predict
 
                                                    
-                                                    Block_10T=Block_10T
-                                                    Block_10E=Block_101E
-                                                       
-                                                   
-                                                    Block_10T1=str(Block_10T_U)
-
-                                                    Block_10T4=Block_10T1
-                                                    long1=len(Block_10T4)
-                                                   
-                                       
-                                                   
-
-
                                                                    
                                                     #print(Block_10T4) 
                                                 
@@ -719,11 +706,7 @@ class compression:
                                                             Predict_Number=10
                                     if Block_101==1:
                                         Block_101=2
-                                   
-                                       
-                                       
-                                    Block_10e=Block_10e+1
-                                    Block_101E=Block_101E+1
+                        
                                     if Number_Predict_Save==1:
                                            
                                             if Predict_Number3==10:
@@ -1055,15 +1038,7 @@ class compression:
                                    
                                    
                                    
-                                         
-                                    if Block_10eT_T==1000:
-                                          Block_10eT_T=0
-                                         
-                                          Block_10e=2
-                                          Block_101E=2
-                                         
-                                    Block_10eT_T=Block_10eT_T+1     
-
+                                  
                                    
                                    
                                  
@@ -1349,7 +1324,8 @@ class compression:
                                             x3=x2-x
                                             xs=float(x3)
                                             return print(x3)
- 
+
+                                        
 d=compression()
 
 xw1=d.cryptograpy_compression4()
