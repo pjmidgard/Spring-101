@@ -1009,6 +1009,7 @@ class compression:
                                        
                                  
                                             Compress_times=Compress_times+1
+                                            #print(Compress_times)
                                             E=1
                                            
 
@@ -1119,7 +1120,7 @@ class compression:
                                                
                                                 z=0
                                                 if count_bitst!=0:
-                                                        if count_bitst!=48:
+                                                        if count_bitst!=16:
                                                             while z<count_bitst:
                                                                 add_bitst="0"+add_bitst
                                                                 z=z+1
