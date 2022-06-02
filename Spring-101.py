@@ -435,9 +435,44 @@ class compression:
 
 
                                                                    
-                                                    #print(Block_10T4)   
+                                                    #print(Block_10T4) 
                                                 
-                                                   
+                                                
+                                                    
+                                                
+                                                    if  Compress_times==0 and Predict_Number>9 and Predict_Number<22:
+                                                        Predict_Number=22
+                                                        
+                                                        
+                                                    elif  Compress_times==0 and Predict_Number>29 and Predict_Number<32:
+                                                        Predict_Number=32
+                                                        
+                                                        
+                                                    elif  Compress_times==0 and Predict_Number>39 and Predict_Number<42:
+                                                        Predict_Number=42
+                                                        
+                                                        
+                                                    elif  Compress_times==0 and Predict_Number>49 and Predict_Number<52:
+                                                        Predict_Number=52
+                                                        
+                                                        
+                                                    elif  Compress_times==0 and Predict_Number>59 and Predict_Number<62:
+                                                        Predict_Number=62
+                                                        
+                                                    
+                                                    elif  Compress_times==0 and Predict_Number>69 and Predict_Number<72:
+                                                        Predict_Number=72
+                                                        
+                                                        
+                                                    elif  Compress_times==0 and Predict_Number>79 and Predict_Number<82:
+                                                        Predict_Number=82
+                                                        
+                                                    
+                                                    elif  Compress_times==0 and Predict_Number>89 and Predict_Number<92:
+                                                        Predict_Number=92
+                                                        
+                                                        
+                                                    
                                                         
 
                                                     if  Compress_times!=0 and Predict_Number>21 and Predict_Number<29:
