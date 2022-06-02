@@ -25,7 +25,7 @@ class compression:
                     if namez=="c":
                         
                         
-                        Deep=20
+                        Deep=21
  
 
                         Deep3=-1
@@ -39,6 +39,7 @@ class compression:
                         Last_bits=""
                         Last_bits_Save=""
                         File_stop=1
+                        Compress_times=1
                         
                         
 
