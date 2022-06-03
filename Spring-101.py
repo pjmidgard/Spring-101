@@ -650,6 +650,7 @@ class compression:
                                     if Number_Predict_Save==1 or J>0:
                                            
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                            
                                            
 
                                            
@@ -668,6 +669,7 @@ class compression:
                                        
                                  
                                             Compress_times=Compress_times+1
+                                            J=0
                                             #print(Compress_times)
                                             
                                            
@@ -1169,6 +1171,7 @@ class compression:
                                                                             Predict_Number=10
                                     if J>0:
                                         Block_101=1
+                                        J=0
                                         
                                     
 
