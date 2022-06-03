@@ -40,6 +40,7 @@ class compression:
                         Last_bits_Save=""
                         File_stop=1
                         Compress_times=0
+                        J=0
                         
                         
 
@@ -51,6 +52,7 @@ class compression:
 
                         Deep3=-1
                         Block_101=2
+                        J=0
                         
                         
                         compress_or_not_compress1=0
@@ -635,6 +637,7 @@ class compression:
 
                                                          
                                                             Number_N4=Number_N4+Number_N1
+                                                            J=J+1
                                                             #print(Block_10T4+"1")
                                                             block=block+1
                                            
@@ -644,7 +647,7 @@ class compression:
                                     if Block_101==1:
                                         Block_101=2
                         
-                                    if Number_Predict_Save==1 or Number_Predict_Save==0:
+                                    if Number_Predict_Save==1 or J>0:
                                            
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
                                            
@@ -897,6 +900,7 @@ class compression:
                                                     INIT=""
                                                     Number_N=""
                                                     INIT=Equal_info_between_of_the_cirlce_of_the_file3
+                                                    
                                                    
                                                         
                                                     #print(INIT)
@@ -919,10 +923,11 @@ class compression:
                                                             Block_101_binary=bin(Block_101)[2:]
 
                                                             
-                                                                   
-                                                                   
-                                                                   
                                                             if Block_101==1:
+                                                                     Number_N= Number_N1    
+                                                                   
+                                                                   
+                                                            if Block_101!=1:
                                                                     Block_103=Block_101+0
                                                                     Block_105_binary=str(Block_103)
 
@@ -1070,6 +1075,7 @@ class compression:
                                                                    
                                                                     #print(Block_102_binary)
                                                             if Block_101==1:
+                                                                    
                                                                     if Number_N=="9":
 
                                                                             Number_N4=Number_N4+"111"
@@ -1126,7 +1132,7 @@ class compression:
                                                             if Block_101!=1:
                                                                      
                                                                
-                                                                    if X10=="1":
+                                                                    if Number_N1=="1":
                                                                             #print(Block_101_4_1_binary)
 
                                                                          
@@ -1134,9 +1140,10 @@ class compression:
                                                                             #print(X2)
                                                                             block=block+1
                                                                             Number_Predict_Save=1
+                                                                            J=J+1
                                                                            
                                                                            
-                                                                    elif X10=="0":
+                                                                    elif Number_N1=="0":
                                                                             #print(Block_101_4_1_binary)
 
                                                                          
@@ -1144,6 +1151,7 @@ class compression:
                                                                             #print(X12)
                                                                             block=block+1
                                                                             Number_Predict_Save=1
+                                                                            J=J+1
                                                                            
                                                                    
                                                                  
@@ -1152,14 +1160,17 @@ class compression:
 
                                                                          
                                                                             Number_N4=Number_N4+Number_N1
+                                                                            J=J+1
                                                                             #print(Block_10T4+"1")
                                                                             block=block+1
                                                            
                                                                     Predict_Number=Predict_Number+1#
                                                                     if Predict_Number==100:
                                                                             Predict_Number=10
-                                    if Block_101==2:
+                                    if J>0:
                                         Block_101=1
+                                        
+                                    
 
                                             
                                             
