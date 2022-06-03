@@ -1129,6 +1129,10 @@ class compression:
                                                                             Number_N4=Number_N4+"000"
                                                                         
                                                                             block=block+1
+                                                                    else:
+                                                                        print("file corrupted")
+                                                                        raise SystemExit
+                                                                                
                                                                    
                                                                               
                                                             if Block_101!=1:
