@@ -716,7 +716,7 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
 
 
-                                    if Circle_times2==1:
+                                    if Compress_times==1:
                                             compress_or_not_compress1=3 
                   
 
