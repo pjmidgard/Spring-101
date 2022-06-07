@@ -1,141 +1,149 @@
 from time import time
+cvf=0
+Portal=2
 import os
 import binascii
-import math
-import os.path
 
+zzaax=""
+szxzzzas=""
+asaaq=""
+assa=0
+adwll1=0
+ddf=0
+cvz31=0
+rw=0
+qqw1q=""
+lenfzzz=0
+fffgjv=""
+fffgjv1=""
+zzaax1=""
+qqqs=0
+a=0
+blockw=5
+blockw1=4
+cvb=0
+aqw1=0
+zsaqq=""
+qqqwz=0
+assx=0
+ass=0
+asss=0
+b=0
+aaqw=""
+aaqws=""
+l=""
+j=0
+b=0
+aq=0
+qfl=0
+t=0
+h=0
+byteb=""
+notexist=""
 lenf=0
-name=""
-add_bits=""
-Make_togher=""
-
-namez = input("c,  compress or e, extract? ")
-
-#@Author Jurijus Pacalovas
+numberschangenotexistq = []
+numberschangenotexistqz = []
+qwa=0
+add=0
+m = []
+p=0
+namea=""
+d=1
+a=0
+asd=""
+b=0
+szx=""
+asf2="0b"
+while b<1790:
+    m+=[-1]
+    b=b+1
+k = []
+wer=""
+qtqweqw=""
+numberschangenotexist = []
+numbers = []
+namez = input("ul,c2 or for compress cl for extract for u2? ")
+#@Author Jurijus pacalovas
 class compression:
-     
-        def cryptograpy_compression4(self):
-               
-                self.name = "Written: Jurijus pacalovas"
-
-                if namez!="c" and namez!="e":
-                        print("The wrong letter")
-                        raise SystemExit
-                if namez=="c" or namez=="e":       
-                    if namez=="c":
-                        
-                        
-                        Deep=20
- 
-
-                        Deep3=-1
-                        Block_101=1
-                        
-                        
-                        compress_or_not_compress1=0
-                        
-                        Predict_Number=10
-                        Predict_Number2=10
-                        Last_bits=""
-                        Last_bits_Save=""
-                        File_stop=1
-                        Compress_times=0
-                        J=0
-                        
-                        
-
+                      
+            
+                                            
+                                    
+                                      
+    def cryptograpy_compression(self):
+                
+                self.name = "Written: Jurijus pacalovas Price Protal 5 000 000 Euro cost Date: 29/08/2021 21:33 Deep 14.5 ERA"
+                
+                if namez=="ul" or namez=="cl":
+                    if namez=="ul":
                         i=1
-
-                    if namez=="e":
-                        Deep=20
- 
-
-                        Deep3=-1
-                        Block_101=2
-                        J=0
-                        
-                        
-                        compress_or_not_compress1=0
-                        
-                        Predict_Number=10
-                        Predict_Number2=10
-                        Last_bits=""
-                        Last_bits_Save=""
-                        File_stop=1
-                        Compress_times=0
+                    if namez=="cl":
                         i=2
-               
-                    Number_add_plus_one=""
-                    Prime_Not=""
-                    Times_6=""
-                    Corrupted=0
-                     
+                        
+                    corridors=0
+                    cor=7
                     name = input("What is name of file? ")
-
-                    if os.path.exists(name):
-                            print('Path is exists!')
-                    else:
-                            print('Path is not exists!')
-                            raise SystemExit
-                           
-                   
+                    namea="file.W"
                     namem=""
                     namema="?"
-                    Number_N12=""
-                    X_1=""
-                    X_2=""
-       
+                    Portal=2
+                    assxw=0
+                    blockw=5
+                    blockw1=4
                     nameas=name
                     nac=len(nameas)
-                   
-                    compress_or_not_compress=1
-                    Circle_times3=0
 
                     if i==2:
-                        if nameas[nac-4:nac]==".bin":
-                 
-                            nameas=name[:nac-4]
-                            nac=len(nameas)
-                           
-                            C=1
-
-                        elif nameas[nac-4:nac]!=".bin":
-                                print("Sorry, this is not binary file!")
-                                raise SystemExit
-                 
+                        if nameas[nac-4:nac]!=".bin":
+                             print("Program close because this is file is not .bin")
+                             raise SystemExit
+                        
+                        nameas=name[:nac-4]
+                        nac=len(nameas)
+                    
+                    
+                    if nameas[nac-5:nac]==".docx":
+                        Portal=1
+                    if nameas[nac-4:nac]==".pdf":
+                        Portal=3
+                    if nameas[nac-4:nac]==".doc":
+                        Portal=1
+                    if nameas[nac-4:nac]==".png":
+                        Portal=7
+                    if nameas[nac-4:nac]==".jpg":
+                        Portal=9
+                    if nameas[nac-4:nac]==".mp4":
+                        Portal=8
+                      
                     if i==1:
-                        Compress_times=0
-                       
                        
                         nameas=name+".bin"
-                        N_N=0
-                        N_n=0
-                   
-                       
+                    
                     nac=len(nameas)
-                   
-                    Block_10R=0
-                    Block_10T_U=0
-                    Block_10TU10=0
-                    Block_10TU11=0
-                   
-                 
+                    
+                    countraz=0
+                    cvf=2
+                    cvf1=0
                     s=""
+                    e2=0
+                    e3=2
+                    e4=""
+                    c=2
+                    sw=2
+                    elw=0
+                 
+                    sda3=""
+                    sda2=""
 
-                    Equal_info_between_of_the_cirlce_of_the_file=""
-                    Equal_info_between_of_the_cirlce_of_the_file_2=""
+                    sscvf=0
+                    
+                    qqqqwzl=0
 
-                    Prime_Not=""
-                    Times_6=""
-
-                    Translate_info_Decimal=""
-
-                    D=0
+                    block=1
 
                     x=0
                     x1=0
                     x2=0
-                    n=0
                     x = time()
 
                     with open(nameas, "w") as f4:
@@ -144,1134 +152,608 @@ class compression:
                             f3.write(s)
                     with open(name, "rb") as binary_file:
 
-                      # Read the whole file at once
+                       # Read the whole file at once
                         data = binary_file.read()
-     
-                        s=str(data)
 
-                        lenf1=len(data)
-                        lenf7=len(data)
-                        if lenf7==0:
-                            raise SystemExit
-                       
-                        END_working=0
-                        Circle_times2=0
-                                 
-                        Equal_info_between_of_the_cirlce_of_the_file_23=""
-
-                        sda18=""
-                        Equal_info_between_of_the_cirlce_of_the_file_29=""
-                       
-                        SpinS=0
-                        while END_working<10:
                      
-                            Circle_times3=Circle_times3+1
-                            D=1
-                            if D==1:
-                                if Circle_times3==1:
+                
 
-                               
+                        
+                        if i==1:
+                            if Portal==9 and data[0:3]!=b'\xff\xd8\xff':
+                                    print("Program close because this is file incorrect")
+                                    raise SystemExit
+                            if Portal==9 and data[0:3]==b'\xff\xd8\xff': 
+                                    data=data[3:]
+                            if Portal==7 and data[0:4]!=b'\x89\x50\x4e\x47' :
+                                    print("Program close because this is file incorrect")
+                                    raise SystemExit
+                            if Portal==7 and data[0:4]==b'\x89\x50\x4e\x47' :             
+                                    data=data[4:]
+                            if Portal==8 and data[0:11]!=b'\x00\x00\x00\x18\x66\x74\x79\x70\x6d\x70\x34':
+                                    print("Program close because this is file incorrect")
+                                    raise SystemExit
+                            if Portal==8 and data[0:11]==b'\x00\x00\x00\x18\x66\x74\x79\x70\x6d\x70\x34':             
+                                    data=data[11:]
+      
+                        s=str(data)
+                       
+                        lenf1=len(data)
+                        lenf5=len(data)
+                        
+                        assx=0
+                        qqqwz=0
+                       
+                        while assx<10:
+                       
+                            aas1=0
+                            a1=0
+
+                            cvf=cvf+1
+                            
+                            countraz=countraz+1
+
+                            with open(nameas, "ab") as f2:
+                                if countraz==1:
+
+                                 
                                     sda=bin(int(binascii.hexlify(data),16))[2:]
                                     lenf=len(sda)
                                     lenf1=len(data)
-                               
-                                    count_bits=(lenf1*8)-lenf
-                                    z=0
-                                    if count_bits!=0:
-                                        while z<count_bits:
-                                            sda="0"+sda
-                                            z=z+1
-                                           
-                                   
-
-                                    if Circle_times3==1:
-                                        Equal_info_between_of_the_cirlce_of_the_file_2=sda
-                           
-                                    n = int(Equal_info_between_of_the_cirlce_of_the_file_2, 2)
-                               
-                                    width_bits=len(Equal_info_between_of_the_cirlce_of_the_file_2)
-                                    width_bits=(width_bits/8)*2
-                                    width_bits=str(width_bits)
-                                    width_bits="%0"+width_bits+"x"
-                           
-                                    width_bits3=binascii.unhexlify(width_bits % n)                                   
-                                    width_bits2=len(width_bits3)
-                                   
-                                    data=width_bits3
-                                 
-                                    lenf5=len(data)
-
-                                    sda=bin(int(binascii.hexlify(data),16))[2:]
-                                    lenf=len(sda)
-
-                                    lenf1=len(data)
-                               
-                                    count_bits=(lenf1*8)-lenf
-                                    z=0
-                                    if count_bits!=0:
-                                        while z<count_bits:
-                                            sda="0"+sda
-                                            z=z+1
-
-                                    Equal_info_between_of_the_cirlce_of_the_file_2=sda
-
-                                    lenf3=len(Equal_info_between_of_the_cirlce_of_the_file_2)
-                                lenf2=len(Equal_info_between_of_the_cirlce_of_the_file_2)
-                                #print(lenf2)
-                                if i==1:
-                                    if lenf7>=(2**40)-1:
-                                        raise SystemExit
-
-                                #########################################################################################################################################################
-                               
-                               
-                                if i==1:
-
-                                    lenf5=len(Equal_info_between_of_the_cirlce_of_the_file_2)
-
-                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file_2
-                               
-                                    lenf5=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                   
-                                   
-                                    #Extract
-                           
-                                    s=""
-
-                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file_2
-                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                   
-                                    Number_add_plus_one=""
-                                    Prime_Not=""
-                                    Times_6=""
-                                 
-                                    Equal_info_between_of_the_cirlce_of_the_file_17=""
-                 
-                                    g=0
-
-                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file_2
-
-                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)                     
-                                    Equal_info_between_of_the_cirlce_of_the_file_17=""
-                               
-                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file_2
-                                   
-                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                               
-                                    add_bits=""
-
-                                    Times_6=""
-
-                                    #Compression
-
-                                    sda10=""
-                                    Translate_info_Decimal=""
-                                   
-                                    Equal_info_between_of_the_cirlce_of_the_file_17=""
-               
-                                    if  Circle_times2==0 and SpinS==0:
-                                        Equal_info_between_of_the_cirlce_of_the_file="1"+Equal_info_between_of_the_cirlce_of_the_file
-                                        SpinS=1
-
-                                   
-
-
-                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                           
-                                   
-                                    INIT=""
-                                    Number_N=""
-                                    INIT=Equal_info_between_of_the_cirlce_of_the_file
-                                   
-                                        
-                                    #print(INIT)
-                                    block=0
-                                    Block_10T=0
-                                    Number_N4=""
-
-                                   
-                                    Predict_Number=10
-                                    Predict_Number3=10
-                                    Predict_Number4=str(Predict_Number3)
-                                    Number_Predict_Save=0
                                 
-                                   
-
-                                    while block<lenf6:
-                                            Number_N1=INIT[block:block+1]
-                                            Number_N2=INIT[block+1:block+2]
-                                            Number_N3=INIT[block+2:block+3]
-                                            Number_N14=INIT[block+3:block+4]
-                                            Number_N15=INIT[block+4:block+5]
-                                            Number_N16=INIT[block+5:block+6]
-                                         
-                                            Block_101_binary=bin(Block_101)[2:]
-
-                                            if Block_101==1:
-                                                    Last_bits=Number_N1+Number_N2+Number_N3
-                                                    Block_103=Block_101+0
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                           
-                                                    Number_N=Number_N1+"0"+Number_N2+"0"+Number_N3+"0"
-                                                   
-                                                    Block_102_binary="0"+"0"+"0"+"0"+"0"+"0"
-                                                    Block_122_binary="0"+"0"+"0"+"0"+"1"+"0"
-                                                    Block_123_binary="0"+"0"+"1"+"0"+"0"+"0"
-
-                                                    Block_103=Block_101+0
-                                                    Block_105_binary=str(Block_103)
-
-                                                   
-
-
-                                                    Block_101_1_binary="0"+"0"+"1"+"0"+"1"+"0"
-                                                    Block_101_2_binary="1"+"0"+"0"+"0"+"0"+"0"
-                                                    Block_101_3_binary="1"+"0"+"0"+"0"+"1"+"0"
-
-
-                                                    Block_103=Block_101+0
-                                                    Block_105_binary=str(Block_103)
-
-                                                   
-
-
-                                                    Block_101_1_1_binary="1"+"0"+"1"+"0"+"0"+"0"
-                                                    Block_101_2_1_binary="1"+"0"+"1"+"0"+"1"+"0"
-
-                                                    Block_101_4_1_binary=""
-                                                   
-                                                   
-                                                   
-                                            else:
-                                                    Block_103=Block_101+0
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                           
-                                                    Number_N=Number_N1+Number_N2+Number_N3+Number_N14+Number_N15+Number_N16
-                                                   
-                                                    #print(Number_N2)
-                                                   
-                                                    Block_102_binary=""
-
-
-                                                    Block_103=Block_101+1
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                           
-                                                   
-
-                                                   
-                                                    Block_122_binary=""
-
-
-                                                    Block_103=Block_101+2
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                           
-                                                   
-                                                   
-                                                    Block_123_binary=""
-
-
-
-
-                                                    Block_103=Block_101+3
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                           
-                                                   
-                                                   
-                                                    Block_101_1_binary=""
-
-
-                                                    Block_103=Block_101+4
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-
-
-                                                    Block_1031=Block_101+3
-                                                    Block_105_binary1=str(Block_1031)
-
-                                                    Block_106_binary1=Block_105_binary1
-                                           
-                                                   
-
-                                                   
-                                                    Block_101_2_binary=""
-
-
-                                                    Block_103=Block_101+5
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                           
-                                                   
-                                                   
-                                                    Block_101_3_binary=""
-
-
-                                                    Block_103=Block_101+6
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                           
-                                                   
-                                                   
-                                                    Block_101_1_1_binary=""
-
-
-                                                    Block_103=Block_101+7
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                           
-                                                   
-                                                   
-                                                   
-                                                    Block_101_2_1_binary=""
-
-
-                                                    #Predict
-
-                                                   
-                                                                   
-                                                    #print(Block_10T4) 
-                                                
-                                                
-                                                    Block_103=Predict_Number
-                                                    Block_105_binary=str(Block_103)
-
-                                                    Block_106_binary=Block_105_binary
-                                           
-                                                   
-
-                                                   
-                                                    Block_101_4_1_binary=Block_106_binary
-
-                                                    X2=Block_106_binary
-                                                    long1=len(X2)
-
-
-                                                    Predict_Number11=Predict_Number+1
-                                                    if  Predict_Number11==100:
-                                                            Predict_Number11=10
-                                                           
-
-
-                                                    Block_1031=Predict_Number11
-                                                    Block_1051_binary=str(Block_1031)
-
-                                                    Block_10611_binary=Block_1051_binary
-                                           
-                                                   
-
-                                                   
-                                                    Block_101_4_11_binary=Block_10611_binary
-
-                                                    X12=Block_10611_binary
-                                                    long11=len(X12)
-                                                    #print(X2)
-
-                                                 
-                                                    long=len(Block_101_4_1_binary)
-                                                    Number_N17=INIT[block:block+long]
-                                                    Number_N12=Number_N17
-                                                    X10=Number_N12
-                                                    #print(Number_N12)
-                                                    #print(Block_101_4_1_binary)
-                                                   
-
-                                                                                                       
-                                                   
-                                                    #print(Block_102_binary)
-                                            if Block_101==1:
-                                                    if Number_N==Block_102_binary:
-
-                                                            Block_103=Block_101+1
-                                                            Block_105_binary=str(Block_103)
-
-                                                            Block_106_binary=Block_105_binary
-                                                   
-                                                            Number_N4=Number_N4+Block_106_binary
-                                                            if Block_101==1:
-                                                                    block=block+3
-                                                            else:
-                                                                    block=block+6
-                                                                   
-                                                   
-                                                    elif Number_N==Block_122_binary:
-
-                                                            Block_103=Block_101+2
-                                                            Block_105_binary=str(Block_103)
-
-                                                            Block_106_binary=Block_105_binary
-                                                   
-                                                            Number_N4=Number_N4+Block_106_binary
-                                                            if Block_101==1:
-                                                                    block=block+3
-                                                            else:
-                                                                    block=block+6
-                                               
-                                                            #print(Block_106_binary)
-                                                    elif Number_N==Block_123_binary:
-
-                                                            Block_103=Block_101+3
-                                                            Block_105_binary=str(Block_103)
-
-                                                            Block_106_binary=Block_105_binary
-                                                   
-                                                            Number_N4=Number_N4+Block_106_binary
-                                                            if Block_101==1:
-                                                                    block=block+3
-                                                            else:
-                                                                    block=block+6
-
-
-                                                    elif Number_N==Block_101_1_binary:
-
-                                                            Block_103=Block_101+4
-                                                            Block_105_binary=str(Block_103)
-
-                                                            Block_106_binary=Block_105_binary
-                                                   
-                                                            Number_N4=Number_N4+Block_106_binary
-                                                            if Block_101==1:
-                                                                    block=block+3
-                                                            else:
-                                                                    block=block+6
-
-                                                    elif Number_N==Block_101_2_binary:
-
-                                                            Block_103=Block_101+5
-                                                            Block_105_binary=str(Block_103)
-
-                                                            Block_106_binary=Block_105_binary
-                                                   
-                                                            Number_N4=Number_N4+Block_106_binary
-                                                            if Block_101==1:
-                                                                    block=block+3
-                                                            else:
-                                                                    block=block+6
-                                                           
-                                                    elif Number_N==Block_101_3_binary:
-
-                                                            Block_103=Block_101+6
-                                                            Block_105_binary=str(Block_103)
-
-                                                            Block_106_binary=Block_105_binary
-                                                   
-                                                            Number_N4=Number_N4+Block_106_binary
-                                                            if Block_101==1:
-                                                                    block=block+3
-                                                            else:
-                                                                    block=block+6
-
-
-                                                    elif Number_N==Block_101_1_1_binary:
-
-                                                            Block_103=Block_101+7
-                                                            Block_105_binary=str(Block_103)
-
-                                                            Block_106_binary=Block_105_binary
-                                                   
-                                                            Number_N4=Number_N4+Block_106_binary
-                                                            if Block_101==1:
-                                                                    block=block+3
-                                                            else:
-                                                                    block=block+6
-
-                                                    elif Number_N==Block_101_2_1_binary:
-
-                                                            Block_103=Block_101+8
-                                                            Block_105_binary=str(Block_103)
-
-                                                            Block_106_binary=Block_105_binary
-                                                   
-                                                            Number_N4=Number_N4+Block_106_binary
-                                                            if Block_101==1:
-                                                                    block=block+3
-                                                            else:
-                                                                    block=block+6
-                                                            #print(Number_N4)
-                                                   
-                                                    else:
-                                                            #print(Block_101_4_1_binary
-
-                                                         
-                                                            Last_bits_Save=Last_bits
-                                                            #print(Block_10T4+"1")
-                                                            block=block+3               
-                                            if Block_101!=1:
-                                                     
-                                               
-                                                    if X10==X2:
-                                                            #print(Block_101_4_1_binary)
-
-                                                         
-                                                            Number_N4=Number_N4+"1"
-                                                            #print(X2)
-                                                            block=block+long
-                                                            Number_Predict_Save=1
-                                                           
-                                                           
-                                                    elif X10==X12:
-                                                            #print(Block_101_4_1_binary)
-
-                                                         
-                                                            Number_N4=Number_N4+"0"
-                                                            #print(X12)
-                                                            block=block+long
-                                                            Number_Predict_Save=1
-                                                           
-                                                   
-                                                 
-                                                    else:
-                                                            #print(Block_101_4_1_binary
-
-                                                         
-                                                            Number_N4=Number_N4+Number_N1
-                                                            J=J+1
-                                                            #print(Block_10T4+"1")
-                                                            block=block+1
-                                           
-                                                    Predict_Number=Predict_Number+1#
-                                                    if Predict_Number==100:
-                                                            Predict_Number=10
-                                    if Block_101==1:
-                                        Block_101=2
-                        
-                                    if Number_Predict_Save==1 or J>0:
-                                           
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
+                                    xc=(lenf1*8)-lenf
+                                    z=0
+                                    if xc!=0:
+                                        while z<xc:
+                                            sda="0"+sda
+                                            z=z+1
                                             
-                                           
+                                    sda=sda+sda2
 
-                                           
-                                            lenf6=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                                                       
-
-                                            
-                                                   
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                           
-                                            Number_N4=Equal_info_between_of_the_cirlce_of_the_file_17
-                                            
-                                                
-
-                                                
-                                       
-                                 
-                                            Compress_times=Compress_times+1
-                                            J=0
-                                            #print(Compress_times)
-                                            
-                                           
-
-                                       
-                                           
-                                    #print(Block_101)
-                                    
-                                   
-                                   
-                                   
-                                  
-                                   
-                                   
-                                 
-                                 
-                                    if compress_or_not_compress==1:
-                                       
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                            #print(Number_N4)
-                                 
-                                   
-   
-                                    if compress_or_not_compress==1:
-                                         
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                            sda18=Equal_info_between_of_the_cirlce_of_the_file
-                                            #print(len(Equal_info_between_of_the_cirlce_of_the_file_17))
+                                    if countraz==1:
+                                        sda2=sda
+                            
+                                    n = int(sda2, 2)
+                                
+                                    qqwslenf=len(sda2)
+                                    qqwslenf=(qqwslenf/8)*2
+                                    qqwslenf=str(qqwslenf)
+                                    qqwslenf="%0"+qqwslenf+"x"
                              
+                                    jl=binascii.unhexlify(qqwslenf % n)
+                                    sssssw=len(jl)
+                                    
+                                    data=jl
+                                    qqqwz=qqqwz+1
                                    
-                                    lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                    #print(lenfS)
+                                    if countraz==1:
 
-                                    if lenfS<20:
-                                            File_stop=0
+                                        lenf5=len(data)
 
-                                   
+                                    sda=bin(int(binascii.hexlify(data),16))[2:]
+                                    lenf=len(sda)
 
-                                    if compress_or_not_compress==2 and Circle_times2==0:
-                                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
-                                   
+                                    lenf1=len(data)
+                                
+                                    xc=(lenf1*8)-lenf
+                                    z=0
+                                    if xc!=0:
+                                        while z<xc:
+                                            sda="0"+sda
+                                            z=z+1
+
+                                    sda2=sda
+
+                                    lenf3=len(sda2)
+                                lenf2=len(sda2)  
+                                                
+                                e4=sda2[e2:e3]
+                                
+                                block=block+1
+                                
+                                if Portal<10:
+	                                corridors=corridors+1%257
+	                                
+	                                if block<=corridors:
+	                                    if e4=="0":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=corridors
+	                                        e4=""
+	                                        
+	                                    if e4=="1":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=7
+	                                        e4=""
+	
+	                                if block>=corridors:
+	                                    if e4=="1":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=0
+	                                        e4=""
+	                                        
+	                                    if e4=="0":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=0
+	                                        e4=""
+	                                        
+	                                if block<=6:
+	                                    if e4=="0":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=7
+	                                        e4=""
+	                                       
+	                                    if e4=="1":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=7
+	                                        e4=""
+	                                             
+	                                if block==corridors:
+	                                    if e4=="1":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=corridors
+	                                        e4=""
+	                                                 
+	                                if e4=="0":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=0
+	                                        e4=""    
+
+                                if Portal<10:
+	                                corridors=corridors+1%257
+	                                
+	                                if block<=3:
+	                                    if e4=="0":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=corridors
+	                                        e4=""
+	                                        
+	                                    if e4=="1":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=7
+	                                        e4=""
+	
+	                                if block>=8:
+	                                    if e4=="1":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=0
+	                                        e4=""
+	                                        
+	                                    if e4=="0":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=0
+	                                        e4=""
+	                                        
+	                                if block<=6:
+	                                    if e4=="0":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=7
+	                                        e4=""
+	                                       
+	                                    if e4=="1":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=7
+	                                        e4=""
+	                                             
+	                                if block==7:
+	                                    if e4=="1":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=corridors
+	                                        e4=""
+	                                                 
+	                                if e4=="0":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=0
+	                                        e4=""    
+                                                
+                                if Portal<10:
                                  
-                                    Circle_times2=Circle_times2+1
+                                     corridors=corridors+1%8
+                                     if block==corridors%3:
+                                         if e4=="0":
+                                         	sda3=sda3+"0"
+                                         	e4="0"
+                                         	block=0
+                                         	e4=""
+                                         	
+                                         if e4=="1":
+                                         	sda3=sda3+"1"
+                                         	e4="1"
+                                         	block=0
+                                         	e4=""
+                                     if block>=corridors%8:
+                                         if e4=="1":
+                                         	sda3=sda3+"0"
+                                         	e4="0"
+                                         	
+                                         	e4=""
+                                         	
+                                         if e4=="0":
+                                             sda3=sda3+"1"
+                                             e4="1"
+                                             
+                                             e4=""
+                                     if block<=corridors%6 and block>3:
+                                         if e4=="0":
+                                         	sda3=sda3+"1"
+                                         	e4="1"
+                                         	
+                                         	e4=""
+                                         	
+                                         if e4=="1":
+                                         	sda3=sda3+"0"
+                                         	e4="0"
+                                         	
+                                         	e4=""
+                                     if block==corridors%7:
+                                         if e4=="1":
+                                         	sda3=sda3+"0"
+                                         	e4="0"
+                                         	e4=""
+                                     if e4=="0":
+                                         sda3=sda3+"1"
+                                         e4="1"
+                                         
+                                         e4=""   
+
+                                if Portal<10:
+	                                corridors=corridors+1%257
+	                                
+	                                if block<=corridors:
+	                                    if e4=="0":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=corridors
+	                                        e4=""
+	                                        
+	                                    if e4=="1":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=7
+	                                        e4=""
+	
+	                                if block>=corridors:
+	                                    if e4=="1":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=0
+	                                        e4=""
+	                                        
+	                                    if e4=="0":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=0
+	                                        e4=""
+	                                        
+	                                if block<=6:
+	                                    if e4=="0":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=7
+	                                        e4=""
+	                                       
+	                                    if e4=="1":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=7
+	                                        e4=""
+	                                             
+	                                if block==corridors:
+	                                    if e4=="1":
+	                                        sda3=sda3+"0"
+	                                        e4="0"
+	                                        block=corridors
+	                                        e4=""
+	                                                 
+	                                if e4=="0":
+	                                        sda3=sda3+"1"
+	                                        e4="1"
+	                                        block=0
+	                                        e4=""    
+                                
+                               
+	                           
+                                if Portal<10:
+                                 
+                                     corridors=corridors+1%8
+                                                                       
+                                     if block==corridors%1 or block==corridors%4:
+                                         if e4=="0":
+                                         	sda3=sda3+"0"
+                                         	e4="0"
+                                         	block=0
+                                         	e4=""
+                                         	
+                                         if e4=="1":
+                                         	sda3=sda3+"1"
+                                         	e4="1"
+                                         	block=0
+                                         	e4=""
+                                     if block>=corridors%2:
+                                         if e4=="1":
+                                         	sda3=sda3+"0"
+                                         	e4="0"
+                                         	
+                                         	e4=""
+                                         	
+                                         if e4=="0":
+                                             sda3=sda3+"1"
+                                             e4="1"
+                                             
+                                             e4=""
+                                     if block<=corridors%13 or block==corridors%7 or block>3:
+                                         if e4=="0":
+                                         	sda3=sda3+"1"
+                                         	e4="1"
+                                         	
+                                         	e4=""
+                                         	
+                                         if e4=="1":
+                                         	sda3=sda3+"0"
+                                         	e4="0"
+                                         	
+                                         	e4=""
+                                     if  block<=corridors%9:
+                                         if e4=="1":
+                                         	sda3=sda3+"0"
+                                         	e4="0"
+                                         	e4=""
+                                     if e4=="0":
+                                         sda3=sda3+"1"
+                                         e4="1"
+                                         
+                                         e4="" 
+                                         
+   
+                                if assxw==e3%2 or assxw==e3%10:
+                                               
+                                            if e4=="1" and e3== e3%10:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="0" and e3== e3%11:
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""
+                                                
+                                                    
+                                            elif e4=="1":
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                         
+                                            elif e4=="1":
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""   
+                                               
+                                            elif e4=="1" and e3== e3%3:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                
+                                            elif e4=="0" and e3== e3%2:
+                                                sda3=sda3+"1"
+                                                e4="1"
+                                                e4=""
+                                                
+                                                    
                          
-                                    Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file_17
-
-                                    if compress_or_not_compress==2:
-                                                  
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
-
-
-                                    if Compress_times==1:
-                                            compress_or_not_compress1=3 
-                  
-
-
-                                         
-                                           
-                                           
-                                 
-                                   
-                                    if  lenfS<=Deep3 or compress_or_not_compress==2:
-                                        Circle_times3=Circle_times2
-                                       
-                                        if compress_or_not_compress==2:
-                                            Circle_times3=Circle_times2-1
-
-
-                                   
-                                    if  lenfS<=Deep3 or compress_or_not_compress1==3:
-
-                                            
-                                            Number_N4=Number_N4+"0"+Last_bits_Save
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                            Last_bits_long=len(Last_bits_Save)
-                                            Last_bits_long=Last_bits_long+1
-                                            Last_bits_long_str=str(Last_bits_long)
-                                            Number_N4=Last_bits_long_str+Number_N4
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-
-                                            Number_N5=int(Number_N4)
-
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_N5)[2:]
-                                           
-                                   
-
-                                    if  lenfS<=Deep3 or compress_or_not_compress1==3:
-                                            lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)                                         
-                                            Equal_info_between_of_the_cirlce_of_the_file_17="1"+Equal_info_between_of_the_cirlce_of_the_file_17
-                                            lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                    if  lenfS<=Deep3 or compress_or_not_compress1==3:
-
-                                                                                             
-                                                times_compress=bin(Compress_times)[2:]
-                                                lenf1=len(times_compress)
-                                                add_bitst=""
-                                               
-                                                count_bitst=8-lenf1%8
-                                               
-                                                z=0
-                                                if count_bitst!=0:
-                                                        if count_bitst!=8:
-                                                            while z<count_bitst:
-                                                                add_bitst="0"+add_bitst
-                                                                z=z+1
-
-                                    if  lenfS<=Deep3 or compress_or_not_compress1==3:
-                                               
-                                                add_bits=""
-                                                count_bits=8-lenf%8
-                                                z=0
-                                                if count_bits!=0:
-                                                        if count_bits!=8:
-                                                            while z<count_bits:
-                                                                add_bits="0"+add_bits
-                                                                z=z+1
-                                    if  lenfS<=Deep3 or compress_or_not_compress1==3:
-                                           
-                                           
-                                            Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
-                                           
-                                    if  lenfS<=Deep3 or compress_or_not_compress1==3:
-                                               
-                                            L=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                            n = int(Equal_info_between_of_the_cirlce_of_the_file_17, 2)
-                                            width_bits=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                            width_bits=(width_bits//8)*2
-                                            width_bits=str(width_bits)
-                                            width_bits="%0"+width_bits+"x"
-                                            width_bits3=binascii.unhexlify(width_bits % n)
-                                            width_bits2=len(width_bits3)
-                                            add_bitszzza=""
-                                            add_bitszs=""
-                                            Equal_info_between_of_the_cirlce_of_the_file_2=Times_6
-                                           
-                                            with open(nameas, "wb") as f2:
-                                                f2.write(width_bits3)
-                                       
-                                            x2 = time()
-                                            x3=x2-x
-                                            xs=float(x3)
-                                            return print(x3)
-                                if i==2:
-
-                                    Equal_info_between_of_the_cirlce_of_the_file_17=""
-                             
-                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file_2
-                                   
-                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-
-                                    add_bits=""
-
-                                    Times_6=""
-
-                                    #Extract
-
-                                    sda10=""
-                                    Translate_info_Decimal=""
-                                 
-                                    Number_add_plus_one=""
-                                    Prime_Not=""
-                                    Times_6=""
-                               
-                                    Number_of_the_file=0
-                                    Prime_Not=0
-                               
-                                    if C==1:
-                                        if  Circle_times2==0:
-
-                                           
-                                                if Equal_info_between_of_the_cirlce_of_the_file[0:9]=="000000001":
-                                                        Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[9:]
-
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:8]=="00000001":
-                                                        Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[8:]
-
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:7]=="0000001":
-                                                        Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[7:]
-
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:6]=="000001":
-                                                        Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[6:]
-
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:5]=="00001":
-                                                        Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[5:]
-
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:4]=="0001":
-                                                        Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[4:]
-
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:3]=="001":
-                                                        Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[3:]
-
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:2]=="01":
-                                                        Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[2:]
-
-                                                elif Equal_info_between_of_the_cirlce_of_the_file[0:1]=="1":
-                                                        Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
-                                                        
-                                                T=2
-
-                                                Equal_info_between_of_the_cirlce_of_the_file3=int(Equal_info_between_of_the_cirlce_of_the_file,2)
-                                                Equal_info_between_of_the_cirlce_of_the_file3=str(Equal_info_between_of_the_cirlce_of_the_file3)
-                                                lenf6=len(Equal_info_between_of_the_cirlce_of_the_file3)
-                                                if Equal_info_between_of_the_cirlce_of_the_file3[0:1]=="1":
-                                                        Equal_info_between_of_the_cirlce_of_the_file3=Equal_info_between_of_the_cirlce_of_the_file3[1:lenf6-1]
-                                                        
-                                                elif Equal_info_between_of_the_cirlce_of_the_file3[0:1]=="2":
-                                                        Last_bits=Equal_info_between_of_the_cirlce_of_the_file3[lenf6-1:]
-                                                        Equal_info_between_of_the_cirlce_of_the_file3=Equal_info_between_of_the_cirlce_of_the_file3[1:lenf6-2]
-                                                        
-                                                
-                                                elif Equal_info_between_of_the_cirlce_of_the_file3[0:1]=="3":
-                                                        Last_bits=Equal_info_between_of_the_cirlce_of_the_file3[lenf6-2:]
-                                                        Equal_info_between_of_the_cirlce_of_the_file3=Equal_info_between_of_the_cirlce_of_the_file3[1:lenf6-3]
-                                               
-                                       
-                                       
-                                           
-   
-                                        if C==1 and T!=0:
-                                                    Equal_info_between_of_the_cirlce_of_the_file3=Equal_info_between_of_the_cirlce_of_the_file3
-                                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file3)
-                                                    X2=""
-                                                    X12=""
-                                                    X10=""
-                                                    
-
-
-                                                    
-
-                                                    INIT=""
-                                                    Number_N=""
-                                                    INIT=Equal_info_between_of_the_cirlce_of_the_file3
-                                                    
-                                                   
-                                                        
-                                                    #print(INIT)
-                                                    block=0
-                                                    Block_10T=0
-                                                    Number_N4=""
-
-                                                   
-                                                    Predict_Number=10
-                                                    Predict_Number3=10
-                                                    Predict_Number4=str(Predict_Number3)
-                                                    Number_Predict_Save=0
-                                                
-                                                   
-
-                                                    while block<lenf6:
-                                                            Number_N1=INIT[block:block+1]
-                                                            
-                                                         
-                                                            Block_101_binary=bin(Block_101)[2:]
-
-                                                            
-                                                            if Block_101==1:
-                                                                     Number_N= Number_N1    
-                                                                   
-                                                                   
-                                                            if Block_101!=1:
-                                                                    Block_103=Block_101+0
-                                                                    Block_105_binary=str(Block_103)
-
-                                                                    Block_106_binary=Block_105_binary
-                                                           
-                                                                    Number_N=Number_N1
-                                                                   
-                                                                    #print(Number_N2)
-                                                                   
-                                                                    Block_102_binary=""
-
-
-                                                                    Block_103=Block_101+1
-                                                                    Block_105_binary=str(Block_103)
-
-                                                                    Block_106_binary=Block_105_binary
-                                                           
-                                                                   
-
-                                                                   
-                                                                    Block_122_binary=""
-
-
-                                                                    Block_103=Block_101+2
-                                                                    Block_105_binary=str(Block_103)
-
-                                                                    Block_106_binary=Block_105_binary
-                                                           
-                                                                   
-                                                                   
-                                                                    Block_123_binary=""
-
-
-
-
-                                                                    Block_103=Block_101+3
-                                                                    Block_105_binary=str(Block_103)
-
-                                                                    Block_106_binary=Block_105_binary
-                                                           
-                                                                   
-                                                                   
-                                                                    Block_101_1_binary=""
-
-
-                                                                    Block_103=Block_101+4
-                                                                    Block_105_binary=str(Block_103)
-
-                                                                    Block_106_binary=Block_105_binary
-
-
-                                                                    Block_1031=Block_101+3
-                                                                    Block_105_binary1=str(Block_1031)
-
-                                                                    Block_106_binary1=Block_105_binary1
-                                                           
-                                                                   
-
-                                                                   
-                                                                    Block_101_2_binary=""
-
-
-                                                                    Block_103=Block_101+5
-                                                                    Block_105_binary=str(Block_103)
-
-                                                                    Block_106_binary=Block_105_binary
-                                                           
-                                                                   
-                                                                   
-                                                                    Block_101_3_binary=""
-
-
-                                                                    Block_103=Block_101+6
-                                                                    Block_105_binary=str(Block_103)
-
-                                                                    Block_106_binary=Block_105_binary
-                                                           
-                                                                   
-                                                                   
-                                                                    Block_101_1_1_binary=""
-
-
-                                                                    Block_103=Block_101+7
-                                                                    Block_105_binary=str(Block_103)
-
-                                                                    Block_106_binary=Block_105_binary
-                                                           
-                                                                   
-                                                                   
-                                                                   
-                                                                    Block_101_2_1_binary=""
-
-
-                                                                    #Predict
-
-                                                                   
-                                                                                   
-                                                                    #print(Block_10T4) 
-                                                                
-                                                                
-                                                                    Block_103=Predict_Number
-                                                                    Block_105_binary=str(Block_103)
-
-                                                                    Block_106_binary=Block_105_binary
-                                                           
-                                                                   
-
-                                                                   
-                                                                    Block_101_4_1_binary=Block_106_binary
-
-                                                                    X2=Block_106_binary
-                                                                    long1=len(X2)
-
-
-                                                                    Predict_Number11=Predict_Number+1
-                                                                    if  Predict_Number11==100:
-                                                                            Predict_Number11=10
-                                                                           
-
-
-                                                                    Block_1031=Predict_Number11
-                                                                    Block_1051_binary=str(Block_1031)
-
-                                                                    Block_10611_binary=Block_1051_binary
-                                                           
-                                                                   
-
-                                                                   
-                                                                    Block_101_4_11_binary=Block_10611_binary
-
-                                                                    X12=Block_10611_binary
-                                                                    long11=len(X12)
-                                                                    #print(X2)
-
-                                                                 
-                                                                    long=len(Block_101_4_1_binary)
-                                                                    Number_N17=INIT[block:block+long]
-                                                                    Number_N12=Number_N17
-                                                                    X10=Number_N12
-                                                                    #print(Number_N12)
-                                                                    #print(Block_101_4_1_binary)
-                                                                   
-
-                                                                                                                       
-                                                                   
-                                                                    #print(Block_102_binary)
-                                                            if Block_101==1:
-                                                                    
-                                                                    if Number_N=="9":
-
-                                                                            Number_N4=Number_N4+"111"
-                                                                        
-                                                                            block=block+1
-                                                                                   
-                                                                   
-                                                                    elif Number_N=="8":
-
-                                                                            Number_N4=Number_N4+"110"
-                                                                        
-                                                                            block=block+1
-                                                               
-                                                                            #print(Block_106_binary)
-                                                                    elif Number_N=="7":
-
-                                                                            Number_N4=Number_N4+"101"
-                                                                        
-                                                                            block=block+1
-
-
-                                                                    elif Number_N=="6":
-
-                                                                            Number_N4=Number_N4+"100"
-                                                                        
-                                                                            block=block+1
-
-                                                                    elif Number_N=="5":
-
-                                                                            Number_N4=Number_N4+"011"
-                                                                        
-                                                                            block=block+1
-                                                                           
-                                                                    elif Number_N=="4":
-
-                                                                            Number_N4=Number_N4+"010"
-                                                                        
-                                                                            block=block+1
-
-
-                                                                    elif Number_N=="3":
-
-                                                                            Number_N4=Number_N4+"001"
-                                                                        
-                                                                            block=block+1
-
-                                                                    elif Number_N=="2":
-
-                                                                            Number_N4=Number_N4+"000"
-                                                                        
-                                                                            block=block+1
-                                                                    else:
-                                                                        print("file corrupted")
-                                                                        raise SystemExit
-                                                                                
-                                                                   
-                                                                              
-                                                            if Block_101!=1:
-                                                                     
-                                                               
-                                                                    if Number_N1=="1":
-                                                                            #print(Block_101_4_1_binary)
-
-                                                                         
-                                                                            Number_N4=Number_N4+X2
-                                                                            #print(X2)
-                                                                            block=block+1
-                                                                            Number_Predict_Save=1
-                                                                            J=J+1
-                                                                           
-                                                                           
-                                                                    elif Number_N1=="0":
-                                                                            #print(Block_101_4_1_binary)
-
-                                                                         
-                                                                            Number_N4=Number_N4+X12
-                                                                            #print(X12)
-                                                                            block=block+1
-                                                                            Number_Predict_Save=1
-                                                                            J=J+1
-                                                                           
-                                                                   
-                                                                 
-                                                                    else:
-                                                                            #print(Block_101_4_1_binary
-
-                                                                         
-                                                                            Number_N4=Number_N4+Number_N1
-                                                                            J=J+1
-                                                                            #print(Block_10T4+"1")
-                                                                            block=block+1
-                                                           
-                                                                    Predict_Number=Predict_Number+1#
-                                                                    if Predict_Number==100:
-                                                                            Predict_Number=10
-                                    if J>0:
-                                        Block_101=1
-                                        J=0
-                                        
                                     
-
-                                            
-                                            
-                        
+                                    
+                                            elif e4=="0" and e3== e3%9:
+                                                    sda3=sda3+"1"
+                                                    e4="1"
+                                                    e4=""
                                                 
-                                    Times_6=Number_add_plus_one
-                                    Number_add_plus_one=""
-                                     
-                                    #####################################################################################################################################################
-                                 
-                                    Prime_Not=""
-                                   
-                                   
-                                    Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4
-                                    #print(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                   
-                                    Equal_info_between_of_the_cirlce_of_the_file3=Equal_info_between_of_the_cirlce_of_the_file_17
-                                 
-
-                                    if i==2:
-                                        Make_togher=""
-                                        Make_togher=Times_6
-                                        Number_add_plus_one=""
-                                        add_bits=""
-                                        if C==1 and T!=0:
-                                                Circle_times2=Circle_times2+1
-
-                                        lenf9=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                        #print(Circle_times2)
-                                       
-                                       
-                                        if  Circle_times2==T:
-                                             
-                                            if C==1 and T==0:
-                                                Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file
-                                                lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                add_bits=""
-                                                count_bits=8-lenf%8
-                                                z=0
-                                                if count_bits!=0:
-                                                        if count_bits!=8:
-                                                            while z<count_bits:
-                                                                add_bits="0"+add_bits
-                                                                z=z+1
-                                                Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
-                                       
-                                            if C==1 and T!=0:
-                                                Equal_info_between_of_the_cirlce_of_the_file_17=Number_N4+Last_bits
-
-                                                Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17[1:]
-                                                lenf14=len(Equal_info_between_of_the_cirlce_of_the_file_17)
+                                            elif e4=="1" and e3== e3%8:
+                                                sda3=sda3+"0"
+                                                e4="0"
+                                                e4=""
                                                 
-                                                   
-                                               
-                                                lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                add_bits=""
-                                                count_bits=8-lenf%8
-                                                z=0
-                                                if count_bits!=0:
-                                                        if count_bits!=8:
-                                                            while z<count_bits:
-                                                                add_bits="0"+add_bits
-                                                                z=z+1
-                                                if len(add_bits)==8:
-                                                        add_bits=""
-                                                                
-                                                Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
-                                            #print(Equal_info_between_of_the_cirlce_of_the_file_17)
-
-                                            L=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                       
-                                            n = int(Equal_info_between_of_the_cirlce_of_the_file_17, 2)
-                                            width_bits=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                            width_bits=(width_bits//8)*2
-                                            width_bits=str(width_bits)
-                                            width_bits="%0"+width_bits+"x"
-                                            width_bits3=binascii.unhexlify(width_bits % n)
-                                            width_bits2=len(width_bits3)
-
-                                            add_bitszzza=""
-                                            add_bitszs=""
-                                            Equal_info_between_of_the_cirlce_of_the_file_2=Times_6
-                                           
-                                            with open(nameas, "wb") as f2:
-                                           
-                                             
-                                                f2.write(width_bits3)
-                                            x2 = time()
-                                            x3=x2-x
-                                            xs=float(x3)
-                                            return print(x3)
-
+                                                    
+                                            elif e4=="1" and e3 ==e3%1:
+                                                    sda3=sda3+"0"
+                                                    e4="0"
+                                                    e4=""
+                                                    
+                                            elif e4=="0" and e3 ==e3%1:
+                                                    sda3=sda3+"1"
+                                                    e4="1"
+                                                    e4=""
+                                                    
+                                                    
+                                                    
                                         
+                                            
+                                
+                                
+                                if e4=="1" and e3== e3%9+assxw:
+                                	sda3=sda3+"0"
+                                	e4="0"
+                                	e4=""
+                                    
+                                elif e4=="0" and e3== e3%8+assxw:
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+                                
+                                elif e4=="0" and e3== e3%7:
+                                	sda3=sda3+"1"
+                                	e4="0"
+                                	e4=""
+                                    
+                                elif e4=="1" and e3== e3%6:
+                                    sda3=sda3+"0"
+                                    e4="1"
+                                    e4=""
+                                
+                                elif e4=="0" and e3== e3%5:
+                                	sda3=sda3+"0"
+                                	e4="0"
+                                	e4=""
+                                    
+                                elif e4=="1" and e3== e3%4:
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+                                    
+                           
+                                elif e4=="1" and e3== e3%3:
+                                	sda3=sda3+"0"
+                                	e4="0"
+                                	e4=""
+                                    
+                                elif e4=="0" and e3== e3%2:
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""
+                                    
+                                        
+                                elif e4=="1":
+                                	sda3=sda3+"0"
+                                	e4="0"
+                                	e4=""
+                                    
+                                elif e4=="0":
+                                    sda3=sda3+"1"
+                                    e4="1"
+                                    e4=""  
+                                if assxw>=e3%2:
+	                                if e4=="1" and e3== e3%19+assxw:
+	                                	sda3=sda3+"0"
+	                                	e4="0"
+	                                	e4=""
+	                                    
+	                                elif e4=="0" and e3== e3%18+assxw:
+	                                    sda3=sda3+"1"
+	                                    e4="1"
+	                                    e4=""
+	                                    
+	                                elif e4=="0" and e3== e3%18+assxw:
+	                                    sda3=sda3+"1"
+	                                    e4="1"
+	                                    e4=""
+	                                
+	                                
+	                                elif e4=="1" and e3== e3%1+assxw:
+	                                	sda3=sda3+"1"
+	                                	e4="1"
+	                                	e4=""
+	                                    
+	                                elif e4=="0" and e3== e3%2+assxw:
+	                                    sda3=sda3+"0"
+	                                    e4="0"
+	                                    e4=""  
+	                                
+                                    
+	                                    
+	                                if e4=="0" and e3== e3%4+assxw:
+	                                    sda3=sda3+"0"
+	                                    e4="0"
+	                                    e4=""  
+	                                    
+	                                   	
+	                                if e4=="1" and e3== e3%6+assxw:
+	                                    sda3=sda3+"0"
+	                                    e4="0"
+	                                    e4=""  
+                               
+                                    
+	                                if e4=="1" and e3== e3%2+assxw:
+	                                	sda3=sda3+"0"
+	                                	e4="1"
+	                                	e4=""
+	                                    
+	                                if e4=="0" and e3== e3%3+assxw:
+	                                    sda3=sda3+"1"
+	                                    e4="0"
+	                                    e4=""  
+	                                              
+	                                if e4=="0" and e3== e3%5+assxw:
+	                                	sda3=sda3+"0"
+	                                	e4="1"
+	                                	e4=""                                                
+ 
+                             
+                                e2=e2+1
+                                e3=e3+1
+
+                                e4=""
+                          
+                                if e3==cvf:
+                                    e2=0
+                                    e3=1
+                                    
+                                    cvf=cvf+1
+
+                                    cvf=sw
+                                    sw=sw+1
+                             
+                                if cvf==lenf5*8+4:
+                                    sw=sw+2
+                                    cvf=c
+                                    cvf1=cvf1+1
+                                     
+                                    c=c+2
+
+                                if cvf1==1:
+                                   
+                                    n = int(sda3, 2)
+                                
+                                    qqwslenf=len(sda3)
+                                    qqwslenf=(qqwslenf/8)*2
+                                    qqwslenf=str(qqwslenf)
+                                    qqwslenf="%0"+qqwslenf+"x"
+                             
+                                    jl=binascii.unhexlify(qqwslenf % n)
+                                    sssssw=len(jl)
+                                    data=jl
+                                    
+                                    qqqwz=qqqwz+1
+                                    szxzzza=""
+                                    szxzs=""
+                            
+                                    assxw=assxw+1
+                                    if assxw==200:
+                                        assx=10
+                                        if assx==10:
+                                              
+                                               
+
+                                                if i==2:
+                                                    if Portal==7:
+                                                        jl= b'\x89\x50\x4e\x47'+jl
+                                                    if Portal==8:
+                                                        jl=b'\x00\x00\x00\x18\x66\x74\x79\x70\x6d\x70\x34'+jl
+                                                    if Portal==9:
+                                    	                jl=b'\xff\xd8\xff'+jl
+                                    	                
+                                                f2.write(jl)
+                                                x2 = time()
+                                                x3=x2-x
+                                                return print(x3)
+
 d=compression()
 
-xw1=d.cryptograpy_compression4()
-print(xw1)
+
+
+xw=d.cryptograpy_compression()
+print(xw)
